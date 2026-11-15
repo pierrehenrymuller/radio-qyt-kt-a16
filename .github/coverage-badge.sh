@@ -3,8 +3,9 @@
 # pushed by GitHub Actions on the "badges" branch with the GITHUB_TOKEN of the run.
 # Locally (no GITHUB_ACTIONS) it only prints the JSON.
 set -eu
-# shellcheck disable=SC3040  # busybox ash (Alpine) and bash have pipefail
-set -o pipefail
+# pipefail where the shell has it (bash, busybox ash; dash, the sh of the Ubuntu runner, has not)
+# shellcheck disable=SC3040
+(set -o pipefail) 2>/dev/null && set -o pipefail
 
 cd "$(dirname "$0")/.."
 pct=$(python3 -c 'import xml.etree.ElementTree as E; print(round(float(E.parse("coverage.xml").getroot().get("line-rate")) * 100))')

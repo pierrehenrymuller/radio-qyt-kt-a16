@@ -3,8 +3,9 @@
 # there for the day one slips in. In GitHub Actions it runs in the gitleaks image;
 # locally, without gitleaks installed, the same image runs through podman.
 set -eu
-# shellcheck disable=SC3040  # busybox ash (Alpine) and bash have pipefail
-set -o pipefail
+# pipefail where the shell has it (bash, busybox ash; dash, the sh of the Ubuntu runner, has not)
+# shellcheck disable=SC3040
+(set -o pipefail) 2>/dev/null && set -o pipefail
 
 cd "$(dirname "$0")/.."
 if command -v gitleaks >/dev/null 2>&1; then
