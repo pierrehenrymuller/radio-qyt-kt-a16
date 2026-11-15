@@ -26,8 +26,8 @@ stations, calibration and passwords. No Windows, no Wine.
 > to a radio, and above all to its calibration, is at your own risk: keep
 > the backups the tool makes.
 
-The user interface is in French; this guide gives the English meaning of
-each label.
+The interface is in English or in French, from your locale or `--lang` (see
+"Interface" below); this guide uses the English labels.
 
 ## What you need
 
@@ -161,16 +161,16 @@ kta16 --port /dev/ttyUSB0 myradio.dat
 
 | Key | Label | Action |
 |---|---|---|
-| `r` | Lire radio | read the whole radio in one session (about 45 s); on the Memory tab, only the zone chosen there |
-| `w` | Écrire radio | write the zone of the current tab |
-| `a` | Écrire modifs | write, in one session, every zone changed since the last read or write |
-| `l` | Libérer la radio | close the port: the radio restarts and can be used again |
-| `d` | Défaut | put the "Default" values of the vendor software in the zone of the current tab |
-| `c` | Effacer | "Clear" of the vendor software (Channels and FM tabs) |
-| `o` | Ouvrir | open a file |
-| `s` | Enregistrer | save to a file |
-| `t` | Thème | switch between the dark and the light theme |
-| `q` | Quitter | quit; asks first if changes are neither written nor saved |
+| `r` | Read radio | read the whole radio in one session (about 45 s); on the Memory tab, only the zone chosen there |
+| `w` | Write radio | write the zone of the current tab |
+| `a` | Write changes | write, in one session, every zone changed since the last read or write |
+| `l` | Release radio | close the port: the radio restarts and can be used again |
+| `d` | Default | put the "Default" values of the vendor software in the zone of the current tab |
+| `c` | Clear | "Clear" of the vendor software (Channels and FM tabs) |
+| `o` | Open | open a file |
+| `s` | Save | save to a file |
+| `t` | Theme | switch between the dark and the light theme |
+| `q` | Quit | quit; asks first if changes are neither written nor saved |
 
 Every change is made in the image held in memory; the radio is only
 touched by `r`, `w` and `a`. Before any write, a timestamped copy of the
@@ -193,7 +193,7 @@ after opening a file `a` writes all data zones.
 
 ## Tabs
 
-### Canaux (channels)
+### Channels
 
 200 channels, every property in its own column. Select a row and press Enter
 to edit it:
@@ -233,7 +233,7 @@ word (`Paris`, `VOR`) and pick a line in the list. Name and RX are filled
 in (`PX GND`, `PX TWR`, `PX ATIS`, `PARINFO`...). TX takes the RX
 value, except for an ATIS and for beacons (VOR, ILS, 108 to 117.975 MHz): the
 "Transmit (TX)" switch is then set to Off. The 200 MHz is never shown: blank
-in the channel list, "TX désactivé" in the pending changes. An aerodrome whose name holds "VOR" (AVORD) keeps TX = RX.
+in the channel list, "TX disabled" in the pending changes. An aerodrome whose name holds "VOR" (AVORD) keeps TX = RX.
 
 Several lines can be ticked (Space): the first one fills the form, and OK
 creates one channel per ticked line from the current channel on, with the
@@ -273,7 +273,7 @@ and press Enter:
 Fifteen encode codes, the decode codes (inspection, monitor, alarm, stun,
 kill, revive, master and vice ID), group and space codes, speeds, reset
 and delay times in ms, control rights and RX/TX disable. Fill the boxes,
-then press the button "Appliquer à l'image" (apply to the image).
+then press the button "Apply to image".
 
 ### 2-tone
 
@@ -321,11 +321,11 @@ column, for example `vox_threshold 0 127`. Writing this zone to the radio
 asks you to type `CALIBRATION`. Wrong values can make the radio unusable:
 change it only if you know what you are doing, with a full backup.
 
-### Mot de passe (passwords)
+### Password
 
-Two 6-digit passwords (empty = none), then "Appliquer à l'image" and `w`.
+Two 6-digit passwords (empty = none), then "Apply to image" and `w`.
 
-### Mémoire (memory)
+### Memory
 
 Hex view of each zone; zone `all` is the whole image, as "Read from
 radio" and "Write to radio" of the vendor software. Change bytes with
