@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kta16"
+version = "1.0.0"
+description = "Terminal programming tool for the QYT KT-A16 radio (Linux, no Windows needed)"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.11"
+# Same pins as pip_requirements.txt (runtime part)
+dependencies = ["textual~=8.2", "pyserial~=3.5"]
+
+[project.scripts]
+kta16 = "kta16.tui:main"
+
+[tool.setuptools]
+packages = ["kta16"]
+package-data = { kta16 = ["aero.json"] }

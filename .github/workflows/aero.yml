@@ -1,0 +1,19 @@
+name: aero
+
+on:
+  schedule:
+    - cron: "23 6 2 * *" # monthly; AIRAC cycles change every 28 days
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  aero:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Rebuild the aeronautical frequencies from the SIA (Alpine)
+        env:
+          CI_LATEST_PYTHON: "1"
+        run: sh .github/alpine.sh .github/aero.sh

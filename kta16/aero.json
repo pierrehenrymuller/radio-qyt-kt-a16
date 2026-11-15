@@ -1,0 +1,9840 @@
+{
+"source": "SIA, eAIP France, Licence Ouverte",
+"airac": "2026-10-29",
+"entries": [
+{
+"key": "MARSEILLE",
+"name": "MARINFO",
+"mhz": 119.755,
+"desc": "MARSEILLE Information"
+},
+{
+"key": "MARSEILLE",
+"name": "MARINFO",
+"mhz": 120.55,
+"desc": "MARSEILLE Information"
+},
+{
+"key": "MARSEILLE",
+"name": "MARINFO",
+"mhz": 124.5,
+"desc": "MARSEILLE Information"
+},
+{
+"key": "PARIS",
+"name": "PARINFO",
+"mhz": 125.7,
+"desc": "PARIS Information"
+},
+{
+"key": "PARIS",
+"name": "PARINFO",
+"mhz": 126.1,
+"desc": "PARIS Information"
+},
+{
+"key": "PARIS",
+"name": "PARINFO",
+"mhz": 129.625,
+"desc": "PARIS Information"
+},
+{
+"key": "LFAC",
+"name": "AC AFIS",
+"mhz": 119.485,
+"desc": "CALAIS Information"
+},
+{
+"key": "LFAC",
+"name": "AC AA",
+"mhz": 119.485,
+"desc": "CALAIS"
+},
+{
+"key": "LFAQ",
+"name": "AQ TWR",
+"mhz": 136.36,
+"desc": "ALBERT Tour"
+},
+{
+"key": "LFAQ",
+"name": "AQ AFIS",
+"mhz": 136.36,
+"desc": "ALBERT Information"
+},
+{
+"key": "LFAQ",
+"name": "AQ VDF",
+"mhz": 136.36,
+"desc": "ALBERT Gonio"
+},
+{
+"key": "LFAQ",
+"name": "AQ AA",
+"mhz": 136.36,
+"desc": "ALBERT"
+},
+{
+"key": "LFAT",
+"name": "AT GND",
+"mhz": 121.755,
+"desc": "LE TOUQUET Sol"
+},
+{
+"key": "LFAT",
+"name": "AT TWR",
+"mhz": 118.455,
+"desc": "LE TOUQUET Tour"
+},
+{
+"key": "LFAT",
+"name": "AT VDF",
+"mhz": 118.455,
+"desc": "LE TOUQUET Gonio"
+},
+{
+"key": "LFAT",
+"name": "AT ATIS",
+"mhz": 123.13,
+"desc": "LE TOUQUET"
+},
+{
+"key": "LFAT",
+"name": "AT AA",
+"mhz": 118.455,
+"desc": "LE TOUQUET"
+},
+{
+"key": "LFAV",
+"name": "AV AFIS",
+"mhz": 122.605,
+"desc": "VALENCIENNES Information"
+},
+{
+"key": "LFAV",
+"name": "AV AA",
+"mhz": 122.605,
+"desc": "VALENCIENNES"
+},
+{
+"key": "LFAY",
+"name": "AY AA",
+"mhz": 119.89,
+"desc": "AMIENS"
+},
+{
+"key": "LFBA",
+"name": "BA TWR",
+"mhz": 121.305,
+"desc": "AGEN Tour"
+},
+{
+"key": "LFBA",
+"name": "BA ATIS",
+"mhz": 129.605,
+"desc": "AGEN"
+},
+{
+"key": "LFBA",
+"name": "BA AA",
+"mhz": 121.305,
+"desc": "AGEN"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 119.6,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 121.5,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 142.45,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 232.6,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 243.0,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 251.5,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 265.625,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 277.3,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC APP",
+"mhz": 362.3,
+"desc": "CAZAUX Approche"
+},
+{
+"key": "LFBC",
+"name": "BC PAR",
+"mhz": 120.1,
+"desc": "CAZAUX Precision"
+},
+{
+"key": "LFBC",
+"name": "BC PAR",
+"mhz": 123.3,
+"desc": "CAZAUX Precision"
+},
+{
+"key": "LFBC",
+"name": "BC PAR",
+"mhz": 265.9,
+"desc": "CAZAUX Precision"
+},
+{
+"key": "LFBC",
+"name": "BC PAR",
+"mhz": 336.1,
+"desc": "CAZAUX Precision"
+},
+{
+"key": "LFBC",
+"name": "BC TWR",
+"mhz": 118.4,
+"desc": "CAZAUX Tour"
+},
+{
+"key": "LFBC",
+"name": "BC TWR",
+"mhz": 121.5,
+"desc": "CAZAUX Tour"
+},
+{
+"key": "LFBC",
+"name": "BC TWR",
+"mhz": 122.1,
+"desc": "CAZAUX Tour"
+},
+{
+"key": "LFBC",
+"name": "BC TWR",
+"mhz": 243.0,
+"desc": "CAZAUX Tour"
+},
+{
+"key": "LFBC",
+"name": "BC TWR",
+"mhz": 257.8,
+"desc": "CAZAUX Tour"
+},
+{
+"key": "LFBC",
+"name": "BC TWR",
+"mhz": 375.975,
+"desc": "CAZAUX Tour"
+},
+{
+"key": "LFBD",
+"name": "BD INFO",
+"mhz": 120.575,
+"desc": "AQUITAINE Information"
+},
+{
+"key": "LFBD",
+"name": "BD APP",
+"mhz": 119.275,
+"desc": "AQUITAINE Approche"
+},
+{
+"key": "LFBD",
+"name": "BD APP",
+"mhz": 126.73,
+"desc": "AQUITAINE Approche"
+},
+{
+"key": "LFBD",
+"name": "BD APP",
+"mhz": 129.88,
+"desc": "AQUITAINE Approche"
+},
+{
+"key": "LFBD",
+"name": "BD APP",
+"mhz": 121.205,
+"desc": "MERIGNAC Approche"
+},
+{
+"key": "LFBD",
+"name": "BD GND",
+"mhz": 121.73,
+"desc": "MERIGNAC Sol"
+},
+{
+"key": "LFBD",
+"name": "BD GND",
+"mhz": 121.905,
+"desc": "MERIGNAC Sol"
+},
+{
+"key": "LFBD",
+"name": "BD TWR",
+"mhz": 118.305,
+"desc": "MERIGNAC Tour"
+},
+{
+"key": "LFBD",
+"name": "BD VDF",
+"mhz": 118.305,
+"desc": "MERIGNAC Gonio"
+},
+{
+"key": "LFBD",
+"name": "BD VDF",
+"mhz": 119.275,
+"desc": "MERIGNAC Gonio"
+},
+{
+"key": "LFBD",
+"name": "BD VDF",
+"mhz": 120.575,
+"desc": "MERIGNAC Gonio"
+},
+{
+"key": "LFBD",
+"name": "BD VDF",
+"mhz": 121.5,
+"desc": "MERIGNAC Gonio"
+},
+{
+"key": "LFBD",
+"name": "BD VDF",
+"mhz": 126.73,
+"desc": "MERIGNAC Gonio"
+},
+{
+"key": "LFBD",
+"name": "BD VDF",
+"mhz": 129.88,
+"desc": "MERIGNAC Gonio"
+},
+{
+"key": "LFBD",
+"name": "BD ATIS",
+"mhz": 131.155,
+"desc": "MERIGNAC"
+},
+{
+"key": "LFBD",
+"name": "VOR BMC",
+"mhz": 113.75,
+"desc": "VOR-DME BMC"
+},
+{
+"key": "LFBE",
+"name": "BE TWR",
+"mhz": 119.805,
+"desc": "BERGERAC Tour"
+},
+{
+"key": "LFBE",
+"name": "BE ATIS",
+"mhz": 127.48,
+"desc": "BERGERAC"
+},
+{
+"key": "LFBE",
+"name": "BE AA",
+"mhz": 119.805,
+"desc": "BERGERAC"
+},
+{
+"key": "LFBF",
+"name": "BF AFIS",
+"mhz": 118.805,
+"desc": "FRANCAZAL Information"
+},
+{
+"key": "LFBG",
+"name": "BG APP",
+"mhz": 121.5,
+"desc": "COGNAC Approche"
+},
+{
+"key": "LFBG",
+"name": "BG APP",
+"mhz": 132.45,
+"desc": "COGNAC Approche"
+},
+{
+"key": "LFBG",
+"name": "BG APP",
+"mhz": 142.45,
+"desc": "COGNAC Approche"
+},
+{
+"key": "LFBG",
+"name": "BG APP",
+"mhz": 243.0,
+"desc": "COGNAC Approche"
+},
+{
+"key": "LFBG",
+"name": "BG APP",
+"mhz": 335.6,
+"desc": "COGNAC Approche"
+},
+{
+"key": "LFBG",
+"name": "BG APP",
+"mhz": 362.3,
+"desc": "COGNAC Approche"
+},
+{
+"key": "LFBG",
+"name": "BG APP",
+"mhz": 369.375,
+"desc": "COGNAC Approche"
+},
+{
+"key": "LFBG",
+"name": "BG APP",
+"mhz": 387.3,
+"desc": "COGNAC Approche"
+},
+{
+"key": "LFBG",
+"name": "BG PAR",
+"mhz": 138.025,
+"desc": "COGNAC Precision"
+},
+{
+"key": "LFBG",
+"name": "BG PAR",
+"mhz": 138.875,
+"desc": "COGNAC Precision"
+},
+{
+"key": "LFBG",
+"name": "BG PAR",
+"mhz": 142.875,
+"desc": "COGNAC Precision"
+},
+{
+"key": "LFBG",
+"name": "BG PAR",
+"mhz": 265.9,
+"desc": "COGNAC Precision"
+},
+{
+"key": "LFBG",
+"name": "BG PAR",
+"mhz": 336.1,
+"desc": "COGNAC Precision"
+},
+{
+"key": "LFBG",
+"name": "BG SRE",
+"mhz": 123.3,
+"desc": "COGNAC Radar"
+},
+{
+"key": "LFBG",
+"name": "BG SRE",
+"mhz": 234.65,
+"desc": "COGNAC Radar"
+},
+{
+"key": "LFBG",
+"name": "BG SRE",
+"mhz": 281.0,
+"desc": "COGNAC Radar"
+},
+{
+"key": "LFBG",
+"name": "BG SRE",
+"mhz": 281.625,
+"desc": "COGNAC Radar"
+},
+{
+"key": "LFBG",
+"name": "BG SRE",
+"mhz": 386.625,
+"desc": "COGNAC Radar"
+},
+{
+"key": "LFBG",
+"name": "BG TWR",
+"mhz": 120.075,
+"desc": "COGNAC Tour"
+},
+{
+"key": "LFBG",
+"name": "BG TWR",
+"mhz": 122.1,
+"desc": "COGNAC Tour"
+},
+{
+"key": "LFBG",
+"name": "BG TWR",
+"mhz": 253.2,
+"desc": "COGNAC Tour"
+},
+{
+"key": "LFBG",
+"name": "BG TWR",
+"mhz": 257.8,
+"desc": "COGNAC Tour"
+},
+{
+"key": "LFBG",
+"name": "BG VDF",
+"mhz": 121.5,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG VDF",
+"mhz": 123.3,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG VDF",
+"mhz": 132.45,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG VDF",
+"mhz": 138.025,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG VDF",
+"mhz": 142.45,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG VDF",
+"mhz": 142.875,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG UDF",
+"mhz": 234.65,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG UDF",
+"mhz": 243.0,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG UDF",
+"mhz": 253.2,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG UDF",
+"mhz": 281.0,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG UDF",
+"mhz": 281.625,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG UDF",
+"mhz": 336.1,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG UDF",
+"mhz": 362.3,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "BG UDF",
+"mhz": 387.3,
+"desc": "COGNAC Gonio"
+},
+{
+"key": "LFBG",
+"name": "VOR CNA",
+"mhz": 114.65,
+"desc": "VOR-DME CNA"
+},
+{
+"key": "LFBH",
+"name": "BH INFO",
+"mhz": 124.205,
+"desc": "LA ROCHELLE Information"
+},
+{
+"key": "LFBH",
+"name": "BH APP",
+"mhz": 124.205,
+"desc": "LA ROCHELLE Approche"
+},
+{
+"key": "LFBH",
+"name": "BH TWR",
+"mhz": 118.005,
+"desc": "LA ROCHELLE Tour"
+},
+{
+"key": "LFBH",
+"name": "BH ATIS",
+"mhz": 126.88,
+"desc": "LA ROCHELLE"
+},
+{
+"key": "LFBH",
+"name": "BH AA",
+"mhz": 118.005,
+"desc": "LA ROCHELLE"
+},
+{
+"key": "LFBI",
+"name": "BI INFO",
+"mhz": 124.0,
+"desc": "POITIERS Information"
+},
+{
+"key": "LFBI",
+"name": "BI APP",
+"mhz": 134.1,
+"desc": "POITIERS Approche"
+},
+{
+"key": "LFBI",
+"name": "BI TWR",
+"mhz": 118.505,
+"desc": "POITIERS Tour"
+},
+{
+"key": "LFBI",
+"name": "BI ATIS",
+"mhz": 121.78,
+"desc": "POITIERS"
+},
+{
+"key": "LFBI",
+"name": "BI AA",
+"mhz": 118.505,
+"desc": "POITIERS"
+},
+{
+"key": "LFBI",
+"name": "VOR POI",
+"mhz": 113.3,
+"desc": "VOR POI"
+},
+{
+"key": "LFBK",
+"name": "BK AFIS",
+"mhz": 118.405,
+"desc": "MONTLUCON Information"
+},
+{
+"key": "LFBK",
+"name": "BK AA",
+"mhz": 118.405,
+"desc": "MONTLUCON"
+},
+{
+"key": "LFBL",
+"name": "BL INFO",
+"mhz": 124.05,
+"desc": "LIMOGES Information"
+},
+{
+"key": "LFBL",
+"name": "BL APP",
+"mhz": 118.08,
+"desc": "LIMOGES Approche"
+},
+{
+"key": "LFBL",
+"name": "BL TWR",
+"mhz": 119.555,
+"desc": "LIMOGES Tour"
+},
+{
+"key": "LFBL",
+"name": "BL VDF",
+"mhz": 118.08,
+"desc": "LIMOGES Gonio"
+},
+{
+"key": "LFBL",
+"name": "BL VDF",
+"mhz": 119.555,
+"desc": "LIMOGES Gonio"
+},
+{
+"key": "LFBL",
+"name": "BL VDF",
+"mhz": 124.05,
+"desc": "LIMOGES Gonio"
+},
+{
+"key": "LFBL",
+"name": "BL ATIS",
+"mhz": 128.08,
+"desc": "LIMOGES"
+},
+{
+"key": "LFBL",
+"name": "BL AA",
+"mhz": 119.555,
+"desc": "LIMOGES"
+},
+{
+"key": "LFBM",
+"name": "BM APP",
+"mhz": 119.7,
+"desc": "MARSAN Approche"
+},
+{
+"key": "LFBM",
+"name": "BM APP",
+"mhz": 142.45,
+"desc": "MARSAN Approche"
+},
+{
+"key": "LFBM",
+"name": "BM APP",
+"mhz": 243.0,
+"desc": "MARSAN Approche"
+},
+{
+"key": "LFBM",
+"name": "BM APP",
+"mhz": 344.175,
+"desc": "MARSAN Approche"
+},
+{
+"key": "LFBM",
+"name": "BM APP",
+"mhz": 362.3,
+"desc": "MARSAN Approche"
+},
+{
+"key": "LFBM",
+"name": "BM APP",
+"mhz": 375.1,
+"desc": "MARSAN Approche"
+},
+{
+"key": "LFBM",
+"name": "BM PAR",
+"mhz": 139.675,
+"desc": "MARSAN Precision"
+},
+{
+"key": "LFBM",
+"name": "BM PAR",
+"mhz": 142.525,
+"desc": "MARSAN Precision"
+},
+{
+"key": "LFBM",
+"name": "BM PAR",
+"mhz": 265.9,
+"desc": "MARSAN Precision"
+},
+{
+"key": "LFBM",
+"name": "BM SRE",
+"mhz": 139.675,
+"desc": "MARSAN Radar"
+},
+{
+"key": "LFBM",
+"name": "BM SRE",
+"mhz": 256.725,
+"desc": "MARSAN Radar"
+},
+{
+"key": "LFBM",
+"name": "BM SRE",
+"mhz": 336.1,
+"desc": "MARSAN Radar"
+},
+{
+"key": "LFBM",
+"name": "BM SRE",
+"mhz": 362.975,
+"desc": "MARSAN Radar"
+},
+{
+"key": "LFBM",
+"name": "BM TWR",
+"mhz": 122.1,
+"desc": "MARSAN Tour"
+},
+{
+"key": "LFBM",
+"name": "BM TWR",
+"mhz": 142.75,
+"desc": "MARSAN Tour"
+},
+{
+"key": "LFBM",
+"name": "BM TWR",
+"mhz": 257.8,
+"desc": "MARSAN Tour"
+},
+{
+"key": "LFBM",
+"name": "BM TWR",
+"mhz": 282.35,
+"desc": "MARSAN Tour"
+},
+{
+"key": "LFBM",
+"name": "BM VDF",
+"mhz": 119.7,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM VDF",
+"mhz": 122.1,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM VDF",
+"mhz": 139.675,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM VDF",
+"mhz": 142.45,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM VDF",
+"mhz": 142.525,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM VDF",
+"mhz": 142.75,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 243.0,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 256.725,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 257.8,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 265.9,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 282.35,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 336.1,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 341.875,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 344.175,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 362.3,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "BM UDF",
+"mhz": 375.1,
+"desc": "MARSAN Gonio"
+},
+{
+"key": "LFBM",
+"name": "VOR LGH",
+"mhz": 111.65,
+"desc": "VOR-DME LGH"
+},
+{
+"key": "LFBN",
+"name": "BN AFIS",
+"mhz": 119.105,
+"desc": "NIORT Information"
+},
+{
+"key": "LFBN",
+"name": "BN AA",
+"mhz": 119.105,
+"desc": "NIORT"
+},
+{
+"key": "LFBO",
+"name": "BO INFO",
+"mhz": 121.25,
+"desc": "TOULOUSE Information"
+},
+{
+"key": "LFBO",
+"name": "BO INFO",
+"mhz": 123.93,
+"desc": "TOULOUSE Information"
+},
+{
+"key": "LFBO",
+"name": "BO APP",
+"mhz": 121.105,
+"desc": "BLAGNAC Approche"
+},
+{
+"key": "LFBO",
+"name": "BO APP",
+"mhz": 120.355,
+"desc": "TOULOUSE Approche"
+},
+{
+"key": "LFBO",
+"name": "BO APP",
+"mhz": 123.85,
+"desc": "TOULOUSE Approche"
+},
+{
+"key": "LFBO",
+"name": "BO APP",
+"mhz": 124.98,
+"desc": "TOULOUSE Approche"
+},
+{
+"key": "LFBO",
+"name": "BO APP",
+"mhz": 125.18,
+"desc": "TOULOUSE Approche"
+},
+{
+"key": "LFBO",
+"name": "BO APP",
+"mhz": 129.305,
+"desc": "TOULOUSE Approche"
+},
+{
+"key": "LFBO",
+"name": "BO DEL",
+"mhz": 121.705,
+"desc": "BLAGNAC Prevol"
+},
+{
+"key": "LFBO",
+"name": "BO GND",
+"mhz": 121.905,
+"desc": "BLAGNAC Sol"
+},
+{
+"key": "LFBO",
+"name": "BO TWR",
+"mhz": 118.105,
+"desc": "BLAGNAC Tour"
+},
+{
+"key": "LFBO",
+"name": "BO AFIS",
+"mhz": 121.83,
+"desc": "ST MARTIN Information"
+},
+{
+"key": "LFBO",
+"name": "BO VDF",
+"mhz": 118.105,
+"desc": "TOULOUSE Gonio"
+},
+{
+"key": "LFBO",
+"name": "BO VDF",
+"mhz": 120.355,
+"desc": "TOULOUSE Gonio"
+},
+{
+"key": "LFBO",
+"name": "BO VDF",
+"mhz": 121.25,
+"desc": "TOULOUSE Gonio"
+},
+{
+"key": "LFBO",
+"name": "BO VDF",
+"mhz": 123.85,
+"desc": "TOULOUSE Gonio"
+},
+{
+"key": "LFBO",
+"name": "BO VDF",
+"mhz": 125.18,
+"desc": "TOULOUSE Gonio"
+},
+{
+"key": "LFBO",
+"name": "BO VDF",
+"mhz": 129.305,
+"desc": "TOULOUSE Gonio"
+},
+{
+"key": "LFBO",
+"name": "BO ATIS",
+"mhz": 123.13,
+"desc": "BLAGNAC"
+},
+{
+"key": "LFBO",
+"name": "VOR TOU",
+"mhz": 117.7,
+"desc": "VOR-DME TOU"
+},
+{
+"key": "LFBP",
+"name": "BP INFO",
+"mhz": 126.53,
+"desc": "PYRENEES Information"
+},
+{
+"key": "LFBP",
+"name": "BP APP",
+"mhz": 128.805,
+"desc": "PYRENEES Approche"
+},
+{
+"key": "LFBP",
+"name": "BP APP",
+"mhz": 135.88,
+"desc": "PYRENEES Approche"
+},
+{
+"key": "LFBP",
+"name": "BP GND",
+"mhz": 121.755,
+"desc": "PAU Sol"
+},
+{
+"key": "LFBP",
+"name": "BP TWR",
+"mhz": 124.155,
+"desc": "PAU Tour"
+},
+{
+"key": "LFBP",
+"name": "BP VDF",
+"mhz": 124.15,
+"desc": "PAU Gonio"
+},
+{
+"key": "LFBP",
+"name": "BP VDF",
+"mhz": 126.525,
+"desc": "PAU Gonio"
+},
+{
+"key": "LFBP",
+"name": "BP VDF",
+"mhz": 128.8,
+"desc": "PAU Gonio"
+},
+{
+"key": "LFBP",
+"name": "BP ATIS",
+"mhz": 128.48,
+"desc": "PAU"
+},
+{
+"key": "LFBR",
+"name": "BR GND",
+"mhz": 121.755,
+"desc": "MURET Sol"
+},
+{
+"key": "LFBR",
+"name": "BR TWR",
+"mhz": 123.205,
+"desc": "MURET Tour"
+},
+{
+"key": "LFBR",
+"name": "BR VDF",
+"mhz": 123.2,
+"desc": "MURET Gonio"
+},
+{
+"key": "LFBR",
+"name": "BR ATIS",
+"mhz": 124.58,
+"desc": "MURET"
+},
+{
+"key": "LFBR",
+"name": "BR AA",
+"mhz": 123.205,
+"desc": "MURET"
+},
+{
+"key": "LFBS",
+"name": "BS TWR",
+"mhz": 118.04,
+"desc": "BISCARROSSE Tour"
+},
+{
+"key": "LFBS",
+"name": "BS AA",
+"mhz": 118.04,
+"desc": "BISCARROSSE"
+},
+{
+"key": "LFBT",
+"name": "BT GND",
+"mhz": 121.805,
+"desc": "LOURDES Sol"
+},
+{
+"key": "LFBT",
+"name": "BT TWR",
+"mhz": 119.055,
+"desc": "LOURDES Tour"
+},
+{
+"key": "LFBT",
+"name": "BT ATIS",
+"mhz": 125.955,
+"desc": "LOURDES"
+},
+{
+"key": "LFBT",
+"name": "VOR TBO",
+"mhz": 113.9,
+"desc": "VOR-DME TBO"
+},
+{
+"key": "LFBU",
+"name": "BU AFIS",
+"mhz": 123.155,
+"desc": "ANGOULEME Information"
+},
+{
+"key": "LFBU",
+"name": "BU VDF",
+"mhz": 123.155,
+"desc": "ANGOULEME Gonio"
+},
+{
+"key": "LFBU",
+"name": "BU ATIS",
+"mhz": 130.09,
+"desc": "ANGOULEME"
+},
+{
+"key": "LFBU",
+"name": "BU AA",
+"mhz": 123.155,
+"desc": "ANGOULEME"
+},
+{
+"key": "LFBX",
+"name": "BX AFIS",
+"mhz": 118.78,
+"desc": "PERIGUEUX Information"
+},
+{
+"key": "LFBX",
+"name": "BX AA",
+"mhz": 118.78,
+"desc": "PERIGUEUX"
+},
+{
+"key": "LFBY",
+"name": "BY APP",
+"mhz": 122.05,
+"desc": "DAX Approche"
+},
+{
+"key": "LFBY",
+"name": "BY APP",
+"mhz": 335.775,
+"desc": "DAX Approche"
+},
+{
+"key": "LFBY",
+"name": "BY PAR",
+"mhz": 138.45,
+"desc": "DAX Precision"
+},
+{
+"key": "LFBY",
+"name": "BY GND",
+"mhz": 121.775,
+"desc": "DAX Sol"
+},
+{
+"key": "LFBY",
+"name": "BY TWR",
+"mhz": 336.55,
+"desc": "DAX Tour"
+},
+{
+"key": "LFBY",
+"name": "BY TWR",
+"mhz": 40.8,
+"desc": "DAX Tour"
+},
+{
+"key": "LFBY",
+"name": "BY TWR",
+"mhz": 118.325,
+"desc": "DAX Tour"
+},
+{
+"key": "LFBY",
+"name": "BY ATIS",
+"mhz": 140.075,
+"desc": "DAX Information"
+},
+{
+"key": "LFBZ",
+"name": "BZ INFO",
+"mhz": 119.18,
+"desc": "BIARRITZ Information"
+},
+{
+"key": "LFBZ",
+"name": "BZ APP",
+"mhz": 125.605,
+"desc": "BIARRITZ Approche"
+},
+{
+"key": "LFBZ",
+"name": "BZ GND",
+"mhz": 121.955,
+"desc": "BIARRITZ Sol"
+},
+{
+"key": "LFBZ",
+"name": "BZ TWR",
+"mhz": 118.705,
+"desc": "BIARRITZ Tour"
+},
+{
+"key": "LFBZ",
+"name": "BZ VDF",
+"mhz": 118.7,
+"desc": "BIARRITZ Gonio"
+},
+{
+"key": "LFBZ",
+"name": "BZ VDF",
+"mhz": 125.6,
+"desc": "BIARRITZ Gonio"
+},
+{
+"key": "LFBZ",
+"name": "BZ ATIS",
+"mhz": 128.23,
+"desc": "BIARRITZ"
+},
+{
+"key": "LFBZ",
+"name": "VOR BTZ",
+"mhz": 114.15,
+"desc": "VOR-DME BTZ"
+},
+{
+"key": "LFCC",
+"name": "CC AFIS",
+"mhz": 119.23,
+"desc": "CAHORS Information"
+},
+{
+"key": "LFCI",
+"name": "CI AFIS",
+"mhz": 118.955,
+"desc": "ALBI Information"
+},
+{
+"key": "LFCI",
+"name": "CI AA",
+"mhz": 118.955,
+"desc": "ALBI"
+},
+{
+"key": "LFCK",
+"name": "CK AFIS",
+"mhz": 118.505,
+"desc": "CASTRES Information"
+},
+{
+"key": "LFCK",
+"name": "CK AA",
+"mhz": 118.505,
+"desc": "CASTRES"
+},
+{
+"key": "LFCR",
+"name": "CR TWR",
+"mhz": 118.13,
+"desc": "RODEZ Tour"
+},
+{
+"key": "LFCR",
+"name": "CR VDF",
+"mhz": 118.13,
+"desc": "RODEZ Gonio"
+},
+{
+"key": "LFCR",
+"name": "CR VDF",
+"mhz": 133.725,
+"desc": "RODEZ Gonio"
+},
+{
+"key": "LFCR",
+"name": "CR ATIS",
+"mhz": 129.78,
+"desc": "RODEZ"
+},
+{
+"key": "LFCR",
+"name": "CR AA",
+"mhz": 118.13,
+"desc": "RODEZ"
+},
+{
+"key": "LFCY",
+"name": "CY AFIS",
+"mhz": 118.805,
+"desc": "ROYAN Information"
+},
+{
+"key": "LFCY",
+"name": "CY AA",
+"mhz": 118.805,
+"desc": "ROYAN"
+},
+{
+"key": "LFDH",
+"name": "DH AFIS",
+"mhz": 123.005,
+"desc": "AUCH Information"
+},
+{
+"key": "LFDH",
+"name": "DH AA",
+"mhz": 123.005,
+"desc": "AUCH"
+},
+{
+"key": "LFDJ",
+"name": "DJ AFIS",
+"mhz": 118.18,
+"desc": "PAMIERS Information"
+},
+{
+"key": "LFDJ",
+"name": "DJ AA",
+"mhz": 118.18,
+"desc": "PAMIERS"
+},
+{
+"key": "LFDN",
+"name": "DN AFIS",
+"mhz": 119.305,
+"desc": "ROCHEFORT Information"
+},
+{
+"key": "LFDN",
+"name": "DN AA",
+"mhz": 119.305,
+"desc": "ROCHEFORT"
+},
+{
+"key": "LFEC",
+"name": "EC AFIS",
+"mhz": 118.105,
+"desc": "OUESSANT Information"
+},
+{
+"key": "LFEC",
+"name": "EC AA",
+"mhz": 118.105,
+"desc": "OUESSANT"
+},
+{
+"key": "LFEV",
+"name": "EV AA",
+"mhz": 118.84,
+"desc": "GRAY"
+},
+{
+"key": "LFEY",
+"name": "EY AFIS",
+"mhz": 118.905,
+"desc": "ILE D'YEU Information"
+},
+{
+"key": "LFFK",
+"name": "FK AA",
+"mhz": 119.765,
+"desc": "FONTENAY"
+},
+{
+"key": "LFGA",
+"name": "GA GND",
+"mhz": 121.88,
+"desc": "COLMAR Sol"
+},
+{
+"key": "LFGA",
+"name": "GA TWR",
+"mhz": 119.0,
+"desc": "COLMAR Tour"
+},
+{
+"key": "LFGA",
+"name": "GA AFIS",
+"mhz": 119.0,
+"desc": "COLMAR Information"
+},
+{
+"key": "LFGA",
+"name": "GA ATIS",
+"mhz": 126.135,
+"desc": "COLMAR"
+},
+{
+"key": "LFGA",
+"name": "GA AA",
+"mhz": 119.0,
+"desc": "COLMAR"
+},
+{
+"key": "LFGJ",
+"name": "GJ TWR",
+"mhz": 130.775,
+"desc": "DOLE Tour"
+},
+{
+"key": "LFGJ",
+"name": "GJ AFIS",
+"mhz": 130.775,
+"desc": "DOLE Information"
+},
+{
+"key": "LFGJ",
+"name": "GJ ATIS",
+"mhz": 121.605,
+"desc": "DOLE"
+},
+{
+"key": "LFGJ",
+"name": "GJ AA",
+"mhz": 130.775,
+"desc": "DOLE"
+},
+{
+"key": "LFHP",
+"name": "HP AFIS",
+"mhz": 118.005,
+"desc": "LE PUY Information"
+},
+{
+"key": "LFHP",
+"name": "HP AA",
+"mhz": 118.005,
+"desc": "LE PUY"
+},
+{
+"key": "LFHV",
+"name": "HV AA",
+"mhz": 118.255,
+"desc": "TARARE"
+},
+{
+"key": "LFHY",
+"name": "HY AFIS",
+"mhz": 125.205,
+"desc": "MOULINS Information"
+},
+{
+"key": "LFHY",
+"name": "HY AA",
+"mhz": 125.205,
+"desc": "MOULINS"
+},
+{
+"key": "LFJL",
+"name": "JL APP",
+"mhz": 119.125,
+"desc": "LORRAINE Approche"
+},
+{
+"key": "LFJL",
+"name": "JL APP",
+"mhz": 127.25,
+"desc": "LORRAINE Approche"
+},
+{
+"key": "LFJL",
+"name": "JL GND",
+"mhz": 121.705,
+"desc": "LORRAINE Sol"
+},
+{
+"key": "LFJL",
+"name": "JL TWR",
+"mhz": 122.075,
+"desc": "LORRAINE Tour"
+},
+{
+"key": "LFJL",
+"name": "JL VDF",
+"mhz": 119.125,
+"desc": "LORRAINE Gonio"
+},
+{
+"key": "LFJL",
+"name": "JL VDF",
+"mhz": 122.075,
+"desc": "LORRAINE Gonio"
+},
+{
+"key": "LFJL",
+"name": "JL VDF",
+"mhz": 127.25,
+"desc": "LORRAINE Gonio"
+},
+{
+"key": "LFJL",
+"name": "JL ATIS",
+"mhz": 136.58,
+"desc": "LORRAINE"
+},
+{
+"key": "LFJL",
+"name": "JL AA",
+"mhz": 122.075,
+"desc": "LORRAINE"
+},
+{
+"key": "LFJR",
+"name": "JR AFIS",
+"mhz": 124.705,
+"desc": "ANGERS Information"
+},
+{
+"key": "LFJR",
+"name": "JR AA",
+"mhz": 124.705,
+"desc": "ANGERS"
+},
+{
+"key": "LFJY",
+"name": "JY AA",
+"mhz": 120.405,
+"desc": "CHAMBLEY"
+},
+{
+"key": "LFKB",
+"name": "KB INFO",
+"mhz": 124.725,
+"desc": "BASTIA Information"
+},
+{
+"key": "LFKB",
+"name": "KB INFO",
+"mhz": 135.135,
+"desc": "BASTIA Information"
+},
+{
+"key": "LFKB",
+"name": "KB APP",
+"mhz": 123.825,
+"desc": "BASTIA Approche"
+},
+{
+"key": "LFKB",
+"name": "KB APP",
+"mhz": 127.255,
+"desc": "BASTIA Approche"
+},
+{
+"key": "LFKB",
+"name": "KB GND",
+"mhz": 121.83,
+"desc": "BASTIA Sol"
+},
+{
+"key": "LFKB",
+"name": "KB TWR",
+"mhz": 118.0,
+"desc": "BASTIA Tour"
+},
+{
+"key": "LFKB",
+"name": "KB VDF",
+"mhz": 118.0,
+"desc": "BASTIA Gonio"
+},
+{
+"key": "LFKB",
+"name": "KB VDF",
+"mhz": 123.825,
+"desc": "BASTIA Gonio"
+},
+{
+"key": "LFKB",
+"name": "KB ATIS",
+"mhz": 125.93,
+"desc": "BASTIA"
+},
+{
+"key": "LFKB",
+"name": "VOR BTA",
+"mhz": 114.15,
+"desc": "VOR-DME BTA"
+},
+{
+"key": "LFKC",
+"name": "KC GND",
+"mhz": 121.705,
+"desc": "CALVI Sol"
+},
+{
+"key": "LFKC",
+"name": "KC TWR",
+"mhz": 123.2,
+"desc": "CALVI Tour"
+},
+{
+"key": "LFKC",
+"name": "KC ATIS",
+"mhz": 131.18,
+"desc": "CALVI"
+},
+{
+"key": "LFKF",
+"name": "KF GND",
+"mhz": 121.805,
+"desc": "FIGARI Sol"
+},
+{
+"key": "LFKF",
+"name": "KF TWR",
+"mhz": 120.3,
+"desc": "FIGARI Tour"
+},
+{
+"key": "LFKF",
+"name": "KF ATIS",
+"mhz": 118.73,
+"desc": "FIGARI"
+},
+{
+"key": "LFKF",
+"name": "VOR FGI",
+"mhz": 116.7,
+"desc": "VOR-DME FGI"
+},
+{
+"key": "LFKJ",
+"name": "KJ INFO",
+"mhz": 119.825,
+"desc": "AJACCIO Information"
+},
+{
+"key": "LFKJ",
+"name": "KJ APP",
+"mhz": 121.05,
+"desc": "AJACCIO Approche"
+},
+{
+"key": "LFKJ",
+"name": "KJ APP",
+"mhz": 127.78,
+"desc": "AJACCIO Approche"
+},
+{
+"key": "LFKJ",
+"name": "KJ GND",
+"mhz": 121.705,
+"desc": "AJACCIO Sol"
+},
+{
+"key": "LFKJ",
+"name": "KJ TWR",
+"mhz": 118.075,
+"desc": "AJACCIO Tour"
+},
+{
+"key": "LFKJ",
+"name": "KJ VDF",
+"mhz": 118.075,
+"desc": "AJACCIO Gonio"
+},
+{
+"key": "LFKJ",
+"name": "KJ VDF",
+"mhz": 119.825,
+"desc": "AJACCIO Gonio"
+},
+{
+"key": "LFKJ",
+"name": "KJ VDF",
+"mhz": 121.05,
+"desc": "AJACCIO Gonio"
+},
+{
+"key": "LFKJ",
+"name": "KJ ATIS",
+"mhz": 126.93,
+"desc": "AJACCIO"
+},
+{
+"key": "LFKJ",
+"name": "VOR AJO",
+"mhz": 114.8,
+"desc": "VOR-DME AJO"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 119.9,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 121.5,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 123.3,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 139.15,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 142.45,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 233.5,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 233.625,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 243.0,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 248.25,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 265.9,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 336.1,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 362.3,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS APP",
+"mhz": 387.9,
+"desc": "ZARA Approche"
+},
+{
+"key": "LFKS",
+"name": "KS PAR",
+"mhz": 123.3,
+"desc": "ZARA Precision"
+},
+{
+"key": "LFKS",
+"name": "KS PAR",
+"mhz": 139.15,
+"desc": "ZARA Precision"
+},
+{
+"key": "LFKS",
+"name": "KS PAR",
+"mhz": 336.1,
+"desc": "ZARA Precision"
+},
+{
+"key": "LFKS",
+"name": "KS PAR",
+"mhz": 265.9,
+"desc": "ZARA -precision"
+},
+{
+"key": "LFKS",
+"name": "KS TWR",
+"mhz": 118.35,
+"desc": "ZARA Tour"
+},
+{
+"key": "LFKS",
+"name": "KS TWR",
+"mhz": 121.5,
+"desc": "ZARA Tour"
+},
+{
+"key": "LFKS",
+"name": "KS TWR",
+"mhz": 122.1,
+"desc": "ZARA Tour"
+},
+{
+"key": "LFKS",
+"name": "KS TWR",
+"mhz": 243.0,
+"desc": "ZARA Tour"
+},
+{
+"key": "LFKS",
+"name": "KS TWR",
+"mhz": 257.8,
+"desc": "ZARA Tour"
+},
+{
+"key": "LFKS",
+"name": "KS TWR",
+"mhz": 301.2,
+"desc": "ZARA Tour"
+},
+{
+"key": "LFLA",
+"name": "LA AFIS",
+"mhz": 129.805,
+"desc": "AUXERRE Information"
+},
+{
+"key": "LFLA",
+"name": "LA AA",
+"mhz": 129.805,
+"desc": "AUXERRE Information"
+},
+{
+"key": "LFLB",
+"name": "LB INFO",
+"mhz": 123.705,
+"desc": "CHAMBERY Information"
+},
+{
+"key": "LFLB",
+"name": "LB APP",
+"mhz": 121.205,
+"desc": "CHAMBERY Approche"
+},
+{
+"key": "LFLB",
+"name": "LB APP",
+"mhz": 123.705,
+"desc": "CHAMBERY Approche"
+},
+{
+"key": "LFLB",
+"name": "LB TWR",
+"mhz": 118.305,
+"desc": "CHAMBERY Tour"
+},
+{
+"key": "LFLB",
+"name": "LB ATIS",
+"mhz": 127.1,
+"desc": "CHAMBERY"
+},
+{
+"key": "LFLB",
+"name": "LB AA",
+"mhz": 123.705,
+"desc": "CHAMBERY"
+},
+{
+"key": "LFLB",
+"name": "VOR CBY",
+"mhz": 115.4,
+"desc": "VOR-DME CBY"
+},
+{
+"key": "LFLC",
+"name": "LC INFO",
+"mhz": 119.375,
+"desc": "CLERMONT Information"
+},
+{
+"key": "LFLC",
+"name": "LC INFO",
+"mhz": 120.505,
+"desc": "CLERMONT Information"
+},
+{
+"key": "LFLC",
+"name": "LC INFO",
+"mhz": 120.68,
+"desc": "CLERMONT Information"
+},
+{
+"key": "LFLC",
+"name": "LC INFO",
+"mhz": 122.23,
+"desc": "CLERMONT Information"
+},
+{
+"key": "LFLC",
+"name": "LC INFO",
+"mhz": 133.725,
+"desc": "CLERMONT Information"
+},
+{
+"key": "LFLC",
+"name": "LC APP",
+"mhz": 119.375,
+"desc": "CLERMONT Approche"
+},
+{
+"key": "LFLC",
+"name": "LC APP",
+"mhz": 120.505,
+"desc": "CLERMONT Approche"
+},
+{
+"key": "LFLC",
+"name": "LC APP",
+"mhz": 120.68,
+"desc": "CLERMONT Approche"
+},
+{
+"key": "LFLC",
+"name": "LC APP",
+"mhz": 122.23,
+"desc": "CLERMONT Approche"
+},
+{
+"key": "LFLC",
+"name": "LC APP",
+"mhz": 133.725,
+"desc": "CLERMONT Approche"
+},
+{
+"key": "LFLC",
+"name": "LC GND",
+"mhz": 121.955,
+"desc": "CLERMONT Sol"
+},
+{
+"key": "LFLC",
+"name": "LC TWR",
+"mhz": 118.63,
+"desc": "CLERMONT Tour"
+},
+{
+"key": "LFLC",
+"name": "LC VDF",
+"mhz": 118.63,
+"desc": "CLERMONT Gonio"
+},
+{
+"key": "LFLC",
+"name": "LC VDF",
+"mhz": 122.23,
+"desc": "CLERMONT Gonio"
+},
+{
+"key": "LFLC",
+"name": "LC ATIS",
+"mhz": 136.405,
+"desc": "CLERMONT"
+},
+{
+"key": "LFLC",
+"name": "VOR CFA",
+"mhz": 114.35,
+"desc": "VOR-DME CFA"
+},
+{
+"key": "LFLD",
+"name": "LD AFIS",
+"mhz": 119.605,
+"desc": "BOURGES Information"
+},
+{
+"key": "LFLD",
+"name": "LD AA",
+"mhz": 119.605,
+"desc": "BOURGES"
+},
+{
+"key": "LFLG",
+"name": "LG GND",
+"mhz": 121.655,
+"desc": "LE VERSOUD Sol"
+},
+{
+"key": "LFLG",
+"name": "LG TWR",
+"mhz": 121.0,
+"desc": "LE VERSOUD Tour"
+},
+{
+"key": "LFLG",
+"name": "LG ATIS",
+"mhz": 125.23,
+"desc": "LE VERSOUD"
+},
+{
+"key": "LFLG",
+"name": "LG AA",
+"mhz": 121.0,
+"desc": "LE VERSOUD"
+},
+{
+"key": "LFLH",
+"name": "LH AFIS",
+"mhz": 118.605,
+"desc": "CHALON Information"
+},
+{
+"key": "LFLH",
+"name": "LH AA",
+"mhz": 118.605,
+"desc": "CHALON"
+},
+{
+"key": "LFLL",
+"name": "LL INFO",
+"mhz": 135.2,
+"desc": "LYON Information"
+},
+{
+"key": "LFLL",
+"name": "LL INFO",
+"mhz": 135.53,
+"desc": "LYON Information"
+},
+{
+"key": "LFLL",
+"name": "LL APP",
+"mhz": 120.23,
+"desc": "LYON Approche"
+},
+{
+"key": "LFLL",
+"name": "LL APP",
+"mhz": 131.315,
+"desc": "LYON Approche"
+},
+{
+"key": "LFLL",
+"name": "LL APP",
+"mhz": 132.005,
+"desc": "LYON Approche"
+},
+{
+"key": "LFLL",
+"name": "LL APP",
+"mhz": 136.075,
+"desc": "LYON Approche"
+},
+{
+"key": "LFLL",
+"name": "LL DEL",
+"mhz": 121.655,
+"desc": "SAINT EX Prevol"
+},
+{
+"key": "LFLL",
+"name": "LL GND",
+"mhz": 121.83,
+"desc": "SAINT EX Sol"
+},
+{
+"key": "LFLL",
+"name": "LL TWR",
+"mhz": 120.455,
+"desc": "SAINT EX Tour"
+},
+{
+"key": "LFLL",
+"name": "LL TWR",
+"mhz": 133.155,
+"desc": "SAINT EX Tour"
+},
+{
+"key": "LFLL",
+"name": "LL VDF",
+"mhz": 120.45,
+"desc": "SAINT EX Gonio"
+},
+{
+"key": "LFLL",
+"name": "LL VDF",
+"mhz": 135.2,
+"desc": "SAINT EX Gonio"
+},
+{
+"key": "LFLL",
+"name": "LL VDF",
+"mhz": 135.53,
+"desc": "SAINT EX Gonio"
+},
+{
+"key": "LFLL",
+"name": "LL VDF",
+"mhz": 136.075,
+"desc": "SAINT EX Gonio"
+},
+{
+"key": "LFLL",
+"name": "LL ATIS",
+"mhz": 126.18,
+"desc": "SAINT EX"
+},
+{
+"key": "LFLL",
+"name": "VOR LSE",
+"mhz": 114.75,
+"desc": "VOR-DME LSE"
+},
+{
+"key": "LFLN",
+"name": "LN APP",
+"mhz": 119.505,
+"desc": "SAINT YAN Approche"
+},
+{
+"key": "LFLN",
+"name": "LN APP",
+"mhz": 123.405,
+"desc": "SAINT YAN Approche"
+},
+{
+"key": "LFLN",
+"name": "LN GND",
+"mhz": 121.805,
+"desc": "SAINT YAN Sol"
+},
+{
+"key": "LFLN",
+"name": "LN TWR",
+"mhz": 122.3,
+"desc": "SAINT YAN Tour"
+},
+{
+"key": "LFLN",
+"name": "LN VDF",
+"mhz": 119.505,
+"desc": "SAINT YAN Gonio"
+},
+{
+"key": "LFLN",
+"name": "LN VDF",
+"mhz": 122.3,
+"desc": "SAINT YAN Gonio"
+},
+{
+"key": "LFLN",
+"name": "LN VDF",
+"mhz": 123.405,
+"desc": "SAINT YAN Gonio"
+},
+{
+"key": "LFLN",
+"name": "LN ATIS",
+"mhz": 132.48,
+"desc": "SAINT YAN"
+},
+{
+"key": "LFLO",
+"name": "LO AFIS",
+"mhz": 120.905,
+"desc": "ROANNE Information"
+},
+{
+"key": "LFLO",
+"name": "VOR ROA",
+"mhz": 110.4,
+"desc": "VOR-DME ROA"
+},
+{
+"key": "LFLP",
+"name": "LP GND",
+"mhz": 121.73,
+"desc": "ANNECY Sol"
+},
+{
+"key": "LFLP",
+"name": "LP TWR",
+"mhz": 118.205,
+"desc": "ANNECY Tour"
+},
+{
+"key": "LFLP",
+"name": "LP AFIS",
+"mhz": 118.205,
+"desc": "ANNECY Information"
+},
+{
+"key": "LFLP",
+"name": "LP AA",
+"mhz": 118.205,
+"desc": "ANNECY"
+},
+{
+"key": "LFLS",
+"name": "LS GND",
+"mhz": 121.93,
+"desc": "GRENOBLE Sol"
+},
+{
+"key": "LFLS",
+"name": "LS TWR",
+"mhz": 119.305,
+"desc": "GRENOBLE Tour"
+},
+{
+"key": "LFLS",
+"name": "LS VDF",
+"mhz": 119.305,
+"desc": "GRENOBLE Gonio"
+},
+{
+"key": "LFLS",
+"name": "LS ATIS",
+"mhz": 133.855,
+"desc": "GRENOBLE"
+},
+{
+"key": "LFLS",
+"name": "LS AA",
+"mhz": 119.305,
+"desc": "GRENOBLE"
+},
+{
+"key": "LFLU",
+"name": "LU AFIS",
+"mhz": 120.105,
+"desc": "VALENCE Information"
+},
+{
+"key": "LFLU",
+"name": "LU AA",
+"mhz": 120.105,
+"desc": "VALENCE"
+},
+{
+"key": "LFLV",
+"name": "LV AFIS",
+"mhz": 121.405,
+"desc": "VICHY Information"
+},
+{
+"key": "LFLV",
+"name": "LV AA",
+"mhz": 121.405,
+"desc": "VICHY"
+},
+{
+"key": "LFLW",
+"name": "LW AFIS",
+"mhz": 118.33,
+"desc": "AURILLAC Information"
+},
+{
+"key": "LFLW",
+"name": "LW AA",
+"mhz": 118.33,
+"desc": "AURILLAC"
+},
+{
+"key": "LFLX",
+"name": "LX TWR",
+"mhz": 125.88,
+"desc": "CHATEAUROUX Tour"
+},
+{
+"key": "LFLX",
+"name": "LX TWR",
+"mhz": 133.805,
+"desc": "CHATEAUROUX Tour"
+},
+{
+"key": "LFLX",
+"name": "LX AFIS",
+"mhz": 125.88,
+"desc": "CHATEAUROUX Information"
+},
+{
+"key": "LFLX",
+"name": "LX AFIS",
+"mhz": 133.805,
+"desc": "CHATEAUROUX Information"
+},
+{
+"key": "LFLX",
+"name": "LX AA",
+"mhz": 125.88,
+"desc": "CHATEAUROUX"
+},
+{
+"key": "LFLX",
+"name": "VOR CHX",
+"mhz": 108.65,
+"desc": "VOR-DME CHX"
+},
+{
+"key": "LFLY",
+"name": "LY GND",
+"mhz": 121.705,
+"desc": "BRON Sol"
+},
+{
+"key": "LFLY",
+"name": "LY TWR",
+"mhz": 118.105,
+"desc": "BRON Tour"
+},
+{
+"key": "LFLY",
+"name": "LY VDF",
+"mhz": 120.45,
+"desc": "BRON Gonio"
+},
+{
+"key": "LFLY",
+"name": "LY VDF",
+"mhz": 135.2,
+"desc": "BRON Gonio"
+},
+{
+"key": "LFLY",
+"name": "LY VDF",
+"mhz": 135.53,
+"desc": "BRON Gonio"
+},
+{
+"key": "LFLY",
+"name": "LY VDF",
+"mhz": 136.075,
+"desc": "BRON Gonio"
+},
+{
+"key": "LFLY",
+"name": "LY ATIS",
+"mhz": 128.13,
+"desc": "BRON"
+},
+{
+"key": "LFMA",
+"name": "MA GND",
+"mhz": 121.605,
+"desc": "AIX Sol"
+},
+{
+"key": "LFMA",
+"name": "MA TWR",
+"mhz": 118.755,
+"desc": "AIX Tour"
+},
+{
+"key": "LFMA",
+"name": "MA VDF",
+"mhz": 118.755,
+"desc": "AIX Gonio"
+},
+{
+"key": "LFMA",
+"name": "MA ATIS",
+"mhz": 136.23,
+"desc": "AIX"
+},
+{
+"key": "LFMA",
+"name": "MA AA",
+"mhz": 118.755,
+"desc": "AIX"
+},
+{
+"key": "LFMC",
+"name": "MC APP",
+"mhz": 122.2,
+"desc": "LE LUC Approche"
+},
+{
+"key": "LFMC",
+"name": "MC APP",
+"mhz": 141.3,
+"desc": "LE LUC Approche"
+},
+{
+"key": "LFMC",
+"name": "MC APP",
+"mhz": 243.0,
+"desc": "LE LUC Approche"
+},
+{
+"key": "LFMC",
+"name": "MC APP",
+"mhz": 276.025,
+"desc": "LE LUC Approche"
+},
+{
+"key": "LFMC",
+"name": "MC PAR",
+"mhz": 141.3,
+"desc": "LE LUC Precision"
+},
+{
+"key": "LFMC",
+"name": "MC SRE",
+"mhz": 122.2,
+"desc": "LE LUC Radar"
+},
+{
+"key": "LFMC",
+"name": "MC GND",
+"mhz": 121.85,
+"desc": "LE LUC Sol"
+},
+{
+"key": "LFMC",
+"name": "MC TWR",
+"mhz": 121.5,
+"desc": "LE LUC Tour"
+},
+{
+"key": "LFMC",
+"name": "MC TWR",
+"mhz": 123.0,
+"desc": "LE LUC Tour"
+},
+{
+"key": "LFMC",
+"name": "MC TWR",
+"mhz": 374.525,
+"desc": "LE LUC Tour"
+},
+{
+"key": "LFMC",
+"name": "MC VDF",
+"mhz": 121.5,
+"desc": "LE LUC Gonio"
+},
+{
+"key": "LFMC",
+"name": "MC VDF",
+"mhz": 122.2,
+"desc": "LE LUC Gonio"
+},
+{
+"key": "LFMC",
+"name": "MC VDF",
+"mhz": 123.0,
+"desc": "LE LUC Gonio"
+},
+{
+"key": "LFMC",
+"name": "MC VDF",
+"mhz": 124.285,
+"desc": "LE LUC Gonio"
+},
+{
+"key": "LFMC",
+"name": "MC ATIS",
+"mhz": 128.65,
+"desc": "LE LUC"
+},
+{
+"key": "LFMD",
+"name": "MD GND",
+"mhz": 121.805,
+"desc": "CANNES Sol"
+},
+{
+"key": "LFMD",
+"name": "MD TWR",
+"mhz": 118.63,
+"desc": "CANNES Tour"
+},
+{
+"key": "LFMD",
+"name": "MD TWR",
+"mhz": 120.78,
+"desc": "LERINS Tour"
+},
+{
+"key": "LFMD",
+"name": "MD VDF",
+"mhz": 118.63,
+"desc": "CANNES Gonio"
+},
+{
+"key": "LFMD",
+"name": "MD ATIS",
+"mhz": 130.48,
+"desc": "CANNES"
+},
+{
+"key": "LFMD",
+"name": "VOR CNM",
+"mhz": 111.4,
+"desc": "VOR-DME CNM"
+},
+{
+"key": "LFMH",
+"name": "MH TWR",
+"mhz": 119.255,
+"desc": "SAINT ETIENNE Tour"
+},
+{
+"key": "LFMH",
+"name": "MH AFIS",
+"mhz": 119.255,
+"desc": "SAINT ETIENNE Information"
+},
+{
+"key": "LFMH",
+"name": "MH ATIS",
+"mhz": 132.805,
+"desc": "SAINT ETIENNE"
+},
+{
+"key": "LFMH",
+"name": "MH AA",
+"mhz": 119.255,
+"desc": "SAINT ETIENNE"
+},
+{
+"key": "LFMI",
+"name": "MI APP",
+"mhz": 131.0,
+"desc": "ISTRES Approche"
+},
+{
+"key": "LFMI",
+"name": "MI APP",
+"mhz": 142.45,
+"desc": "ISTRES Approche"
+},
+{
+"key": "LFMI",
+"name": "MI APP",
+"mhz": 281.575,
+"desc": "ISTRES Approche"
+},
+{
+"key": "LFMI",
+"name": "MI APP",
+"mhz": 359.55,
+"desc": "ISTRES Approche"
+},
+{
+"key": "LFMI",
+"name": "MI APP",
+"mhz": 362.3,
+"desc": "ISTRES Approche"
+},
+{
+"key": "LFMI",
+"name": "MI APP",
+"mhz": 373.225,
+"desc": "ISTRES Approche"
+},
+{
+"key": "LFMI",
+"name": "MI APP",
+"mhz": 119.475,
+"desc": "RHONE Controle"
+},
+{
+"key": "LFMI",
+"name": "MI APP",
+"mhz": 280.625,
+"desc": "RHONE Controle"
+},
+{
+"key": "LFMI",
+"name": "MI PAR",
+"mhz": 142.675,
+"desc": "ISTRES Precision"
+},
+{
+"key": "LFMI",
+"name": "MI PAR",
+"mhz": 265.9,
+"desc": "ISTRES Precision"
+},
+{
+"key": "LFMI",
+"name": "MI SRE",
+"mhz": 336.1,
+"desc": "ISTRES Radar"
+},
+{
+"key": "LFMI",
+"name": "MI SRE",
+"mhz": 359.475,
+"desc": "ISTRES Radar"
+},
+{
+"key": "LFMI",
+"name": "MI SRE",
+"mhz": 398.525,
+"desc": "ISTRES Radar"
+},
+{
+"key": "LFMI",
+"name": "MI TWR",
+"mhz": 127.925,
+"desc": "CAMARGUE Controle"
+},
+{
+"key": "LFMI",
+"name": "MI GND",
+"mhz": 121.85,
+"desc": "ISTRES Sol"
+},
+{
+"key": "LFMI",
+"name": "MI GND",
+"mhz": 122.1,
+"desc": "ISTRES Sol"
+},
+{
+"key": "LFMI",
+"name": "MI GND",
+"mhz": 397.05,
+"desc": "ISTRES Sol"
+},
+{
+"key": "LFMI",
+"name": "MI TWR",
+"mhz": 123.6,
+"desc": "ISTRES Tour"
+},
+{
+"key": "LFMI",
+"name": "MI TWR",
+"mhz": 257.8,
+"desc": "ISTRES Tour"
+},
+{
+"key": "LFMI",
+"name": "MI TWR",
+"mhz": 377.6,
+"desc": "ISTRES Tour"
+},
+{
+"key": "LFMI",
+"name": "MI VDF",
+"mhz": 119.475,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI VDF",
+"mhz": 121.5,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI VDF",
+"mhz": 123.6,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI VDF",
+"mhz": 127.925,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI VDF",
+"mhz": 131.0,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI VDF",
+"mhz": 142.45,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 243.0,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 257.8,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 265.9,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 281.575,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 336.1,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 359.475,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 359.55,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 362.3,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 373.225,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 377.6,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMI",
+"name": "MI UDF",
+"mhz": 398.525,
+"desc": "ISTRES Gonio"
+},
+{
+"key": "LFMK",
+"name": "MK TWR",
+"mhz": 134.505,
+"desc": "CARCASSONNE Tour"
+},
+{
+"key": "LFMK",
+"name": "MK VDF",
+"mhz": 134.505,
+"desc": "CARCASSONNE Gonio"
+},
+{
+"key": "LFMK",
+"name": "MK ATIS",
+"mhz": 120.03,
+"desc": "CARCASSONNE"
+},
+{
+"key": "LFML",
+"name": "ML INFO",
+"mhz": 124.355,
+"desc": "PROVENCE Information"
+},
+{
+"key": "LFML",
+"name": "ML INFO",
+"mhz": 126.26,
+"desc": "PROVENCE Information"
+},
+{
+"key": "LFML",
+"name": "ML INFO",
+"mhz": 131.23,
+"desc": "PROVENCE Information"
+},
+{
+"key": "LFML",
+"name": "ML INFO",
+"mhz": 132.305,
+"desc": "PROVENCE Information"
+},
+{
+"key": "LFML",
+"name": "ML INFO",
+"mhz": 132.955,
+"desc": "PROVENCE Information"
+},
+{
+"key": "LFML",
+"name": "ML APP",
+"mhz": 120.205,
+"desc": "PROVENCE Approche"
+},
+{
+"key": "LFML",
+"name": "ML APP",
+"mhz": 120.88,
+"desc": "PROVENCE Approche"
+},
+{
+"key": "LFML",
+"name": "ML APP",
+"mhz": 121.43,
+"desc": "PROVENCE Approche"
+},
+{
+"key": "LFML",
+"name": "ML APP",
+"mhz": 124.355,
+"desc": "PROVENCE Approche"
+},
+{
+"key": "LFML",
+"name": "ML APP",
+"mhz": 127.73,
+"desc": "PROVENCE Approche"
+},
+{
+"key": "LFML",
+"name": "ML APP",
+"mhz": 129.48,
+"desc": "PROVENCE Approche"
+},
+{
+"key": "LFML",
+"name": "ML APP",
+"mhz": 132.305,
+"desc": "PROVENCE Approche"
+},
+{
+"key": "LFML",
+"name": "ML DEL",
+"mhz": 121.73,
+"desc": "PROVENCE Prevol"
+},
+{
+"key": "LFML",
+"name": "ML GND",
+"mhz": 121.905,
+"desc": "PROVENCE Sol"
+},
+{
+"key": "LFML",
+"name": "ML TWR",
+"mhz": 123.73,
+"desc": "PROVENCE Tour"
+},
+{
+"key": "LFML",
+"name": "ML TWR",
+"mhz": 133.105,
+"desc": "PROVENCE Tour"
+},
+{
+"key": "LFML",
+"name": "ML VDF",
+"mhz": 121.43,
+"desc": "PROVENCE Gonio"
+},
+{
+"key": "LFML",
+"name": "ML VDF",
+"mhz": 121.5,
+"desc": "PROVENCE Gonio"
+},
+{
+"key": "LFML",
+"name": "ML VDF",
+"mhz": 124.355,
+"desc": "PROVENCE Gonio"
+},
+{
+"key": "LFML",
+"name": "ML VDF",
+"mhz": 126.26,
+"desc": "PROVENCE Gonio"
+},
+{
+"key": "LFML",
+"name": "ML VDF",
+"mhz": 131.23,
+"desc": "PROVENCE Gonio"
+},
+{
+"key": "LFML",
+"name": "ML VDF",
+"mhz": 132.305,
+"desc": "PROVENCE Gonio"
+},
+{
+"key": "LFML",
+"name": "ML VDF",
+"mhz": 132.955,
+"desc": "PROVENCE Gonio"
+},
+{
+"key": "LFML",
+"name": "ML VDF",
+"mhz": 133.105,
+"desc": "PROVENCE Gonio"
+},
+{
+"key": "LFML",
+"name": "ML ATIS",
+"mhz": 125.355,
+"desc": "PROVENCE"
+},
+{
+"key": "LFML",
+"name": "VOR MRM",
+"mhz": 108.8,
+"desc": "VOR-DME MRM"
+},
+{
+"key": "LFMN",
+"name": "MN INFO",
+"mhz": 120.855,
+"desc": "NICE Information"
+},
+{
+"key": "LFMN",
+"name": "MN INFO",
+"mhz": 122.93,
+"desc": "NICE Information"
+},
+{
+"key": "LFMN",
+"name": "MN INFO",
+"mhz": 124.43,
+"desc": "NICE Information"
+},
+{
+"key": "LFMN",
+"name": "MN APP",
+"mhz": 120.16,
+"desc": "NICE Approche"
+},
+{
+"key": "LFMN",
+"name": "MN APP",
+"mhz": 120.655,
+"desc": "NICE Approche"
+},
+{
+"key": "LFMN",
+"name": "MN APP",
+"mhz": 124.18,
+"desc": "NICE Approche"
+},
+{
+"key": "LFMN",
+"name": "MN APP",
+"mhz": 125.58,
+"desc": "NICE Approche"
+},
+{
+"key": "LFMN",
+"name": "MN APP",
+"mhz": 128.205,
+"desc": "NICE Approche"
+},
+{
+"key": "LFMN",
+"name": "MN APP",
+"mhz": 130.83,
+"desc": "NICE Approche"
+},
+{
+"key": "LFMN",
+"name": "MN APP",
+"mhz": 134.475,
+"desc": "NICE Approche"
+},
+{
+"key": "LFMN",
+"name": "MN DEL",
+"mhz": 121.78,
+"desc": "NICE Prevol"
+},
+{
+"key": "LFMN",
+"name": "MN GND",
+"mhz": 121.705,
+"desc": "NICE Sol"
+},
+{
+"key": "LFMN",
+"name": "MN TWR",
+"mhz": 118.705,
+"desc": "NICE Tour"
+},
+{
+"key": "LFMN",
+"name": "MN TWR",
+"mhz": 122.38,
+"desc": "NICE Tour"
+},
+{
+"key": "LFMN",
+"name": "MN TWR",
+"mhz": 123.155,
+"desc": "NICE Tour"
+},
+{
+"key": "LFMN",
+"name": "MN VDF",
+"mhz": 118.705,
+"desc": "NICE Gonio"
+},
+{
+"key": "LFMN",
+"name": "MN VDF",
+"mhz": 120.855,
+"desc": "NICE Gonio"
+},
+{
+"key": "LFMN",
+"name": "MN VDF",
+"mhz": 122.38,
+"desc": "NICE Gonio"
+},
+{
+"key": "LFMN",
+"name": "MN VDF",
+"mhz": 122.93,
+"desc": "NICE Gonio"
+},
+{
+"key": "LFMN",
+"name": "MN VDF",
+"mhz": 124.18,
+"desc": "NICE Gonio"
+},
+{
+"key": "LFMN",
+"name": "MN VDF",
+"mhz": 130.83,
+"desc": "NICE Gonio"
+},
+{
+"key": "LFMN",
+"name": "MN VDF",
+"mhz": 134.475,
+"desc": "NICE Gonio"
+},
+{
+"key": "LFMN",
+"name": "MN ATIS",
+"mhz": 129.605,
+"desc": "NICE"
+},
+{
+"key": "LFMN",
+"name": "MN ATIS",
+"mhz": 136.58,
+"desc": "NICE"
+},
+{
+"key": "LFMN",
+"name": "VOR AZR",
+"mhz": 109.65,
+"desc": "VOR-DME AZR"
+},
+{
+"key": "LFMO",
+"name": "MO APP",
+"mhz": 118.925,
+"desc": "ORANGE Approche"
+},
+{
+"key": "LFMO",
+"name": "MO APP",
+"mhz": 121.5,
+"desc": "ORANGE Approche"
+},
+{
+"key": "LFMO",
+"name": "MO APP",
+"mhz": 138.525,
+"desc": "ORANGE Approche"
+},
+{
+"key": "LFMO",
+"name": "MO APP",
+"mhz": 142.45,
+"desc": "ORANGE Approche"
+},
+{
+"key": "LFMO",
+"name": "MO APP",
+"mhz": 243.0,
+"desc": "ORANGE Approche"
+},
+{
+"key": "LFMO",
+"name": "MO APP",
+"mhz": 248.625,
+"desc": "ORANGE Approche"
+},
+{
+"key": "LFMO",
+"name": "MO APP",
+"mhz": 299.775,
+"desc": "ORANGE Approche"
+},
+{
+"key": "LFMO",
+"name": "MO APP",
+"mhz": 362.3,
+"desc": "ORANGE Approche"
+},
+{
+"key": "LFMO",
+"name": "MO PAR",
+"mhz": 139.525,
+"desc": "ORANGE Precision"
+},
+{
+"key": "LFMO",
+"name": "MO PAR",
+"mhz": 139.75,
+"desc": "ORANGE Precision"
+},
+{
+"key": "LFMO",
+"name": "MO PAR",
+"mhz": 265.9,
+"desc": "ORANGE Precision"
+},
+{
+"key": "LFMO",
+"name": "MO PAR",
+"mhz": 336.1,
+"desc": "ORANGE Precision"
+},
+{
+"key": "LFMO",
+"name": "MO SRE",
+"mhz": 123.3,
+"desc": "ORANGE Radar"
+},
+{
+"key": "LFMO",
+"name": "MO SRE",
+"mhz": 372.225,
+"desc": "ORANGE Radar"
+},
+{
+"key": "LFMO",
+"name": "MO SRE",
+"mhz": 375.975,
+"desc": "ORANGE Radar"
+},
+{
+"key": "LFMO",
+"name": "MO TWR",
+"mhz": 122.1,
+"desc": "ORANGE Tour"
+},
+{
+"key": "LFMO",
+"name": "MO TWR",
+"mhz": 128.95,
+"desc": "ORANGE Tour"
+},
+{
+"key": "LFMO",
+"name": "MO TWR",
+"mhz": 257.8,
+"desc": "ORANGE Tour"
+},
+{
+"key": "LFMO",
+"name": "MO TWR",
+"mhz": 388.775,
+"desc": "ORANGE Tour"
+},
+{
+"key": "LFMP",
+"name": "MP GND",
+"mhz": 121.78,
+"desc": "PERPIGNAN Sol"
+},
+{
+"key": "LFMP",
+"name": "MP TWR",
+"mhz": 118.3,
+"desc": "PERPIGNAN Tour"
+},
+{
+"key": "LFMP",
+"name": "MP VDF",
+"mhz": 118.3,
+"desc": "PERPIGNAN Gonio"
+},
+{
+"key": "LFMP",
+"name": "MP ATIS",
+"mhz": 127.88,
+"desc": "PERPIGNAN"
+},
+{
+"key": "LFMP",
+"name": "MP AA",
+"mhz": 118.3,
+"desc": "PERPIGNAN"
+},
+{
+"key": "LFMP",
+"name": "VOR PPG",
+"mhz": 116.25,
+"desc": "VOR-DME PPG"
+},
+{
+"key": "LFMQ",
+"name": "MQ AFIS",
+"mhz": 119.005,
+"desc": "LE CASTELLET Information"
+},
+{
+"key": "LFMQ",
+"name": "MQ AA",
+"mhz": 119.005,
+"desc": "LE CASTELLET Information"
+},
+{
+"key": "LFMT",
+"name": "MT INFO",
+"mhz": 125.905,
+"desc": "MONTPELLIER Information"
+},
+{
+"key": "LFMT",
+"name": "MT INFO",
+"mhz": 134.38,
+"desc": "MONTPELLIER Information"
+},
+{
+"key": "LFMT",
+"name": "MT INFO",
+"mhz": 136.625,
+"desc": "MONTPELLIER Information"
+},
+{
+"key": "LFMT",
+"name": "MT APP",
+"mhz": 120.38,
+"desc": "MONTPELLIER Approche"
+},
+{
+"key": "LFMT",
+"name": "MT APP",
+"mhz": 127.28,
+"desc": "MONTPELLIER Approche"
+},
+{
+"key": "LFMT",
+"name": "MT APP",
+"mhz": 130.855,
+"desc": "MONTPELLIER Approche"
+},
+{
+"key": "LFMT",
+"name": "MT APP",
+"mhz": 131.055,
+"desc": "MONTPELLIER Approche"
+},
+{
+"key": "LFMT",
+"name": "MT GND",
+"mhz": 121.955,
+"desc": "MONTPELLIER Sol"
+},
+{
+"key": "LFMT",
+"name": "MT TWR",
+"mhz": 118.205,
+"desc": "MONTPELLIER Tour"
+},
+{
+"key": "LFMT",
+"name": "MT TWR",
+"mhz": 118.78,
+"desc": "MONTPELLIER Tour"
+},
+{
+"key": "LFMT",
+"name": "MT VDF",
+"mhz": 118.205,
+"desc": "MONTPELLIER Gonio"
+},
+{
+"key": "LFMT",
+"name": "MT VDF",
+"mhz": 118.78,
+"desc": "MONTPELLIER Gonio"
+},
+{
+"key": "LFMT",
+"name": "MT VDF",
+"mhz": 130.855,
+"desc": "MONTPELLIER Gonio"
+},
+{
+"key": "LFMT",
+"name": "MT VDF",
+"mhz": 131.055,
+"desc": "MONTPELLIER Gonio"
+},
+{
+"key": "LFMT",
+"name": "MT VDF",
+"mhz": 134.38,
+"desc": "MONTPELLIER Gonio"
+},
+{
+"key": "LFMT",
+"name": "MT VDF",
+"mhz": 136.625,
+"desc": "MONTPELLIER Gonio"
+},
+{
+"key": "LFMT",
+"name": "MT ATIS",
+"mhz": 124.13,
+"desc": "MONTPELLIER"
+},
+{
+"key": "LFMT",
+"name": "VOR FJR",
+"mhz": 114.45,
+"desc": "VOR-DME FJR"
+},
+{
+"key": "LFMU",
+"name": "MU TWR",
+"mhz": 120.175,
+"desc": "BEZIERS Tour"
+},
+{
+"key": "LFMU",
+"name": "MU VDF",
+"mhz": 120.175,
+"desc": "BEZIERS Gonio"
+},
+{
+"key": "LFMU",
+"name": "MU ATIS",
+"mhz": 127.53,
+"desc": "BEZIERS"
+},
+{
+"key": "LFMU",
+"name": "MU AA",
+"mhz": 120.175,
+"desc": "BEZIERS"
+},
+{
+"key": "LFMV",
+"name": "MV GND",
+"mhz": 121.755,
+"desc": "AVIGNON Sol"
+},
+{
+"key": "LFMV",
+"name": "MV TWR",
+"mhz": 122.605,
+"desc": "AVIGNON Tour"
+},
+{
+"key": "LFMV",
+"name": "MV VDF",
+"mhz": 122.605,
+"desc": "AVIGNON Gonio"
+},
+{
+"key": "LFMV",
+"name": "MV ATIS",
+"mhz": 120.83,
+"desc": "AVIGNON"
+},
+{
+"key": "LFMV",
+"name": "MV AA",
+"mhz": 122.605,
+"desc": "AVIGNON"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 135.15,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 142.175,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 142.45,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 142.75,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 232.2,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 243.0,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 356.875,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 362.3,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 370.7,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY APP",
+"mhz": 372.8,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY PAR",
+"mhz": 142.75,
+"desc": "SALON Precision"
+},
+{
+"key": "LFMY",
+"name": "MY PAR",
+"mhz": 265.9,
+"desc": "SALON Precision"
+},
+{
+"key": "LFMY",
+"name": "MY PAR",
+"mhz": 336.1,
+"desc": "SALON Precision"
+},
+{
+"key": "LFMY",
+"name": "MY SRE",
+"mhz": 232.2,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY SRE",
+"mhz": 356.875,
+"desc": "SALON Approche"
+},
+{
+"key": "LFMY",
+"name": "MY TWR",
+"mhz": 122.1,
+"desc": "SALON Tour"
+},
+{
+"key": "LFMY",
+"name": "MY TWR",
+"mhz": 130.3,
+"desc": "SALON Tour"
+},
+{
+"key": "LFMY",
+"name": "MY TWR",
+"mhz": 232.125,
+"desc": "SALON Tour"
+},
+{
+"key": "LFMY",
+"name": "MY TWR",
+"mhz": 257.8,
+"desc": "SALON Tour"
+},
+{
+"key": "LFMY",
+"name": "MY VDF",
+"mhz": 121.5,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY VDF",
+"mhz": 130.3,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY VDF",
+"mhz": 135.15,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY VDF",
+"mhz": 142.175,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY VDF",
+"mhz": 142.45,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY VDF",
+"mhz": 142.75,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY UDF",
+"mhz": 232.2,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY UDF",
+"mhz": 243.0,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY UDF",
+"mhz": 356.875,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY UDF",
+"mhz": 362.3,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY UDF",
+"mhz": 370.7,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFMY",
+"name": "MY UDF",
+"mhz": 372.8,
+"desc": "SALON Gonio"
+},
+{
+"key": "LFNB",
+"name": "NB AFIS",
+"mhz": 119.605,
+"desc": "MENDE Information"
+},
+{
+"key": "LFNB",
+"name": "NB AA",
+"mhz": 119.605,
+"desc": "MENDE"
+},
+{
+"key": "LFOA",
+"name": "OA APP",
+"mhz": 119.7,
+"desc": "AVORD Approche"
+},
+{
+"key": "LFOA",
+"name": "OA APP",
+"mhz": 121.5,
+"desc": "AVORD Approche"
+},
+{
+"key": "LFOA",
+"name": "OA APP",
+"mhz": 138.95,
+"desc": "AVORD Approche"
+},
+{
+"key": "LFOA",
+"name": "OA APP",
+"mhz": 142.45,
+"desc": "AVORD Approche"
+},
+{
+"key": "LFOA",
+"name": "OA APP",
+"mhz": 243.0,
+"desc": "AVORD Approche"
+},
+{
+"key": "LFOA",
+"name": "OA APP",
+"mhz": 362.3,
+"desc": "AVORD Approche"
+},
+{
+"key": "LFOA",
+"name": "OA APP",
+"mhz": 373.775,
+"desc": "AVORD Approche"
+},
+{
+"key": "LFOA",
+"name": "OA APP",
+"mhz": 386.775,
+"desc": "AVORD Approche"
+},
+{
+"key": "LFOA",
+"name": "OA PAR",
+"mhz": 123.3,
+"desc": "AVORD Precision"
+},
+{
+"key": "LFOA",
+"name": "OA PAR",
+"mhz": 141.3,
+"desc": "AVORD Precision"
+},
+{
+"key": "LFOA",
+"name": "OA PAR",
+"mhz": 278.625,
+"desc": "AVORD Precision"
+},
+{
+"key": "LFOA",
+"name": "OA PAR",
+"mhz": 336.1,
+"desc": "AVORD Precision"
+},
+{
+"key": "LFOA",
+"name": "OA PAR",
+"mhz": 369.275,
+"desc": "AVORD Precision"
+},
+{
+"key": "LFOA",
+"name": "OA SRE",
+"mhz": 123.3,
+"desc": "AVORD Radar"
+},
+{
+"key": "LFOA",
+"name": "OA SRE",
+"mhz": 140.675,
+"desc": "AVORD Radar"
+},
+{
+"key": "LFOA",
+"name": "OA SRE",
+"mhz": 265.9,
+"desc": "AVORD Radar"
+},
+{
+"key": "LFOA",
+"name": "OA SRE",
+"mhz": 278.625,
+"desc": "AVORD Radar"
+},
+{
+"key": "LFOA",
+"name": "OA SRE",
+"mhz": 369.275,
+"desc": "AVORD Radar"
+},
+{
+"key": "LFOA",
+"name": "OA TWR",
+"mhz": 122.1,
+"desc": "AVORD Tour"
+},
+{
+"key": "LFOA",
+"name": "OA TWR",
+"mhz": 142.225,
+"desc": "AVORD Tour"
+},
+{
+"key": "LFOA",
+"name": "OA TWR",
+"mhz": 257.8,
+"desc": "AVORD Tour"
+},
+{
+"key": "LFOA",
+"name": "OA TWR",
+"mhz": 398.55,
+"desc": "AVORD Tour"
+},
+{
+"key": "LFOA",
+"name": "OA VDF",
+"mhz": 119.7,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA VDF",
+"mhz": 121.5,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA VDF",
+"mhz": 122.1,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA VDF",
+"mhz": 140.675,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA VDF",
+"mhz": 142.45,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 243.0,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 257.8,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 265.9,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 278.625,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 362.3,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 369.275,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 373.775,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 386.775,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOA",
+"name": "OA UDF",
+"mhz": 398.55,
+"desc": "AVORD Gonio"
+},
+{
+"key": "LFOB",
+"name": "OB INFO",
+"mhz": 119.8,
+"desc": "BEAUVAIS Information"
+},
+{
+"key": "LFOB",
+"name": "OB INFO",
+"mhz": 123.985,
+"desc": "BEAUVAIS Information"
+},
+{
+"key": "LFOB",
+"name": "OB APP",
+"mhz": 121.405,
+"desc": "BEAUVAIS Approche"
+},
+{
+"key": "LFOB",
+"name": "OB APP",
+"mhz": 123.985,
+"desc": "BEAUVAIS Approche"
+},
+{
+"key": "LFOB",
+"name": "OB TWR",
+"mhz": 121.405,
+"desc": "BEAUVAIS Tour"
+},
+{
+"key": "LFOB",
+"name": "OB TWR",
+"mhz": 123.985,
+"desc": "BEAUVAIS Tour"
+},
+{
+"key": "LFOB",
+"name": "OB VDF",
+"mhz": 121.405,
+"desc": "BEAUVAIS Gonio"
+},
+{
+"key": "LFOB",
+"name": "OB VDF",
+"mhz": 123.985,
+"desc": "BEAUVAIS Gonio"
+},
+{
+"key": "LFOB",
+"name": "OB ATIS",
+"mhz": 118.38,
+"desc": "BEAUVAIS"
+},
+{
+"key": "LFOB",
+"name": "OB AA",
+"mhz": 121.405,
+"desc": "BEAUVAIS"
+},
+{
+"key": "LFOB",
+"name": "VOR BOV",
+"mhz": 109.65,
+"desc": "VOR-DME BOV"
+},
+{
+"key": "LFOE",
+"name": "OE APP",
+"mhz": 118.125,
+"desc": "EVREUX Approche"
+},
+{
+"key": "LFOE",
+"name": "OE APP",
+"mhz": 121.5,
+"desc": "EVREUX Approche"
+},
+{
+"key": "LFOE",
+"name": "OE APP",
+"mhz": 142.45,
+"desc": "EVREUX Approche"
+},
+{
+"key": "LFOE",
+"name": "OE APP",
+"mhz": 243.0,
+"desc": "EVREUX Approche"
+},
+{
+"key": "LFOE",
+"name": "OE APP",
+"mhz": 362.2,
+"desc": "EVREUX Approche"
+},
+{
+"key": "LFOE",
+"name": "OE APP",
+"mhz": 362.3,
+"desc": "EVREUX Approche"
+},
+{
+"key": "LFOE",
+"name": "OE SRE",
+"mhz": 138.05,
+"desc": "EVREUX Radar"
+},
+{
+"key": "LFOE",
+"name": "OE SRE",
+"mhz": 265.9,
+"desc": "EVREUX Radar"
+},
+{
+"key": "LFOE",
+"name": "OE SRE",
+"mhz": 279.15,
+"desc": "EVREUX Radar"
+},
+{
+"key": "LFOE",
+"name": "OE SRE",
+"mhz": 336.1,
+"desc": "EVREUX Radar"
+},
+{
+"key": "LFOE",
+"name": "OE SRE",
+"mhz": 359.475,
+"desc": "EVREUX Radar"
+},
+{
+"key": "LFOE",
+"name": "OE TWR",
+"mhz": 119.7,
+"desc": "EVREUX Tour"
+},
+{
+"key": "LFOE",
+"name": "OE TWR",
+"mhz": 122.1,
+"desc": "EVREUX Tour"
+},
+{
+"key": "LFOE",
+"name": "OE TWR",
+"mhz": 125.375,
+"desc": "EVREUX Tour"
+},
+{
+"key": "LFOE",
+"name": "OE TWR",
+"mhz": 257.8,
+"desc": "EVREUX Tour"
+},
+{
+"key": "LFOE",
+"name": "OE TWR",
+"mhz": 399.525,
+"desc": "EVREUX Tour"
+},
+{
+"key": "LFOE",
+"name": "OE VDF",
+"mhz": 118.125,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE VDF",
+"mhz": 119.7,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE VDF",
+"mhz": 121.5,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE VDF",
+"mhz": 122.1,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE VDF",
+"mhz": 125.375,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE VDF",
+"mhz": 142.45,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 243.0,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 257.8,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 265.9,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 279.15,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 336.1,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 359.475,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 362.2,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 362.3,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE UDF",
+"mhz": 399.525,
+"desc": "EVREUX Gonio"
+},
+{
+"key": "LFOE",
+"name": "OE ATIS",
+"mhz": 138.225,
+"desc": "EVREUX"
+},
+{
+"key": "LFOH",
+"name": "OH AFIS",
+"mhz": 135.205,
+"desc": "LE HAVRE Information"
+},
+{
+"key": "LFOH",
+"name": "OH AA",
+"mhz": 135.205,
+"desc": "LE HAVRE"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 122.7,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 123.3,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 138.75,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 139.4,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 142.45,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 235.15,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 265.9,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 336.1,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 360.125,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 362.3,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 374.225,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ APP",
+"mhz": 398.35,
+"desc": "BRICY Approche"
+},
+{
+"key": "LFOJ",
+"name": "OJ PAR",
+"mhz": 123.3,
+"desc": "BRICY Precision"
+},
+{
+"key": "LFOJ",
+"name": "OJ PAR",
+"mhz": 138.75,
+"desc": "BRICY Precision"
+},
+{
+"key": "LFOJ",
+"name": "OJ PAR",
+"mhz": 139.4,
+"desc": "BRICY Precision"
+},
+{
+"key": "LFOJ",
+"name": "OJ TWR",
+"mhz": 121.5,
+"desc": "BRICY Tour"
+},
+{
+"key": "LFOJ",
+"name": "OJ TWR",
+"mhz": 122.1,
+"desc": "BRICY Tour"
+},
+{
+"key": "LFOJ",
+"name": "OJ TWR",
+"mhz": 124.8,
+"desc": "BRICY Tour"
+},
+{
+"key": "LFOJ",
+"name": "OJ TWR",
+"mhz": 243.0,
+"desc": "BRICY Tour"
+},
+{
+"key": "LFOJ",
+"name": "OJ TWR",
+"mhz": 257.8,
+"desc": "BRICY Tour"
+},
+{
+"key": "LFOJ",
+"name": "OJ TWR",
+"mhz": 378.75,
+"desc": "BRICY Tour"
+},
+{
+"key": "LFOJ",
+"name": "VOR BCY",
+"mhz": 117.35,
+"desc": "VOR-DME BCY"
+},
+{
+"key": "LFOK",
+"name": "OK TWR",
+"mhz": 129.405,
+"desc": "VATRY Tour"
+},
+{
+"key": "LFOK",
+"name": "OK AFIS",
+"mhz": 129.405,
+"desc": "VATRY Information"
+},
+{
+"key": "LFOK",
+"name": "OK VDF",
+"mhz": 129.405,
+"desc": "VATRY Gonio"
+},
+{
+"key": "LFOK",
+"name": "OK ATIS",
+"mhz": 136.38,
+"desc": "VATRY"
+},
+{
+"key": "LFOK",
+"name": "OK AA",
+"mhz": 129.405,
+"desc": "VATRY"
+},
+{
+"key": "LFOK",
+"name": "VOR CAV",
+"mhz": 111.65,
+"desc": "VOR-DME CAV"
+},
+{
+"key": "LFOP",
+"name": "OP TWR",
+"mhz": 120.2,
+"desc": "ROUEN Tour"
+},
+{
+"key": "LFOP",
+"name": "OP VDF",
+"mhz": 118.575,
+"desc": "ROUEN Gonio"
+},
+{
+"key": "LFOP",
+"name": "OP VDF",
+"mhz": 120.2,
+"desc": "ROUEN Gonio"
+},
+{
+"key": "LFOP",
+"name": "OP ATIS",
+"mhz": 120.73,
+"desc": "ROUEN"
+},
+{
+"key": "LFOP",
+"name": "OP AA",
+"mhz": 120.2,
+"desc": "ROUEN"
+},
+{
+"key": "LFOP",
+"name": "VOR ROU",
+"mhz": 116.8,
+"desc": "VOR ROU"
+},
+{
+"key": "LFOQ",
+"name": "OQ AFIS",
+"mhz": 118.455,
+"desc": "BLOIS Information"
+},
+{
+"key": "LFOQ",
+"name": "OQ AA",
+"mhz": 118.455,
+"desc": "BLOIS"
+},
+{
+"key": "LFOT",
+"name": "OT TWR",
+"mhz": 124.4,
+"desc": "TOURS Tour"
+},
+{
+"key": "LFOT",
+"name": "OT AFIS",
+"mhz": 124.4,
+"desc": "TOURS Information"
+},
+{
+"key": "LFOT",
+"name": "OT AA",
+"mhz": 124.4,
+"desc": "TOURS"
+},
+{
+"key": "LFOU",
+"name": "OU AFIS",
+"mhz": 120.405,
+"desc": "CHOLET Information"
+},
+{
+"key": "LFOU",
+"name": "OU AA",
+"mhz": 120.405,
+"desc": "CHOLET"
+},
+{
+"key": "LFOV",
+"name": "OV AFIS",
+"mhz": 120.805,
+"desc": "LAVAL Information"
+},
+{
+"key": "LFOV",
+"name": "OV AA",
+"mhz": 120.805,
+"desc": "LAVAL"
+},
+{
+"key": "LFOZ",
+"name": "OZ AFIS",
+"mhz": 122.405,
+"desc": "ST DENIS Information"
+},
+{
+"key": "LFOZ",
+"name": "OZ AA",
+"mhz": 122.405,
+"desc": "ST DENIS"
+},
+{
+"key": "LFPB",
+"name": "PB INFO",
+"mhz": 123.835,
+"desc": "LE BOURGET Information"
+},
+{
+"key": "LFPB",
+"name": "PB APP",
+"mhz": 118.805,
+"desc": "LE BOURGET Approche"
+},
+{
+"key": "LFPB",
+"name": "PB DEL",
+"mhz": 121.955,
+"desc": "LE BOURGET Prevol"
+},
+{
+"key": "LFPB",
+"name": "PB GND",
+"mhz": 121.905,
+"desc": "LE BOURGET Sol"
+},
+{
+"key": "LFPB",
+"name": "PB TWR",
+"mhz": 118.405,
+"desc": "LE BOURGET Tour"
+},
+{
+"key": "LFPB",
+"name": "PB TWR",
+"mhz": 118.93,
+"desc": "LE BOURGET Tour"
+},
+{
+"key": "LFPB",
+"name": "PB ATIS",
+"mhz": 120.005,
+"desc": "LE BOURGET"
+},
+{
+"key": "LFPB",
+"name": "VOR BT",
+"mhz": 116.1,
+"desc": "VOR-DME BT"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 118.155,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 119.855,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 121.155,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 124.355,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 125.83,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 126.43,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 126.58,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 131.205,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 133.38,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG APP",
+"mhz": 136.28,
+"desc": "DE GAULLE Approche"
+},
+{
+"key": "LFPG",
+"name": "PG DEL",
+"mhz": 121.73,
+"desc": "DE GAULLE Prevol"
+},
+{
+"key": "LFPG",
+"name": "PG DEL",
+"mhz": 121.84,
+"desc": "DE GAULLE Prevol"
+},
+{
+"key": "LFPG",
+"name": "PG GND",
+"mhz": 121.61,
+"desc": "DE GAULLE Sol"
+},
+{
+"key": "LFPG",
+"name": "PG GND",
+"mhz": 121.78,
+"desc": "DE GAULLE Sol"
+},
+{
+"key": "LFPG",
+"name": "PG GND",
+"mhz": 121.81,
+"desc": "DE GAULLE Sol"
+},
+{
+"key": "LFPG",
+"name": "PG GND",
+"mhz": 121.98,
+"desc": "DE GAULLE Sol"
+},
+{
+"key": "LFPG",
+"name": "PG TWR",
+"mhz": 118.655,
+"desc": "DE GAULLE Tour"
+},
+{
+"key": "LFPG",
+"name": "PG TWR",
+"mhz": 119.255,
+"desc": "DE GAULLE Tour"
+},
+{
+"key": "LFPG",
+"name": "PG TWR",
+"mhz": 119.63,
+"desc": "DE GAULLE Tour"
+},
+{
+"key": "LFPG",
+"name": "PG TWR",
+"mhz": 120.655,
+"desc": "DE GAULLE Tour"
+},
+{
+"key": "LFPG",
+"name": "PG TWR",
+"mhz": 120.905,
+"desc": "DE GAULLE Tour"
+},
+{
+"key": "LFPG",
+"name": "PG TWR",
+"mhz": 123.605,
+"desc": "DE GAULLE Tour"
+},
+{
+"key": "LFPG",
+"name": "PG TWR",
+"mhz": 125.33,
+"desc": "DE GAULLE Tour"
+},
+{
+"key": "LFPG",
+"name": "PG APN",
+"mhz": 121.58,
+"desc": "DE GAULLE Trafic"
+},
+{
+"key": "LFPG",
+"name": "PG APN",
+"mhz": 121.64,
+"desc": "DE GAULLE Trafic"
+},
+{
+"key": "LFPG",
+"name": "PG APN",
+"mhz": 121.68,
+"desc": "DE GAULLE Trafic"
+},
+{
+"key": "LFPG",
+"name": "PG APN",
+"mhz": 121.88,
+"desc": "DE GAULLE Trafic"
+},
+{
+"key": "LFPG",
+"name": "PG APN",
+"mhz": 121.93,
+"desc": "DE GAULLE Trafic"
+},
+{
+"key": "LFPG",
+"name": "PG APN",
+"mhz": 125.33,
+"desc": "DE GAULLE Trafic"
+},
+{
+"key": "LFPG",
+"name": "PG APN",
+"mhz": 131.605,
+"desc": "FEDEX Trafic"
+},
+{
+"key": "LFPG",
+"name": "PG ATIS",
+"mhz": 128.23,
+"desc": "DE GAULLE"
+},
+{
+"key": "LFPG",
+"name": "PG ATIS",
+"mhz": 127.13,
+"desc": "DE GAULLE"
+},
+{
+"key": "LFPM",
+"name": "PM INFO",
+"mhz": 120.33,
+"desc": "SEINE Information"
+},
+{
+"key": "LFPM",
+"name": "PM INFO",
+"mhz": 127.815,
+"desc": "SEINE Information"
+},
+{
+"key": "LFPM",
+"name": "PM INFO",
+"mhz": 134.3,
+"desc": "SEINE Information"
+},
+{
+"key": "LFPM",
+"name": "PM APP",
+"mhz": 118.05,
+"desc": "SEINE Approche"
+},
+{
+"key": "LFPM",
+"name": "PM APP",
+"mhz": 118.89,
+"desc": "SEINE Approche"
+},
+{
+"key": "LFPM",
+"name": "PM APP",
+"mhz": 134.875,
+"desc": "SEINE Approche"
+},
+{
+"key": "LFPM",
+"name": "PM TWR",
+"mhz": 121.105,
+"desc": "MELUN Tour"
+},
+{
+"key": "LFPM",
+"name": "PM AFIS",
+"mhz": 121.105,
+"desc": "MELUN Information"
+},
+{
+"key": "LFPM",
+"name": "PM ATIS",
+"mhz": 128.18,
+"desc": "MELUN"
+},
+{
+"key": "LFPM",
+"name": "PM AA",
+"mhz": 121.105,
+"desc": "MELUN"
+},
+{
+"key": "LFPM",
+"name": "VOR MLN",
+"mhz": 113.6,
+"desc": "VOR-DME MLN"
+},
+{
+"key": "LFPN",
+"name": "PN INFO",
+"mhz": 119.305,
+"desc": "CHEVREUSE Info"
+},
+{
+"key": "LFPN",
+"name": "PN GND",
+"mhz": 122.13,
+"desc": "TOUSSUS Sol"
+},
+{
+"key": "LFPN",
+"name": "PN TWR",
+"mhz": 119.305,
+"desc": "TOUSSUS Tour"
+},
+{
+"key": "LFPN",
+"name": "PN TWR",
+"mhz": 120.755,
+"desc": "TOUSSUS Tour"
+},
+{
+"key": "LFPN",
+"name": "PN VDF",
+"mhz": 119.305,
+"desc": "TOUSSUS Gonio"
+},
+{
+"key": "LFPN",
+"name": "PN VDF",
+"mhz": 120.755,
+"desc": "TOUSSUS Gonio"
+},
+{
+"key": "LFPN",
+"name": "PN ATIS",
+"mhz": 127.48,
+"desc": "TOUSSUS"
+},
+{
+"key": "LFPN",
+"name": "VOR TSU",
+"mhz": 108.25,
+"desc": "VOR TSU"
+},
+{
+"key": "LFPO",
+"name": "PO APP",
+"mhz": 118.855,
+"desc": "ORLY Approche"
+},
+{
+"key": "LFPO",
+"name": "PO APP",
+"mhz": 120.855,
+"desc": "ORLY Approche"
+},
+{
+"key": "LFPO",
+"name": "PO APP",
+"mhz": 123.88,
+"desc": "ORLY Approche"
+},
+{
+"key": "LFPO",
+"name": "PO APP",
+"mhz": 124.455,
+"desc": "ORLY Approche"
+},
+{
+"key": "LFPO",
+"name": "PO APP",
+"mhz": 127.755,
+"desc": "ORLY Approche"
+},
+{
+"key": "LFPO",
+"name": "PO APP",
+"mhz": 128.38,
+"desc": "ORLY Approche"
+},
+{
+"key": "LFPO",
+"name": "PO DEL",
+"mhz": 121.555,
+"desc": "ORLY Prevol"
+},
+{
+"key": "LFPO",
+"name": "PO GND",
+"mhz": 121.705,
+"desc": "ORLY Sol"
+},
+{
+"key": "LFPO",
+"name": "PO GND",
+"mhz": 121.815,
+"desc": "ORLY Sol"
+},
+{
+"key": "LFPO",
+"name": "PO TWR",
+"mhz": 118.705,
+"desc": "ORLY Tour"
+},
+{
+"key": "LFPO",
+"name": "PO TWR",
+"mhz": 120.505,
+"desc": "ORLY Tour"
+},
+{
+"key": "LFPO",
+"name": "PO TWR",
+"mhz": 135.005,
+"desc": "ORLY Tour"
+},
+{
+"key": "LFPO",
+"name": "PO VDF",
+"mhz": 118.705,
+"desc": "ORLY Gonio"
+},
+{
+"key": "LFPO",
+"name": "PO VDF",
+"mhz": 118.855,
+"desc": "ORLY Gonio"
+},
+{
+"key": "LFPO",
+"name": "PO VDF",
+"mhz": 121.5,
+"desc": "ORLY Gonio"
+},
+{
+"key": "LFPO",
+"name": "PO VDF",
+"mhz": 123.88,
+"desc": "ORLY Gonio"
+},
+{
+"key": "LFPO",
+"name": "PO VDF",
+"mhz": 124.455,
+"desc": "ORLY Gonio"
+},
+{
+"key": "LFPO",
+"name": "PO VDF",
+"mhz": 127.755,
+"desc": "ORLY Gonio"
+},
+{
+"key": "LFPO",
+"name": "PO VDF",
+"mhz": 128.38,
+"desc": "ORLY Gonio"
+},
+{
+"key": "LFPO",
+"name": "PO ATIS",
+"mhz": 126.505,
+"desc": "ORLY"
+},
+{
+"key": "LFPO",
+"name": "PO ATIS",
+"mhz": 131.355,
+"desc": "ORLY"
+},
+{
+"key": "LFPO",
+"name": "PO AA",
+"mhz": 131.51,
+"desc": "ORLY"
+},
+{
+"key": "LFPT",
+"name": "PT TWR",
+"mhz": 121.205,
+"desc": "PONTOISE Tour"
+},
+{
+"key": "LFPT",
+"name": "PT VDF",
+"mhz": 121.205,
+"desc": "PONTOISE Gonio"
+},
+{
+"key": "LFPT",
+"name": "PT ATIS",
+"mhz": 124.13,
+"desc": "PONTOISE"
+},
+{
+"key": "LFPT",
+"name": "VOR PON",
+"mhz": 111.6,
+"desc": "VOR PON"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 119.425,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 123.3,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 123.75,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 142.45,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 243.0,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 246.95,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 265.9,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 278.425,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 336.1,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 362.3,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV APP",
+"mhz": 374.625,
+"desc": "VILLA Approche"
+},
+{
+"key": "LFPV",
+"name": "PV TWR",
+"mhz": 121.75,
+"desc": "VILLA Tour"
+},
+{
+"key": "LFPV",
+"name": "PV TWR",
+"mhz": 128.95,
+"desc": "VILLA Tour"
+},
+{
+"key": "LFPV",
+"name": "PV TWR",
+"mhz": 243.0,
+"desc": "VILLA Tour"
+},
+{
+"key": "LFPV",
+"name": "PV TWR",
+"mhz": 257.8,
+"desc": "VILLA Tour"
+},
+{
+"key": "LFPV",
+"name": "PV TWR",
+"mhz": 343.175,
+"desc": "VILLA Tour"
+},
+{
+"key": "LFQA",
+"name": "QA AFIS",
+"mhz": 134.93,
+"desc": "PRUNAY Information"
+},
+{
+"key": "LFQA",
+"name": "QA AA",
+"mhz": 134.93,
+"desc": "PRUNAY"
+},
+{
+"key": "LFQB",
+"name": "QB AFIS",
+"mhz": 123.73,
+"desc": "TROYES Information"
+},
+{
+"key": "LFQB",
+"name": "QB VDF",
+"mhz": 123.73,
+"desc": "TROYES Gonio"
+},
+{
+"key": "LFQB",
+"name": "QB AA",
+"mhz": 123.73,
+"desc": "TROYES"
+},
+{
+"key": "LFQE",
+"name": "QE APP",
+"mhz": 120.125,
+"desc": "ETAIN Approche"
+},
+{
+"key": "LFQE",
+"name": "QE APP",
+"mhz": 374.125,
+"desc": "ETAIN Approche"
+},
+{
+"key": "LFQE",
+"name": "QE GND",
+"mhz": 138.1,
+"desc": "ETAIN Sol"
+},
+{
+"key": "LFQE",
+"name": "QE TWR",
+"mhz": 118.95,
+"desc": "ETAIN Tour"
+},
+{
+"key": "LFQE",
+"name": "QE VDF",
+"mhz": 120.125,
+"desc": "ETAIN Gonio"
+},
+{
+"key": "LFQE",
+"name": "QE VDF",
+"mhz": 121.5,
+"desc": "ETAIN Gonio"
+},
+{
+"key": "LFQG",
+"name": "QG AFIS",
+"mhz": 120.605,
+"desc": "NEVERS Information"
+},
+{
+"key": "LFQG",
+"name": "QG AA",
+"mhz": 120.605,
+"desc": "NEVERS"
+},
+{
+"key": "LFQM",
+"name": "QM AFIS",
+"mhz": 122.205,
+"desc": "LA VEZE Information"
+},
+{
+"key": "LFQM",
+"name": "QM AA",
+"mhz": 122.205,
+"desc": "BESANCON"
+},
+{
+"key": "LFQP",
+"name": "QP INFO",
+"mhz": 118.45,
+"desc": "PHALSBOURG Information"
+},
+{
+"key": "LFQP",
+"name": "QP APP",
+"mhz": 118.45,
+"desc": "PHALSBOURG Approche"
+},
+{
+"key": "LFQP",
+"name": "QP APP",
+"mhz": 376.05,
+"desc": "PHALSBOURG Approche"
+},
+{
+"key": "LFQP",
+"name": "QP PAR",
+"mhz": 376.05,
+"desc": "PHALSBOURG Precision"
+},
+{
+"key": "LFQP",
+"name": "QP SRE",
+"mhz": 118.45,
+"desc": "PHALSBOURG Radar"
+},
+{
+"key": "LFQP",
+"name": "QP SRE",
+"mhz": 376.05,
+"desc": "PHALSBOURG Radar"
+},
+{
+"key": "LFQP",
+"name": "QP GND",
+"mhz": 139.6,
+"desc": "PHALSBOURG Sol"
+},
+{
+"key": "LFQP",
+"name": "QP TWR",
+"mhz": 129.8,
+"desc": "PHALSBOURG Tour"
+},
+{
+"key": "LFQP",
+"name": "QP TWR",
+"mhz": 397.375,
+"desc": "PHALSBOURG Tour"
+},
+{
+"key": "LFQP",
+"name": "QP VDF",
+"mhz": 118.45,
+"desc": "PHALSBOURG Gonio"
+},
+{
+"key": "LFQP",
+"name": "QP VDF",
+"mhz": 121.5,
+"desc": "PHALSBOURG Gonio"
+},
+{
+"key": "LFQP",
+"name": "QP VDF",
+"mhz": 123.5,
+"desc": "PHALSBOURG Gonio"
+},
+{
+"key": "LFQP",
+"name": "QP VDF",
+"mhz": 129.8,
+"desc": "PHALSBOURG Gonio"
+},
+{
+"key": "LFQP",
+"name": "QP ATIS",
+"mhz": 143.575,
+"desc": "PHALSBOURG"
+},
+{
+"key": "LFQQ",
+"name": "QQ INFO",
+"mhz": 126.48,
+"desc": "LILLE Information"
+},
+{
+"key": "LFQQ",
+"name": "QQ INFO",
+"mhz": 129.36,
+"desc": "LILLE Information"
+},
+{
+"key": "LFQQ",
+"name": "QQ INFO",
+"mhz": 132.54,
+"desc": "LILLE Information"
+},
+{
+"key": "LFQQ",
+"name": "QQ INFO",
+"mhz": 132.61,
+"desc": "LILLE Information"
+},
+{
+"key": "LFQQ",
+"name": "QQ INFO",
+"mhz": 134.825,
+"desc": "LILLE Information"
+},
+{
+"key": "LFQQ",
+"name": "QQ APP",
+"mhz": 120.275,
+"desc": "LILLE Approche"
+},
+{
+"key": "LFQQ",
+"name": "QQ APP",
+"mhz": 122.06,
+"desc": "LILLE Approche"
+},
+{
+"key": "LFQQ",
+"name": "QQ APP",
+"mhz": 125.5,
+"desc": "LILLE Approche"
+},
+{
+"key": "LFQQ",
+"name": "QQ APP",
+"mhz": 126.48,
+"desc": "LILLE Approche"
+},
+{
+"key": "LFQQ",
+"name": "QQ APP",
+"mhz": 129.36,
+"desc": "LILLE Approche"
+},
+{
+"key": "LFQQ",
+"name": "QQ APP",
+"mhz": 134.825,
+"desc": "LILLE Approche"
+},
+{
+"key": "LFQQ",
+"name": "QQ GND",
+"mhz": 121.855,
+"desc": "LILLE Sol"
+},
+{
+"key": "LFQQ",
+"name": "QQ TWR",
+"mhz": 118.555,
+"desc": "LILLE Tour"
+},
+{
+"key": "LFQQ",
+"name": "QQ VDF",
+"mhz": 118.555,
+"desc": "LILLE Gonio"
+},
+{
+"key": "LFQQ",
+"name": "QQ VDF",
+"mhz": 126.48,
+"desc": "LILLE Gonio"
+},
+{
+"key": "LFQQ",
+"name": "QQ VDF",
+"mhz": 129.36,
+"desc": "LILLE Gonio"
+},
+{
+"key": "LFQQ",
+"name": "QQ VDF",
+"mhz": 134.825,
+"desc": "LILLE Gonio"
+},
+{
+"key": "LFQQ",
+"name": "QQ ATIS",
+"mhz": 119.33,
+"desc": "LILLE"
+},
+{
+"key": "LFQT",
+"name": "QT GND",
+"mhz": 121.68,
+"desc": "MERVILLE Sol"
+},
+{
+"key": "LFQT",
+"name": "QT TWR",
+"mhz": 119.08,
+"desc": "MERVILLE Tour"
+},
+{
+"key": "LFQT",
+"name": "QT VDF",
+"mhz": 119.08,
+"desc": "MERVILLE Gonio"
+},
+{
+"key": "LFQT",
+"name": "QT ATIS",
+"mhz": 127.905,
+"desc": "MERVILLE"
+},
+{
+"key": "LFQT",
+"name": "QT AA",
+"mhz": 119.08,
+"desc": "MERVILLE"
+},
+{
+"key": "LFRB",
+"name": "RB INFO",
+"mhz": 119.575,
+"desc": "IROISE Information"
+},
+{
+"key": "LFRB",
+"name": "RB INFO",
+"mhz": 135.83,
+"desc": "IROISE Information"
+},
+{
+"key": "LFRB",
+"name": "RB APP",
+"mhz": 125.86,
+"desc": "IROISE Approche"
+},
+{
+"key": "LFRB",
+"name": "RB TWR",
+"mhz": 120.105,
+"desc": "BRETAGNE Tour"
+},
+{
+"key": "LFRB",
+"name": "RB VDF",
+"mhz": 120.105,
+"desc": "BRETAGNE Gonio"
+},
+{
+"key": "LFRB",
+"name": "RB VDF",
+"mhz": 119.575,
+"desc": "IROISE Gonio"
+},
+{
+"key": "LFRB",
+"name": "RB VDF",
+"mhz": 125.86,
+"desc": "IROISE Gonio"
+},
+{
+"key": "LFRB",
+"name": "RB VDF",
+"mhz": 135.83,
+"desc": "IROISE Gonio"
+},
+{
+"key": "LFRB",
+"name": "RB ATIS",
+"mhz": 129.355,
+"desc": "BRETAGNE"
+},
+{
+"key": "LFRB",
+"name": "VOR BZH",
+"mhz": 110.65,
+"desc": "VOR-DME BZH"
+},
+{
+"key": "LFRC",
+"name": "RC AFIS",
+"mhz": 119.63,
+"desc": "CHERBOURG Information"
+},
+{
+"key": "LFRC",
+"name": "RC AA",
+"mhz": 119.63,
+"desc": "CHERBOURG"
+},
+{
+"key": "LFRD",
+"name": "RD TWR",
+"mhz": 120.155,
+"desc": "DINARD Tour"
+},
+{
+"key": "LFRD",
+"name": "RD VDF",
+"mhz": 120.155,
+"desc": "DINARD Gonio"
+},
+{
+"key": "LFRD",
+"name": "RD ATIS",
+"mhz": 124.58,
+"desc": "DINARD"
+},
+{
+"key": "LFRD",
+"name": "RD AA",
+"mhz": 120.155,
+"desc": "DINARD"
+},
+{
+"key": "LFRD",
+"name": "VOR DIN",
+"mhz": 114.3,
+"desc": "VOR-DME DIN"
+},
+{
+"key": "LFRG",
+"name": "RG GND",
+"mhz": 118.305,
+"desc": "DEAUVILLE Sol"
+},
+{
+"key": "LFRG",
+"name": "RG TWR",
+"mhz": 118.305,
+"desc": "DEAUVILLE Tour"
+},
+{
+"key": "LFRG",
+"name": "RG VDF",
+"mhz": 118.305,
+"desc": "DEAUVILLE Gonio"
+},
+{
+"key": "LFRG",
+"name": "RG ATIS",
+"mhz": 119.18,
+"desc": "DEAUVILLE"
+},
+{
+"key": "LFRG",
+"name": "RG AA",
+"mhz": 118.305,
+"desc": "DEAUVILLE"
+},
+{
+"key": "LFRG",
+"name": "VOR DVL",
+"mhz": 110.2,
+"desc": "VOR DVL"
+},
+{
+"key": "LFRH",
+"name": "RH APP",
+"mhz": 122.1,
+"desc": "LORIENT Approche"
+},
+{
+"key": "LFRH",
+"name": "RH APP",
+"mhz": 122.3,
+"desc": "LORIENT Approche"
+},
+{
+"key": "LFRH",
+"name": "RH APP",
+"mhz": 122.7,
+"desc": "LORIENT Approche"
+},
+{
+"key": "LFRH",
+"name": "RH APP",
+"mhz": 123.0,
+"desc": "LORIENT Approche"
+},
+{
+"key": "LFRH",
+"name": "RH APP",
+"mhz": 231.875,
+"desc": "LORIENT Approche"
+},
+{
+"key": "LFRH",
+"name": "RH PAR",
+"mhz": 118.175,
+"desc": "LORIENT Precision"
+},
+{
+"key": "LFRH",
+"name": "RH PAR",
+"mhz": 328.55,
+"desc": "LORIENT Precision"
+},
+{
+"key": "LFRH",
+"name": "RH SRE",
+"mhz": 362.3,
+"desc": "LORIENT Radar"
+},
+{
+"key": "LFRH",
+"name": "RH GND",
+"mhz": 119.7,
+"desc": "LORIENT Sol"
+},
+{
+"key": "LFRH",
+"name": "RH GND",
+"mhz": 387.6,
+"desc": "LORIENT Sol"
+},
+{
+"key": "LFRH",
+"name": "RH TWR",
+"mhz": 122.7,
+"desc": "LORIENT Tour"
+},
+{
+"key": "LFRH",
+"name": "RH TWR",
+"mhz": 281.55,
+"desc": "LORIENT Tour"
+},
+{
+"key": "LFRH",
+"name": "RH AFIS",
+"mhz": 122.7,
+"desc": "LORIENT Info"
+},
+{
+"key": "LFRH",
+"name": "RH VDF",
+"mhz": 123.3,
+"desc": "LORIENT Gonio"
+},
+{
+"key": "LFRH",
+"name": "RH UDF",
+"mhz": 269.2,
+"desc": "LORIENT Gonio"
+},
+{
+"key": "LFRH",
+"name": "RH ATIS",
+"mhz": 129.125,
+"desc": "LORIENT"
+},
+{
+"key": "LFRI",
+"name": "RI AFIS",
+"mhz": 119.905,
+"desc": "LA ROCHE Information"
+},
+{
+"key": "LFRI",
+"name": "RI AA",
+"mhz": 119.905,
+"desc": "LA ROCHE"
+},
+{
+"key": "LFRJ",
+"name": "RJ APP",
+"mhz": 122.4,
+"desc": "LANDI Approche"
+},
+{
+"key": "LFRJ",
+"name": "RJ APP",
+"mhz": 357.025,
+"desc": "LANDI Approche"
+},
+{
+"key": "LFRJ",
+"name": "RJ PAR",
+"mhz": 118.8,
+"desc": "LANDI Precision"
+},
+{
+"key": "LFRJ",
+"name": "RJ PAR",
+"mhz": 259.7,
+"desc": "LANDI Precision"
+},
+{
+"key": "LFRJ",
+"name": "RJ SRE",
+"mhz": 120.9,
+"desc": "LANDI Radar"
+},
+{
+"key": "LFRJ",
+"name": "RJ SRE",
+"mhz": 377.225,
+"desc": "LANDI Radar"
+},
+{
+"key": "LFRJ",
+"name": "RJ TWR",
+"mhz": 119.2,
+"desc": "LANDI Tour"
+},
+{
+"key": "LFRJ",
+"name": "RJ TWR",
+"mhz": 119.7,
+"desc": "LANDI Tour"
+},
+{
+"key": "LFRJ",
+"name": "RJ TWR",
+"mhz": 233.75,
+"desc": "LANDI Tour"
+},
+{
+"key": "LFRJ",
+"name": "RJ TWR",
+"mhz": 257.8,
+"desc": "LANDI Tour"
+},
+{
+"key": "LFRJ",
+"name": "RJ VDF",
+"mhz": 118.8,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ VDF",
+"mhz": 119.2,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ VDF",
+"mhz": 119.7,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ VDF",
+"mhz": 120.9,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ VDF",
+"mhz": 122.4,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ UDF",
+"mhz": 233.75,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ UDF",
+"mhz": 257.8,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ UDF",
+"mhz": 259.7,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ UDF",
+"mhz": 357.025,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ UDF",
+"mhz": 377.225,
+"desc": "LANDI Gonio"
+},
+{
+"key": "LFRJ",
+"name": "RJ ATIS",
+"mhz": 142.225,
+"desc": "LANDI"
+},
+{
+"key": "LFRK",
+"name": "RK GND",
+"mhz": 121.79,
+"desc": "CAEN Sol"
+},
+{
+"key": "LFRK",
+"name": "RK TWR",
+"mhz": 134.53,
+"desc": "CAEN Tour"
+},
+{
+"key": "LFRK",
+"name": "RK VDF",
+"mhz": 134.53,
+"desc": "CAEN Gonio"
+},
+{
+"key": "LFRK",
+"name": "RK ATIS",
+"mhz": 123.08,
+"desc": "CAEN"
+},
+{
+"key": "LFRK",
+"name": "RK AA",
+"mhz": 134.53,
+"desc": "CAEN"
+},
+{
+"key": "LFRK",
+"name": "VOR CAN",
+"mhz": 114.45,
+"desc": "VOR-DME CAN"
+},
+{
+"key": "LFRL",
+"name": "RL APP",
+"mhz": 119.3,
+"desc": "LANVEOC Approche"
+},
+{
+"key": "LFRL",
+"name": "RL APP",
+"mhz": 120.6,
+"desc": "LANVEOC Approche"
+},
+{
+"key": "LFRL",
+"name": "RL APP",
+"mhz": 121.5,
+"desc": "LANVEOC Approche"
+},
+{
+"key": "LFRL",
+"name": "RL APP",
+"mhz": 243.0,
+"desc": "LANVEOC Approche"
+},
+{
+"key": "LFRL",
+"name": "RL APP",
+"mhz": 275.275,
+"desc": "LANVEOC Approche"
+},
+{
+"key": "LFRL",
+"name": "RL APP",
+"mhz": 378.075,
+"desc": "LANVEOC Approche"
+},
+{
+"key": "LFRL",
+"name": "RL APP",
+"mhz": 122.1,
+"desc": "LANVEOC-approche"
+},
+{
+"key": "LFRL",
+"name": "RL PAR",
+"mhz": 119.3,
+"desc": "LANVEOC Precision"
+},
+{
+"key": "LFRL",
+"name": "RL PAR",
+"mhz": 343.875,
+"desc": "LANVEOC Precision"
+},
+{
+"key": "LFRL",
+"name": "RL SRE",
+"mhz": 120.6,
+"desc": "LANVEOC Radar"
+},
+{
+"key": "LFRL",
+"name": "RL SRE",
+"mhz": 275.275,
+"desc": "LANVEOC Radar"
+},
+{
+"key": "LFRL",
+"name": "RL GND",
+"mhz": 121.9,
+"desc": "LANVEOC Sol"
+},
+{
+"key": "LFRL",
+"name": "RL TWR",
+"mhz": 121.5,
+"desc": "LANVEOC Tour"
+},
+{
+"key": "LFRL",
+"name": "RL TWR",
+"mhz": 123.2,
+"desc": "LANVEOC Tour"
+},
+{
+"key": "LFRL",
+"name": "RL TWR",
+"mhz": 378.075,
+"desc": "LANVEOC Tour"
+},
+{
+"key": "LFRL",
+"name": "RL VDF",
+"mhz": 119.3,
+"desc": "LANVEOC Gonio"
+},
+{
+"key": "LFRL",
+"name": "RL VDF",
+"mhz": 275.275,
+"desc": "LANVEOC Gonio"
+},
+{
+"key": "LFRL",
+"name": "RL VDF",
+"mhz": 343.875,
+"desc": "LANVEOC Gonio"
+},
+{
+"key": "LFRL",
+"name": "RL ATIS",
+"mhz": 118.84,
+"desc": "LANVEOC"
+},
+{
+"key": "LFRL",
+"name": "RL ATIS",
+"mhz": 143.475,
+"desc": "LANVEOC"
+},
+{
+"key": "LFRM",
+"name": "RM AFIS",
+"mhz": 125.905,
+"desc": "LE MANS Information"
+},
+{
+"key": "LFRM",
+"name": "RM AA",
+"mhz": 125.905,
+"desc": "LE MANS"
+},
+{
+"key": "LFRN",
+"name": "RN INFO",
+"mhz": 120.35,
+"desc": "RENNES Information"
+},
+{
+"key": "LFRN",
+"name": "RN INFO",
+"mhz": 126.95,
+"desc": "RENNES Information"
+},
+{
+"key": "LFRN",
+"name": "RN INFO",
+"mhz": 134.0,
+"desc": "RENNES Information"
+},
+{
+"key": "LFRN",
+"name": "RN INFO",
+"mhz": 134.2,
+"desc": "RENNES Information"
+},
+{
+"key": "LFRN",
+"name": "RN APP",
+"mhz": 120.35,
+"desc": "RENNES Approche"
+},
+{
+"key": "LFRN",
+"name": "RN APP",
+"mhz": 126.95,
+"desc": "RENNES Approche"
+},
+{
+"key": "LFRN",
+"name": "RN APP",
+"mhz": 134.0,
+"desc": "RENNES Approche"
+},
+{
+"key": "LFRN",
+"name": "RN APP",
+"mhz": 134.2,
+"desc": "RENNES Approche"
+},
+{
+"key": "LFRN",
+"name": "RN GND",
+"mhz": 121.73,
+"desc": "RENNES Sol"
+},
+{
+"key": "LFRN",
+"name": "RN TWR",
+"mhz": 120.505,
+"desc": "RENNES Tour"
+},
+{
+"key": "LFRN",
+"name": "RN VDF",
+"mhz": 120.505,
+"desc": "RENNES Gonio"
+},
+{
+"key": "LFRN",
+"name": "RN VDF",
+"mhz": 126.95,
+"desc": "RENNES Gonio"
+},
+{
+"key": "LFRN",
+"name": "RN VDF",
+"mhz": 134.0,
+"desc": "RENNES Gonio"
+},
+{
+"key": "LFRN",
+"name": "RN ATIS",
+"mhz": 136.405,
+"desc": "RENNES"
+},
+{
+"key": "LFRN",
+"name": "VOR REN",
+"mhz": 109.25,
+"desc": "VOR-DME REN"
+},
+{
+"key": "LFRO",
+"name": "RO AFIS",
+"mhz": 118.405,
+"desc": "LANNION Information"
+},
+{
+"key": "LFRO",
+"name": "RO AA",
+"mhz": 118.405,
+"desc": "LANNION"
+},
+{
+"key": "LFRQ",
+"name": "RQ TWR",
+"mhz": 118.63,
+"desc": "QUIMPER Tour"
+},
+{
+"key": "LFRQ",
+"name": "RQ AA",
+"mhz": 118.63,
+"desc": "QUIMPER"
+},
+{
+"key": "LFRQ",
+"name": "VOR QPR",
+"mhz": 117.8,
+"desc": "VOR-DME QPR"
+},
+{
+"key": "LFRS",
+"name": "RS INFO",
+"mhz": 122.8,
+"desc": "NANTES Information"
+},
+{
+"key": "LFRS",
+"name": "RS INFO",
+"mhz": 130.275,
+"desc": "NANTES Information"
+},
+{
+"key": "LFRS",
+"name": "RS APP",
+"mhz": 119.4,
+"desc": "NANTES Approche"
+},
+{
+"key": "LFRS",
+"name": "RS APP",
+"mhz": 119.535,
+"desc": "NANTES Approche"
+},
+{
+"key": "LFRS",
+"name": "RS APP",
+"mhz": 120.13,
+"desc": "NANTES Approche"
+},
+{
+"key": "LFRS",
+"name": "RS APP",
+"mhz": 121.215,
+"desc": "NANTES Approche"
+},
+{
+"key": "LFRS",
+"name": "RS APP",
+"mhz": 124.25,
+"desc": "NANTES Approche"
+},
+{
+"key": "LFRS",
+"name": "RS APP",
+"mhz": 124.43,
+"desc": "NANTES Approche"
+},
+{
+"key": "LFRS",
+"name": "RS GND",
+"mhz": 121.655,
+"desc": "NANTES Sol"
+},
+{
+"key": "LFRS",
+"name": "RS TWR",
+"mhz": 118.655,
+"desc": "NANTES Tour"
+},
+{
+"key": "LFRS",
+"name": "RS VDF",
+"mhz": 118.655,
+"desc": "NANTES Gonio"
+},
+{
+"key": "LFRS",
+"name": "RS VDF",
+"mhz": 120.13,
+"desc": "NANTES Gonio"
+},
+{
+"key": "LFRS",
+"name": "RS VDF",
+"mhz": 121.5,
+"desc": "NANTES Gonio"
+},
+{
+"key": "LFRS",
+"name": "RS VDF",
+"mhz": 122.8,
+"desc": "NANTES Gonio"
+},
+{
+"key": "LFRS",
+"name": "RS VDF",
+"mhz": 124.25,
+"desc": "NANTES Gonio"
+},
+{
+"key": "LFRS",
+"name": "RS VDF",
+"mhz": 124.43,
+"desc": "NANTES Gonio"
+},
+{
+"key": "LFRS",
+"name": "RS VDF",
+"mhz": 130.275,
+"desc": "NANTES Gonio"
+},
+{
+"key": "LFRS",
+"name": "RS ATIS",
+"mhz": 126.93,
+"desc": "NANTES"
+},
+{
+"key": "LFRS",
+"name": "VOR NTS",
+"mhz": 115.5,
+"desc": "VOR-DME NTS"
+},
+{
+"key": "LFRT",
+"name": "RT AFIS",
+"mhz": 118.455,
+"desc": "SAINT BRIEUC Information"
+},
+{
+"key": "LFRT",
+"name": "RT AA",
+"mhz": 118.455,
+"desc": "SAINT BRIEUC"
+},
+{
+"key": "LFRU",
+"name": "RU AFIS",
+"mhz": 118.505,
+"desc": "MORLAIX Information"
+},
+{
+"key": "LFRU",
+"name": "RU AA",
+"mhz": 118.505,
+"desc": "MORLAIX"
+},
+{
+"key": "LFRV",
+"name": "RV AFIS",
+"mhz": 122.605,
+"desc": "VANNES Information"
+},
+{
+"key": "LFRV",
+"name": "RV AA",
+"mhz": 122.605,
+"desc": "VANNES"
+},
+{
+"key": "LFRZ",
+"name": "RZ TWR",
+"mhz": 118.955,
+"desc": "SAINT NAZAIRE Tour"
+},
+{
+"key": "LFRZ",
+"name": "RZ AA",
+"mhz": 118.955,
+"desc": "SAINT NAZAIRE"
+},
+{
+"key": "LFSB",
+"name": "SB INFO",
+"mhz": 129.25,
+"desc": "BALE Information"
+},
+{
+"key": "LFSB",
+"name": "SB INFO",
+"mhz": 130.905,
+"desc": "BALE Information"
+},
+{
+"key": "LFSB",
+"name": "SB INFO",
+"mhz": 134.68,
+"desc": "BALE Information"
+},
+{
+"key": "LFSB",
+"name": "SB INFO",
+"mhz": 135.855,
+"desc": "BALE Information"
+},
+{
+"key": "LFSB",
+"name": "SB APP",
+"mhz": 125.16,
+"desc": "BALE Approche"
+},
+{
+"key": "LFSB",
+"name": "SB APP",
+"mhz": 127.285,
+"desc": "BALE Approche"
+},
+{
+"key": "LFSB",
+"name": "SB APP",
+"mhz": 128.91,
+"desc": "BALE Approche"
+},
+{
+"key": "LFSB",
+"name": "SB APP",
+"mhz": 129.25,
+"desc": "BALE Approche"
+},
+{
+"key": "LFSB",
+"name": "SB APP",
+"mhz": 130.905,
+"desc": "BALE Approche"
+},
+{
+"key": "LFSB",
+"name": "SB APP",
+"mhz": 133.51,
+"desc": "BALE Approche"
+},
+{
+"key": "LFSB",
+"name": "SB APP",
+"mhz": 125.415,
+"desc": "BALE Controle"
+},
+{
+"key": "LFSB",
+"name": "SB APP",
+"mhz": 126.99,
+"desc": "BALE Controle"
+},
+{
+"key": "LFSB",
+"name": "SB DEL",
+"mhz": 121.955,
+"desc": "BALE Prevol"
+},
+{
+"key": "LFSB",
+"name": "SB GND",
+"mhz": 121.605,
+"desc": "BALE Sol"
+},
+{
+"key": "LFSB",
+"name": "SB TWR",
+"mhz": 118.305,
+"desc": "BALE Tour"
+},
+{
+"key": "LFSB",
+"name": "SB TWR",
+"mhz": 129.25,
+"desc": "BALE Tour"
+},
+{
+"key": "LFSB",
+"name": "SB VDF",
+"mhz": 118.305,
+"desc": "BALE Gonio"
+},
+{
+"key": "LFSB",
+"name": "SB VDF",
+"mhz": 128.91,
+"desc": "BALE Gonio"
+},
+{
+"key": "LFSB",
+"name": "SB VDF",
+"mhz": 130.905,
+"desc": "BALE Gonio"
+},
+{
+"key": "LFSB",
+"name": "SB VDF",
+"mhz": 133.51,
+"desc": "BALE Gonio"
+},
+{
+"key": "LFSB",
+"name": "SB ATIS",
+"mhz": 127.88,
+"desc": "BALE"
+},
+{
+"key": "LFSB",
+"name": "VOR BLM",
+"mhz": 117.45,
+"desc": "VOR-DME BLM"
+},
+{
+"key": "LFSD",
+"name": "SD AFIS",
+"mhz": 118.33,
+"desc": "DIJON Information"
+},
+{
+"key": "LFSD",
+"name": "SD AA",
+"mhz": 118.33,
+"desc": "DIJON"
+},
+{
+"key": "LFSD",
+"name": "VOR DJL",
+"mhz": 111.45,
+"desc": "VOR-DME DJL"
+},
+{
+"key": "LFSG",
+"name": "SG AFIS",
+"mhz": 120.205,
+"desc": "EPINAL Information"
+},
+{
+"key": "LFSG",
+"name": "SG AA",
+"mhz": 120.205,
+"desc": "EPINAL"
+},
+{
+"key": "LFSI",
+"name": "SI APP",
+"mhz": 134.775,
+"desc": "SAINT DIZIER Approche"
+},
+{
+"key": "LFSI",
+"name": "SI APP",
+"mhz": 142.45,
+"desc": "SAINT DIZIER Approche"
+},
+{
+"key": "LFSI",
+"name": "SI APP",
+"mhz": 243.0,
+"desc": "SAINT DIZIER Approche"
+},
+{
+"key": "LFSI",
+"name": "SI APP",
+"mhz": 342.0,
+"desc": "SAINT DIZIER Approche"
+},
+{
+"key": "LFSI",
+"name": "SI APP",
+"mhz": 362.3,
+"desc": "SAINT DIZIER Approche"
+},
+{
+"key": "LFSI",
+"name": "SI APP",
+"mhz": 388.8,
+"desc": "SAINT DIZIER Approche"
+},
+{
+"key": "LFSI",
+"name": "SI PAR",
+"mhz": 123.3,
+"desc": "SAINT DIZIER Precision"
+},
+{
+"key": "LFSI",
+"name": "SI SRE",
+"mhz": 123.3,
+"desc": "SAINT DIZIER Radar"
+},
+{
+"key": "LFSI",
+"name": "SI SRE",
+"mhz": 140.9,
+"desc": "SAINT DIZIER Radar"
+},
+{
+"key": "LFSI",
+"name": "SI SRE",
+"mhz": 265.9,
+"desc": "SAINT DIZIER Radar"
+},
+{
+"key": "LFSI",
+"name": "SI SRE",
+"mhz": 335.575,
+"desc": "SAINT DIZIER Radar"
+},
+{
+"key": "LFSI",
+"name": "SI SRE",
+"mhz": 336.1,
+"desc": "SAINT DIZIER Radar"
+},
+{
+"key": "LFSI",
+"name": "SI SRE",
+"mhz": 355.575,
+"desc": "SAINT DIZIER Radar"
+},
+{
+"key": "LFSI",
+"name": "SI SRE",
+"mhz": 362.3,
+"desc": "SAINT DIZIER Radar"
+},
+{
+"key": "LFSI",
+"name": "SI SRE",
+"mhz": 362.975,
+"desc": "SAINT DIZIER Radar"
+},
+{
+"key": "LFSI",
+"name": "SI TWR",
+"mhz": 122.1,
+"desc": "SAINT DIZIER Tour"
+},
+{
+"key": "LFSI",
+"name": "SI TWR",
+"mhz": 140.175,
+"desc": "SAINT DIZIER Tour"
+},
+{
+"key": "LFSI",
+"name": "SI TWR",
+"mhz": 243.0,
+"desc": "SAINT DIZIER Tour"
+},
+{
+"key": "LFSI",
+"name": "SI TWR",
+"mhz": 257.8,
+"desc": "SAINT DIZIER Tour"
+},
+{
+"key": "LFSI",
+"name": "SI TWR",
+"mhz": 374.875,
+"desc": "SAINT DIZIER Tour"
+},
+{
+"key": "LFSI",
+"name": "SI VDF",
+"mhz": 121.5,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI VDF",
+"mhz": 122.1,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI VDF",
+"mhz": 123.3,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI VDF",
+"mhz": 134.775,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI VDF",
+"mhz": 138.35,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI VDF",
+"mhz": 142.45,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 243.0,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 257.8,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 265.9,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 335.575,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 336.1,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 342.0,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 355.575,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 362.975,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 374.875,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSI",
+"name": "SI UDF",
+"mhz": 388.8,
+"desc": "SAINT DIZIER Gonio"
+},
+{
+"key": "LFSL",
+"name": "SL TWR",
+"mhz": 121.13,
+"desc": "BRIVE Tour"
+},
+{
+"key": "LFSL",
+"name": "SL AFIS",
+"mhz": 121.13,
+"desc": "BRIVE Information"
+},
+{
+"key": "LFSL",
+"name": "SL AA",
+"mhz": 121.13,
+"desc": "BRIVE"
+},
+{
+"key": "LFSM",
+"name": "SM AFIS",
+"mhz": 132.03,
+"desc": "MONTBELIARD Information"
+},
+{
+"key": "LFSM",
+"name": "SM AA",
+"mhz": 132.03,
+"desc": "MONBELLIARD"
+},
+{
+"key": "LFSN",
+"name": "SN AFIS",
+"mhz": 119.605,
+"desc": "NANCY Information"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 123.3,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 127.25,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 139.075,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 142.15,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 142.45,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 259.2,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 265.9,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 267.0,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 292.125,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 292.5,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 315.025,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 336.1,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 336.45,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO APP",
+"mhz": 362.3,
+"desc": "OCHEY Approche"
+},
+{
+"key": "LFSO",
+"name": "SO GND",
+"mhz": 122.1,
+"desc": "OCHEY Sol"
+},
+{
+"key": "LFSO",
+"name": "SO GND",
+"mhz": 257.8,
+"desc": "OCHEY Sol"
+},
+{
+"key": "LFSO",
+"name": "SO TWR",
+"mhz": 130.275,
+"desc": "OCHEY Tour"
+},
+{
+"key": "LFSO",
+"name": "SO TWR",
+"mhz": 344.025,
+"desc": "OCHEY TOUR"
+},
+{
+"key": "LFSO",
+"name": "SO VDF",
+"mhz": 127.25,
+"desc": "OCHEY Gonio"
+},
+{
+"key": "LFSO",
+"name": "SO VDF",
+"mhz": 130.275,
+"desc": "OCHEY Gonio"
+},
+{
+"key": "LFSO",
+"name": "SO VDF",
+"mhz": 139.075,
+"desc": "OCHEY Gonio"
+},
+{
+"key": "LFSO",
+"name": "SO VDF",
+"mhz": 142.45,
+"desc": "OCHEY Gonio"
+},
+{
+"key": "LFST",
+"name": "ST INFO",
+"mhz": 119.45,
+"desc": "STRASBOURG Information"
+},
+{
+"key": "LFST",
+"name": "ST INFO",
+"mhz": 119.58,
+"desc": "STRASBOURG Information"
+},
+{
+"key": "LFST",
+"name": "ST INFO",
+"mhz": 132.215,
+"desc": "STRASBOURG Information"
+},
+{
+"key": "LFST",
+"name": "ST INFO",
+"mhz": 136.135,
+"desc": "STRASBOURG Information"
+},
+{
+"key": "LFST",
+"name": "ST APP",
+"mhz": 118.185,
+"desc": "STRASBOURG Approche"
+},
+{
+"key": "LFST",
+"name": "ST APP",
+"mhz": 119.58,
+"desc": "STRASBOURG Approche"
+},
+{
+"key": "LFST",
+"name": "ST APP",
+"mhz": 120.41,
+"desc": "STRASBOURG Approche"
+},
+{
+"key": "LFST",
+"name": "ST APP",
+"mhz": 132.215,
+"desc": "STRASBOURG Approche"
+},
+{
+"key": "LFST",
+"name": "ST APP",
+"mhz": 133.1,
+"desc": "STRASBOURG Approche"
+},
+{
+"key": "LFST",
+"name": "ST APP",
+"mhz": 134.575,
+"desc": "STRASBOURG Approche"
+},
+{
+"key": "LFST",
+"name": "ST GND",
+"mhz": 121.805,
+"desc": "STRASBOURG Sol"
+},
+{
+"key": "LFST",
+"name": "ST TWR",
+"mhz": 119.25,
+"desc": "STRASBOURG Tour"
+},
+{
+"key": "LFST",
+"name": "ST ATIS",
+"mhz": 126.93,
+"desc": "STRASBOURG"
+},
+{
+"key": "LFST",
+"name": "VOR STR",
+"mhz": 115.6,
+"desc": "VOR-DME STR"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 121.5,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 129.925,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 142.45,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 240.45,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 243.0,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 282.025,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 298.3,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 338.725,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 344.175,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX APP",
+"mhz": 362.3,
+"desc": "LUXEUIL Approche"
+},
+{
+"key": "LFSX",
+"name": "SX PAR",
+"mhz": 139.85,
+"desc": "LUXEUIL App"
+},
+{
+"key": "LFSX",
+"name": "SX PAR",
+"mhz": 142.525,
+"desc": "LUXEUIL Precision"
+},
+{
+"key": "LFSX",
+"name": "SX PAR",
+"mhz": 265.9,
+"desc": "LUXEUIL Precision"
+},
+{
+"key": "LFSX",
+"name": "SX PAR",
+"mhz": 336.1,
+"desc": "LUXEUIL Precision"
+},
+{
+"key": "LFSX",
+"name": "SX TWR",
+"mhz": 121.5,
+"desc": "LUXEUIL Tour"
+},
+{
+"key": "LFSX",
+"name": "SX TWR",
+"mhz": 122.1,
+"desc": "LUXEUIL Tour"
+},
+{
+"key": "LFSX",
+"name": "SX TWR",
+"mhz": 123.3,
+"desc": "LUXEUIL Tour"
+},
+{
+"key": "LFSX",
+"name": "SX TWR",
+"mhz": 243.0,
+"desc": "LUXEUIL Tour"
+},
+{
+"key": "LFSX",
+"name": "SX TWR",
+"mhz": 244.35,
+"desc": "LUXEUIL Tour"
+},
+{
+"key": "LFSX",
+"name": "SX TWR",
+"mhz": 257.8,
+"desc": "LUXEUIL Tour"
+},
+{
+"key": "LFSX",
+"name": "VOR LUL",
+"mhz": 117.1,
+"desc": "VOR LUL"
+},
+{
+"key": "LFTH",
+"name": "TH APP",
+"mhz": 126.325,
+"desc": "TOULON Approche"
+},
+{
+"key": "LFTH",
+"name": "TH APP",
+"mhz": 243.0,
+"desc": "TOULON Approche"
+},
+{
+"key": "LFTH",
+"name": "TH APP",
+"mhz": 339.25,
+"desc": "TOULON Approche"
+},
+{
+"key": "LFTH",
+"name": "TH APP",
+"mhz": 378.075,
+"desc": "TOULON Approche"
+},
+{
+"key": "LFTH",
+"name": "TH APP",
+"mhz": 118.825,
+"desc": "TOULON Transit"
+},
+{
+"key": "LFTH",
+"name": "TH PAR",
+"mhz": 123.3,
+"desc": "TOULON Precision"
+},
+{
+"key": "LFTH",
+"name": "TH PAR",
+"mhz": 125.2,
+"desc": "TOULON Precision"
+},
+{
+"key": "LFTH",
+"name": "TH PAR",
+"mhz": 232.525,
+"desc": "TOULON Precision"
+},
+{
+"key": "LFTH",
+"name": "TH SRE",
+"mhz": 125.2,
+"desc": "TOULON Radar"
+},
+{
+"key": "LFTH",
+"name": "TH SRE",
+"mhz": 342.575,
+"desc": "TOULON Radar"
+},
+{
+"key": "LFTH",
+"name": "TH TWR",
+"mhz": 121.0,
+"desc": "HYERES Tour"
+},
+{
+"key": "LFTH",
+"name": "TH TWR",
+"mhz": 121.5,
+"desc": "HYERES Tour"
+},
+{
+"key": "LFTH",
+"name": "TH TWR",
+"mhz": 121.8,
+"desc": "HYERES Tour"
+},
+{
+"key": "LFTH",
+"name": "TH TWR",
+"mhz": 243.0,
+"desc": "HYERES Tour"
+},
+{
+"key": "LFTH",
+"name": "TH TWR",
+"mhz": 257.8,
+"desc": "HYERES Tour"
+},
+{
+"key": "LFTH",
+"name": "TH TWR",
+"mhz": 343.325,
+"desc": "HYERES Tour"
+},
+{
+"key": "LFTH",
+"name": "TH VDF",
+"mhz": 118.825,
+"desc": "HYERES Gonio"
+},
+{
+"key": "LFTH",
+"name": "TH VDF",
+"mhz": 121.5,
+"desc": "HYERES Gonio"
+},
+{
+"key": "LFTH",
+"name": "TH VDF",
+"mhz": 126.325,
+"desc": "HYERES Gonio"
+},
+{
+"key": "LFTH",
+"name": "TH UDF",
+"mhz": 243.0,
+"desc": "HYERES Gonio"
+},
+{
+"key": "LFTH",
+"name": "TH UDF",
+"mhz": 339.25,
+"desc": "HYERES Gonio"
+},
+{
+"key": "LFTH",
+"name": "TH UDF",
+"mhz": 342.575,
+"desc": "HYERES Gonio"
+},
+{
+"key": "LFTH",
+"name": "TH ATIS",
+"mhz": 129.65,
+"desc": "HYERES"
+},
+{
+"key": "LFTW",
+"name": "TW GND",
+"mhz": 121.805,
+"desc": "GARONS Sol"
+},
+{
+"key": "LFTW",
+"name": "TW TWR",
+"mhz": 123.205,
+"desc": "GARONS Tour"
+},
+{
+"key": "LFTW",
+"name": "TW VDF",
+"mhz": 123.205,
+"desc": "GARONS Gonio"
+},
+{
+"key": "LFTW",
+"name": "TW ATIS",
+"mhz": 129.355,
+"desc": "GARONS"
+},
+{
+"key": "LFTW",
+"name": "TW AA",
+"mhz": 123.205,
+"desc": "GARONS"
+},
+{
+"key": "LFTZ",
+"name": "TZ AFIS",
+"mhz": 118.13,
+"desc": "LA MOLE Information"
+},
+{
+"key": "LFTZ",
+"name": "VOR STP",
+"mhz": 116.5,
+"desc": "VOR-DME STP"
+},
+{
+"key": "AVIGNON PUJAUT",
+"name": "VOR AVN",
+"mhz": 114.6,
+"desc": "AVIGNON Pujaut VOR-DME"
+},
+{
+"key": "BOULOGNE SUR MER",
+"name": "VOR BNE",
+"mhz": 113.8,
+"desc": "BOULOGNE SUR MER VOR"
+},
+{
+"key": "CAMBRAI EPINOY",
+"name": "VOR CMB",
+"mhz": 112.6,
+"desc": "CAMBRAI EPINOY VOR-DME"
+},
+{
+"key": "CHARTRES LA LOUPE",
+"name": "VOR CHW",
+"mhz": 115.2,
+"desc": "CHARTRES La Loupe VOR-DME"
+},
+{
+"key": "CHATEAUDUN",
+"name": "VOR CAD",
+"mhz": 115.95,
+"desc": "CHATEAUDUN VOR-DME"
+},
+{
+"key": "COULOMMIERS VOISINS",
+"name": "VOR CLM",
+"mhz": 112.9,
+"desc": "COULOMMIERS Voisins VOR-DME"
+},
+{
+"key": "EPERNON",
+"name": "VOR EPR",
+"mhz": 115.65,
+"desc": "EPERNON VOR-DME"
+},
+{
+"key": "GROSTENQUIN",
+"name": "VOR GTQ",
+"mhz": 111.25,
+"desc": "GROSTENQUIN VOR-DME"
+},
+{
+"key": "JERSEY",
+"name": "VOR JSY",
+"mhz": 112.2,
+"desc": "JERSEY VOR-DME"
+},
+{
+"key": "L' AIGLE",
+"name": "VOR LGL",
+"mhz": 112.7,
+"desc": "L' AIGLE VOR-DME"
+},
+{
+"key": "LEMBEYE",
+"name": "VOR LMB",
+"mhz": 111.8,
+"desc": "LEMBEYE VOR"
+},
+{
+"key": "LIMOGES",
+"name": "VOR LMG",
+"mhz": 114.5,
+"desc": "LIMOGES VOR-DME"
+},
+{
+"key": "MARTIGUES",
+"name": "VOR MTG",
+"mhz": 117.3,
+"desc": "MARTIGUES VOR-DME"
+},
+{
+"key": "MENDE-NASBINALS",
+"name": "VOR MEN",
+"mhz": 115.3,
+"desc": "MENDE-Nasbinals VOR-DME"
+},
+{
+"key": "MONTELIMAR ANCONE",
+"name": "VOR MTL",
+"mhz": 113.65,
+"desc": "MONTELIMAR ANCONE VOR-DME"
+},
+{
+"key": "MONTMEDY-DUN SUR MEUSE",
+"name": "VOR MMD",
+"mhz": 109.4,
+"desc": "MONTMEDY-Dun sur Meuse VOR"
+},
+{
+"key": "MOULINS",
+"name": "VOR MOU",
+"mhz": 116.7,
+"desc": "MOULINS VOR-DME"
+},
+{
+"key": "PASSEIRY",
+"name": "VOR PAS",
+"mhz": 116.6,
+"desc": "PASSEIRY VOR-DME"
+},
+{
+"key": "REIMS",
+"name": "VOR REM",
+"mhz": 112.3,
+"desc": "REIMS VOR"
+},
+{
+"key": "SAVERNE",
+"name": "VOR SAV",
+"mhz": 110.45,
+"desc": "SAVERNE VOR-DME"
+},
+{
+"key": "LFAB",
+"name": "AB AA",
+"mhz": 119.005,
+"desc": "DIEPPE SAINT AUBIN A/A"
+},
+{
+"key": "LFAC",
+"name": "AC INFO",
+"mhz": 132.54,
+"desc": "CALAIS DUNKERQUE FIS"
+},
+{
+"key": "LFAC",
+"name": "AC APP",
+"mhz": 120.275,
+"desc": "CALAIS DUNKERQUE APP"
+},
+{
+"key": "LFAD",
+"name": "AD AA",
+"mhz": 122.305,
+"desc": "COMPIEGNE MARGNY A/A"
+},
+{
+"key": "LFAE",
+"name": "AE AA",
+"mhz": 123.5,
+"desc": "EU MERS LE TREPORT A/A"
+},
+{
+"key": "LFAF",
+"name": "AF AA",
+"mhz": 123.355,
+"desc": "LAON CHAMBRY A/A"
+},
+{
+"key": "LFAG",
+"name": "AG AA",
+"mhz": 129.805,
+"desc": "PERONNE SAINT QUENTIN A/A"
+},
+{
+"key": "LFAI",
+"name": "AI AA",
+"mhz": 127.98,
+"desc": "NANGIS LES LOGES A/A"
+},
+{
+"key": "LFAJ",
+"name": "AJ AA",
+"mhz": 123.5,
+"desc": "ARGENTAN A/A"
+},
+{
+"key": "LFAK",
+"name": "AK APP",
+"mhz": 121.055,
+"desc": "DUNKERQUE LES MOERES APP"
+},
+{
+"key": "LFAK",
+"name": "AK AA",
+"mhz": 123.5,
+"desc": "DUNKERQUE LES MOERES A/A"
+},
+{
+"key": "LFAL",
+"name": "AL AA",
+"mhz": 123.5,
+"desc": "LA FLECHE THOREE LES PINS A/A"
+},
+{
+"key": "LFAM",
+"name": "AM AA",
+"mhz": 123.5,
+"desc": "BERCK SUR MER A/A"
+},
+{
+"key": "LFAO",
+"name": "AO AA",
+"mhz": 123.5,
+"desc": "BAGNOLES DE L'ORNE COUTERNE A/A"
+},
+{
+"key": "LFAP",
+"name": "AP AA",
+"mhz": 123.5,
+"desc": "RETHEL PERTHES A/A"
+},
+{
+"key": "LFAQ",
+"name": "AQ APP",
+"mhz": 129.36,
+"desc": "ALBERT BRAY APP"
+},
+{
+"key": "LFAR",
+"name": "AR AA",
+"mhz": 123.5,
+"desc": "MONTDIDIER A/A"
+},
+{
+"key": "LFAS",
+"name": "AS AA",
+"mhz": 123.18,
+"desc": "FALAISE MONTS D'ERAINES A/A"
+},
+{
+"key": "LFAT",
+"name": "AT APP",
+"mhz": 120.275,
+"desc": "LE TOUQUET ELIZABETH II APP"
+},
+{
+"key": "LFAU",
+"name": "AU AA",
+"mhz": 122.505,
+"desc": "VAUVILLE A/A"
+},
+{
+"key": "LFAW",
+"name": "AW AA",
+"mhz": 123.5,
+"desc": "VILLERUPT A/A"
+},
+{
+"key": "LFAX",
+"name": "AX AA",
+"mhz": 123.5,
+"desc": "MORTAGNE AU PERCHE A/A"
+},
+{
+"key": "LFBA",
+"name": "BA APP",
+"mhz": 120.355,
+"desc": "AGEN LA GARENNE APP"
+},
+{
+"key": "LFBE",
+"name": "BE APP",
+"mhz": 119.275,
+"desc": "BERGERAC DORDOGNE PERIGORD APP"
+},
+{
+"key": "LFBJ",
+"name": "BJ AA",
+"mhz": 119.51,
+"desc": "SAINT JUNIEN A/A"
+},
+{
+"key": "LFBR",
+"name": "BR APP",
+"mhz": 125.18,
+"desc": "MURET LHERM APP"
+},
+{
+"key": "LFBT",
+"name": "BT APP",
+"mhz": 128.8,
+"desc": "TARBES LOURDES PYRENEES APP"
+},
+{
+"key": "LFBU",
+"name": "BU APP",
+"mhz": 118.08,
+"desc": "ANGOULEME BRIE CHAMPNIERS APP"
+},
+{
+"key": "LFBX",
+"name": "BX APP",
+"mhz": 119.275,
+"desc": "PERIGUEUX BASSILLAC APP"
+},
+{
+"key": "LFCA",
+"name": "CA APP",
+"mhz": 134.1,
+"desc": "CHATELLERAULT TARGE APP"
+},
+{
+"key": "LFCA",
+"name": "CA AA",
+"mhz": 120.055,
+"desc": "CHATELLERAULT TARGE A/A"
+},
+{
+"key": "LFCB",
+"name": "CB AA",
+"mhz": 123.5,
+"desc": "BAGNERES DE LUCHON A/A"
+},
+{
+"key": "LFCC",
+"name": "CC APP",
+"mhz": 133.725,
+"desc": "CAHORS LALBENQUE APP"
+},
+{
+"key": "LFCD",
+"name": "CD AA",
+"mhz": 120.405,
+"desc": "ANDERNOS LES BAINS A/A"
+},
+{
+"key": "LFCE",
+"name": "CE AA",
+"mhz": 120.19,
+"desc": "GUERET SAINT LAURENT A/A"
+},
+{
+"key": "LFCF",
+"name": "CF AA",
+"mhz": 119.635,
+"desc": "FIGEAC LIVERNON A/A"
+},
+{
+"key": "LFCG",
+"name": "CG AA",
+"mhz": 118.255,
+"desc": "SAINT GIRONS ANTICHAN A/A"
+},
+{
+"key": "LFCH",
+"name": "CH AFIS",
+"mhz": 119.08,
+"desc": "ARCACHON LA TESTE DE BUCH AFIS"
+},
+{
+"key": "LFCH",
+"name": "CH AA",
+"mhz": 119.08,
+"desc": "ARCACHON LA TESTE DE BUCH A/A"
+},
+{
+"key": "LFCI",
+"name": "CI APP",
+"mhz": 123.85,
+"desc": "ALBI LE SEQUESTRE APP"
+},
+{
+"key": "LFCJ",
+"name": "CJ AA",
+"mhz": 118.155,
+"desc": "JONZAC NEULLES A/A"
+},
+{
+"key": "LFCK",
+"name": "CK APP",
+"mhz": 123.85,
+"desc": "CASTRES MAZAMET APP"
+},
+{
+"key": "LFCL",
+"name": "CL ATIS",
+"mhz": 128.105,
+"desc": "TOULOUSE LASBORDES ATIS"
+},
+{
+"key": "LFCL",
+"name": "CL TWR",
+"mhz": 122.705,
+"desc": "TOULOUSE LASBORDES TWR"
+},
+{
+"key": "LFCL",
+"name": "CL AA",
+"mhz": 122.705,
+"desc": "TOULOUSE LASBORDES A/A"
+},
+{
+"key": "LFCM",
+"name": "CM AA",
+"mhz": 120.805,
+"desc": "MILLAU LARZAC A/A"
+},
+{
+"key": "LFCN",
+"name": "CN APP",
+"mhz": 119.7,
+"desc": "NOGARO APP"
+},
+{
+"key": "LFCN",
+"name": "CN AA",
+"mhz": 119.505,
+"desc": "NOGARO A/A"
+},
+{
+"key": "LFCO",
+"name": "CO AA",
+"mhz": 118.78,
+"desc": "OLORON HERRERE A/A"
+},
+{
+"key": "LFCP",
+"name": "CP APP",
+"mhz": 132.45,
+"desc": "PONS AVY APP"
+},
+{
+"key": "LFCP",
+"name": "CP AA",
+"mhz": 119.885,
+"desc": "PONS AVY A/A"
+},
+{
+"key": "LFCQ",
+"name": "CQ AA",
+"mhz": 119.655,
+"desc": "GRAULHET MONTDRAGON A/A"
+},
+{
+"key": "LFCR",
+"name": "CR INFO",
+"mhz": 133.725,
+"desc": "RODEZ AVEYRON FIS"
+},
+{
+"key": "LFCR",
+"name": "CR APP",
+"mhz": 133.725,
+"desc": "RODEZ AVEYRON APP"
+},
+{
+"key": "LFCS",
+"name": "CS AA",
+"mhz": 119.005,
+"desc": "BORDEAUX LEOGNAN SAUCATS A/A"
+},
+{
+"key": "LFCT",
+"name": "CT AA",
+"mhz": 123.355,
+"desc": "THOUARS A/A"
+},
+{
+"key": "LFCU",
+"name": "CU AA",
+"mhz": 118.755,
+"desc": "USSEL THALAMY A/A"
+},
+{
+"key": "LFCV",
+"name": "CV AA",
+"mhz": 123.5,
+"desc": "VILLEFRANCHE DE ROUERGUE A/A"
+},
+{
+"key": "LFCW",
+"name": "CW AA",
+"mhz": 123.605,
+"desc": "VILLENEUVE SUR LOT A/A"
+},
+{
+"key": "LFCX",
+"name": "CX AA",
+"mhz": 121.055,
+"desc": "CASTELSARRASIN MOISSAC A/A"
+},
+{
+"key": "LFCY",
+"name": "CY APP",
+"mhz": 129.875,
+"desc": "ROYAN MEDIS APP"
+},
+{
+"key": "LFCZ",
+"name": "CZ AA",
+"mhz": 118.905,
+"desc": "MIMIZAN ASSOLLANT LEFEVRE ET LOTTI A/A"
+},
+{
+"key": "LFDA",
+"name": "DA AA",
+"mhz": 118.98,
+"desc": "AIRE SUR L'ADOUR A/A"
+},
+{
+"key": "LFDB",
+"name": "DB APP",
+"mhz": 125.18,
+"desc": "MONTAUBAN APP"
+},
+{
+"key": "LFDB",
+"name": "DB AA",
+"mhz": 120.605,
+"desc": "MONTAUBAN A/A"
+},
+{
+"key": "LFDC",
+"name": "DC AA",
+"mhz": 119.785,
+"desc": "MONTENDRE MARCILLAC A/A"
+},
+{
+"key": "LFDE",
+"name": "DE AA",
+"mhz": 123.5,
+"desc": "EGLETONS A/A"
+},
+{
+"key": "LFDF",
+"name": "DF AA",
+"mhz": 120.16,
+"desc": "SAINTE FOY LA GRANDE A/A"
+},
+{
+"key": "LFDG",
+"name": "DG AA",
+"mhz": 119.955,
+"desc": "GAILLAC LISLE SUR TARN A/A"
+},
+{
+"key": "LFDH",
+"name": "DH APP",
+"mhz": 128.8,
+"desc": "AUCH GERS APP"
+},
+{
+"key": "LFDI",
+"name": "DI AA",
+"mhz": 120.655,
+"desc": "LIBOURNE ARTIGUES DE LUSSAC A/A"
+},
+{
+"key": "LFDJ",
+"name": "DJ APP",
+"mhz": 120.355,
+"desc": "PAMIERS LES PUJOLS APP"
+},
+{
+"key": "LFDK",
+"name": "DK AA",
+"mhz": 118.455,
+"desc": "SOULAC SUR MER A/A"
+},
+{
+"key": "LFDL",
+"name": "DL AA",
+"mhz": 123.5,
+"desc": "LOUDUN A/A"
+},
+{
+"key": "LFDM",
+"name": "DM AA",
+"mhz": 120.055,
+"desc": "MARMANDE VIRAZEIL A/A"
+},
+{
+"key": "LFDN",
+"name": "DN APP",
+"mhz": 124.205,
+"desc": "ROCHEFORT CHARENTE MARITIME APP"
+},
+{
+"key": "LFDP",
+"name": "DP AA",
+"mhz": 120.205,
+"desc": "SAINT PIERRE D'OLERON A/A"
+},
+{
+"key": "LFDQ",
+"name": "DQ AA",
+"mhz": 119.53,
+"desc": "CASTELNAU MAGNOAC A/A"
+},
+{
+"key": "LFDR",
+"name": "DR AA",
+"mhz": 123.355,
+"desc": "LA REOLE FLOUDES A/A"
+},
+{
+"key": "LFDS",
+"name": "DS AA",
+"mhz": 118.155,
+"desc": "SARLAT DOMME A/A"
+},
+{
+"key": "LFDT",
+"name": "DT AA",
+"mhz": 122.605,
+"desc": "TARBES LALOUBERE A/A"
+},
+{
+"key": "LFDU",
+"name": "DU AA",
+"mhz": 123.5,
+"desc": "LESPARRE SAINT LAURENT MEDOC A/A"
+},
+{
+"key": "LFDV",
+"name": "DV AA",
+"mhz": 119.23,
+"desc": "COUHE VERAC A/A"
+},
+{
+"key": "LFDW",
+"name": "DW AA",
+"mhz": 120.06,
+"desc": "CHAUVIGNY A/A"
+},
+{
+"key": "LFDX",
+"name": "DX AA",
+"mhz": 119.565,
+"desc": "FUMEL MONTAYRAL A/A"
+},
+{
+"key": "LFDY",
+"name": "DY AA",
+"mhz": 119.955,
+"desc": "BORDEAUX YVRAC A/A"
+},
+{
+"key": "LFEA",
+"name": "EA AFIS",
+"mhz": 118.755,
+"desc": "BELLE ILE AFIS"
+},
+{
+"key": "LFEA",
+"name": "EA AA",
+"mhz": 118.755,
+"desc": "BELLE ILE A/A"
+},
+{
+"key": "LFEB",
+"name": "EB APP",
+"mhz": 126.95,
+"desc": "DINAN TRELIVAN APP"
+},
+{
+"key": "LFEB",
+"name": "EB TWR",
+"mhz": 120.15,
+"desc": "DINAN TRELIVAN TWR"
+},
+{
+"key": "LFEB",
+"name": "EB AA",
+"mhz": 119.765,
+"desc": "DINAN TRELIVAN A/A"
+},
+{
+"key": "LFED",
+"name": "ED AA",
+"mhz": 129.755,
+"desc": "PONTIVY A/A"
+},
+{
+"key": "LFEF",
+"name": "EF AA",
+"mhz": 118.78,
+"desc": "AMBOISE DIERRE A/A"
+},
+{
+"key": "LFEG",
+"name": "EG AA",
+"mhz": 123.5,
+"desc": "ARGENTON SUR CREUSE A/A"
+},
+{
+"key": "LFEH",
+"name": "EH AA",
+"mhz": 124.28,
+"desc": "AUBIGNY SUR NERE A/A"
+},
+{
+"key": "LFEI",
+"name": "EI AA",
+"mhz": 118.755,
+"desc": "BRIARE CHATILLON A/A"
+},
+{
+"key": "LFEJ",
+"name": "EJ TWR",
+"mhz": 125.88,
+"desc": "CHATEAUROUX VILLERS TWR"
+},
+{
+"key": "LFEJ",
+"name": "EJ AA",
+"mhz": 122.73,
+"desc": "CHATEAUROUX VILLERS A/A"
+},
+{
+"key": "LFEK",
+"name": "EK AA",
+"mhz": 119.885,
+"desc": "ISSOUDUN LE FAY A/A"
+},
+{
+"key": "LFEL",
+"name": "EL AA",
+"mhz": 123.355,
+"desc": "LE BLANC A/A"
+},
+{
+"key": "LFEM",
+"name": "EM AA",
+"mhz": 123.355,
+"desc": "MONTARGIS VIMORY A/A"
+},
+{
+"key": "LFEN",
+"name": "EN AA",
+"mhz": 120.09,
+"desc": "TOURS SORIGNY A/A"
+},
+{
+"key": "LFEP",
+"name": "EP AA",
+"mhz": 123.5,
+"desc": "POUILLY MACONGE A/A"
+},
+{
+"key": "LFEQ",
+"name": "EQ AFIS",
+"mhz": 119.605,
+"desc": "QUIBERON AFIS"
+},
+{
+"key": "LFEQ",
+"name": "EQ AA",
+"mhz": 119.605,
+"desc": "QUIBERON A/A"
+},
+{
+"key": "LFER",
+"name": "ER AA",
+"mhz": 119.93,
+"desc": "REDON BAINS SUR OUST A/A"
+},
+{
+"key": "LFES",
+"name": "ES APP",
+"mhz": 125.86,
+"desc": "GUISCRIFF SCAER APP"
+},
+{
+"key": "LFES",
+"name": "ES AA",
+"mhz": 129.805,
+"desc": "GUISCRIFF SCAER A/A"
+},
+{
+"key": "LFET",
+"name": "ET AA",
+"mhz": 120.06,
+"desc": "TIL CHATEL A/A"
+},
+{
+"key": "LFEU",
+"name": "EU INFO",
+"mhz": 119.45,
+"desc": "BAR LE DUC LES HAUTS DE CHEE FIS"
+},
+{
+"key": "LFEU",
+"name": "EU AA",
+"mhz": 123.5,
+"desc": "BAR LE DUC LES HAUTS DE CHEE A/A"
+},
+{
+"key": "LFEW",
+"name": "EW INFO",
+"mhz": 120.675,
+"desc": "SAULIEU LIERNAIS FIS"
+},
+{
+"key": "LFEW",
+"name": "EW AA",
+"mhz": 123.5,
+"desc": "SAULIEU LIERNAIS A/A"
+},
+{
+"key": "LFEX",
+"name": "EX AA",
+"mhz": 120.09,
+"desc": "NANCY AZELOT A/A"
+},
+{
+"key": "LFEZ",
+"name": "EZ AA",
+"mhz": 136.105,
+"desc": "NANCY MALZEVILLE A/A"
+},
+{
+"key": "LFFB",
+"name": "FB AA",
+"mhz": 123.155,
+"desc": "BUNO BONNEVAUX A/A"
+},
+{
+"key": "LFFC",
+"name": "FC AA",
+"mhz": 134.155,
+"desc": "MANTES CHERENCE A/A"
+},
+{
+"key": "LFFD",
+"name": "FD AA",
+"mhz": 118.98,
+"desc": "SAINT ANDRE DE L'EURE A/A"
+},
+{
+"key": "LFFE",
+"name": "FE AA",
+"mhz": 121.255,
+"desc": "ENGHIEN MOISSELLES A/A"
+},
+{
+"key": "LFFG",
+"name": "FG AA",
+"mhz": 123.355,
+"desc": "LA FERTE GAUCHER A/A"
+},
+{
+"key": "LFFH",
+"name": "FH AA",
+"mhz": 120.38,
+"desc": "CHATEAU THIERRY BELLEAU A/A"
+},
+{
+"key": "LFFI",
+"name": "FI APP",
+"mhz": 124.25,
+"desc": "ANCENIS APP"
+},
+{
+"key": "LFFI",
+"name": "FI AA",
+"mhz": 118.205,
+"desc": "ANCENIS A/A"
+},
+{
+"key": "LFFJ",
+"name": "FJ INFO",
+"mhz": 120.325,
+"desc": "JOINVILLE MUSSEY FIS"
+},
+{
+"key": "LFFJ",
+"name": "FJ AA",
+"mhz": 123.5,
+"desc": "JOINVILLE MUSSEY A/A"
+},
+{
+"key": "LFFL",
+"name": "FL AA",
+"mhz": 122.055,
+"desc": "BAILLEAU ARMENONVILLE A/A"
+},
+{
+"key": "LFFN",
+"name": "FN AA",
+"mhz": 123.425,
+"desc": "BRIENNE LE CHATEAU A/A"
+},
+{
+"key": "LFFO",
+"name": "FO APP",
+"mhz": 120.125,
+"desc": "BEAUVOIR FROMENTINE APP"
+},
+{
+"key": "LFFO",
+"name": "FO AA",
+"mhz": 119.935,
+"desc": "BEAUVOIR FROMENTINE A/A"
+},
+{
+"key": "LFFP",
+"name": "FP AA",
+"mhz": 123.5,
+"desc": "PITHIVIERS A/A"
+},
+{
+"key": "LFFQ",
+"name": "FQ AA",
+"mhz": 129.755,
+"desc": "LA FERTE ALAIS A/A"
+},
+{
+"key": "LFFR",
+"name": "FR AA",
+"mhz": 123.5,
+"desc": "BAR SUR SEINE A/A"
+},
+{
+"key": "LFFT",
+"name": "FT AA",
+"mhz": 123.5,
+"desc": "NEUFCHATEAU A/A"
+},
+{
+"key": "LFFU",
+"name": "FU AA",
+"mhz": 123.5,
+"desc": "CHATEAUNEUF SUR CHER A/A"
+},
+{
+"key": "LFFV",
+"name": "FV AA",
+"mhz": 125.255,
+"desc": "VIERZON MEREAU A/A"
+},
+{
+"key": "LFFX",
+"name": "FX AA",
+"mhz": 123.5,
+"desc": "TOURNUS CUISERY A/A"
+},
+{
+"key": "LFFY",
+"name": "FY AA",
+"mhz": 120.11,
+"desc": "ETREPAGNY A/A"
+},
+{
+"key": "LFFZ",
+"name": "FZ AA",
+"mhz": 123.5,
+"desc": "SEZANNE SAINT REMY A/A"
+},
+{
+"key": "LFGB",
+"name": "GB INFO",
+"mhz": 130.9,
+"desc": "MULHOUSE HABSHEIM FIS"
+},
+{
+"key": "LFGB",
+"name": "GB AA",
+"mhz": 125.255,
+"desc": "MULHOUSE HABSHEIM A/A"
+},
+{
+"key": "LFGC",
+"name": "GC APP",
+"mhz": 120.41,
+"desc": "STRASBOURG NEUHOF APP"
+},
+{
+"key": "LFGC",
+"name": "GC AA",
+"mhz": 126.88,
+"desc": "STRASBOURG NEUHOF A/A"
+},
+{
+"key": "LFGE",
+"name": "GE AA",
+"mhz": 123.5,
+"desc": "AVALLON A/A"
+},
+{
+"key": "LFGF",
+"name": "GF AA",
+"mhz": 119.91,
+"desc": "BEAUNE CHALLANGES A/A"
+},
+{
+"key": "LFGG",
+"name": "GG INFO",
+"mhz": 130.9,
+"desc": "BELFORT CHAUX FIS"
+},
+{
+"key": "LFGG",
+"name": "GG AA",
+"mhz": 119.515,
+"desc": "BELFORT CHAUX A/A"
+},
+{
+"key": "LFGH",
+"name": "GH AA",
+"mhz": 123.5,
+"desc": "COSNE SUR LOIRE A/A"
+},
+{
+"key": "LFGI",
+"name": "GI AA",
+"mhz": 119.555,
+"desc": "DIJON DAROIS A/A"
+},
+{
+"key": "LFGJ",
+"name": "GJ APP",
+"mhz": 125.415,
+"desc": "DOLE TAVAUX APP"
+},
+{
+"key": "LFGK",
+"name": "GK AA",
+"mhz": 123.5,
+"desc": "JOIGNY A/A"
+},
+{
+"key": "LFGL",
+"name": "GL AA",
+"mhz": 123.5,
+"desc": "LONS LE SAUNIER COURLAOUX A/A"
+},
+{
+"key": "LFGM",
+"name": "GM APP",
+"mhz": 123.405,
+"desc": "MONTCEAU LES MINES POUILLOUX APP"
+},
+{
+"key": "LFGM",
+"name": "GM AA",
+"mhz": 119.89,
+"desc": "MONTCEAU LES MINES POUILLOUX A/A"
+},
+{
+"key": "LFGN",
+"name": "GN INFO",
+"mhz": 120.675,
+"desc": "PARAY LE MONIAL FIS"
+},
+{
+"key": "LFGN",
+"name": "GN APP",
+"mhz": 123.405,
+"desc": "PARAY LE MONIAL APP"
+},
+{
+"key": "LFGN",
+"name": "GN TWR",
+"mhz": 122.3,
+"desc": "PARAY LE MONIAL TWR"
+},
+{
+"key": "LFGN",
+"name": "GN AA",
+"mhz": 123.5,
+"desc": "PARAY LE MONIAL A/A"
+},
+{
+"key": "LFGO",
+"name": "GO AA",
+"mhz": 118.18,
+"desc": "PONT SUR YONNE A/A"
+},
+{
+"key": "LFGP",
+"name": "GP AA",
+"mhz": 120.04,
+"desc": "SAINT FLORENTIN CHEU A/A"
+},
+{
+"key": "LFGQ",
+"name": "GQ AA",
+"mhz": 123.5,
+"desc": "SEMUR EN AUXOIS A/A"
+},
+{
+"key": "LFGR",
+"name": "GR AA",
+"mhz": 119.765,
+"desc": "DONCOURT LES CONFLANS A/A"
+},
+{
+"key": "LFGS",
+"name": "GS AA",
+"mhz": 123.5,
+"desc": "LONGUYON VILLETTE A/A"
+},
+{
+"key": "LFGT",
+"name": "GT AA",
+"mhz": 123.5,
+"desc": "SARREBOURG BUHL A/A"
+},
+{
+"key": "LFGU",
+"name": "GU AA",
+"mhz": 120.11,
+"desc": "SARREGUEMINES NEUNKIRCH A/A"
+},
+{
+"key": "LFGW",
+"name": "GW AA",
+"mhz": 125.255,
+"desc": "VERDUN SOMMEDIEUE A/A"
+},
+{
+"key": "LFGX",
+"name": "GX AA",
+"mhz": 123.5,
+"desc": "CHAMPAGNOLE CROTENAY A/A"
+},
+{
+"key": "LFGY",
+"name": "GY AA",
+"mhz": 119.91,
+"desc": "SAINT DIE REMOMEIX A/A"
+},
+{
+"key": "LFGZ",
+"name": "GZ AA",
+"mhz": 123.5,
+"desc": "NUITS SAINT GEORGES A/A"
+},
+{
+"key": "LFHA",
+"name": "HA AA",
+"mhz": 118.155,
+"desc": "ISSOIRE LE BROC A/A"
+},
+{
+"key": "LFHB",
+"name": "HB AA",
+"mhz": 119.11,
+"desc": "BISCARROSSE HYDROBASE A/A"
+},
+{
+"key": "LFHC",
+"name": "HC AA",
+"mhz": 119.785,
+"desc": "PEROUGES MEXIMIEUX A/A"
+},
+{
+"key": "LFHD",
+"name": "HD AA",
+"mhz": 118.98,
+"desc": "PIERRELATTE A/A"
+},
+{
+"key": "LFHE",
+"name": "HE AA",
+"mhz": 118.805,
+"desc": "ROMANS SAINT PAUL A/A"
+},
+{
+"key": "LFHF",
+"name": "HF AA",
+"mhz": 123.5,
+"desc": "RUOMS A/A"
+},
+{
+"key": "LFHG",
+"name": "HG AA",
+"mhz": 123.5,
+"desc": "SAINT CHAMOND L'HORME A/A"
+},
+{
+"key": "LFHH",
+"name": "HH AA",
+"mhz": 123.5,
+"desc": "VIENNE REVENTIN A/A"
+},
+{
+"key": "LFHI",
+"name": "HI AA",
+"mhz": 120.065,
+"desc": "MORESTEL A/A"
+},
+{
+"key": "LFHJ",
+"name": "HJ AA",
+"mhz": 119.055,
+"desc": "LYON CORBAS A/A"
+},
+{
+"key": "LFHL",
+"name": "HL AA",
+"mhz": 123.5,
+"desc": "LANGOGNE LESPERON A/A"
+},
+{
+"key": "LFHM",
+"name": "HM AA",
+"mhz": 132.055,
+"desc": "MEGEVE A/A"
+},
+{
+"key": "LFHN",
+"name": "HN AA",
+"mhz": 123.5,
+"desc": "BELLEGARDE VOUVRAY A/A"
+},
+{
+"key": "LFHO",
+"name": "HO AA",
+"mhz": 119.855,
+"desc": "AUBENAS ARDECHE MERIDIONALE A/A"
+},
+{
+"key": "LFHQ",
+"name": "HQ AA",
+"mhz": 120.055,
+"desc": "SAINT FLOUR COLTINES A/A"
+},
+{
+"key": "LFHR",
+"name": "HR AA",
+"mhz": 123.5,
+"desc": "BRIOUDE BEAUMONT A/A"
+},
+{
+"key": "LFHS",
+"name": "HS AA",
+"mhz": 118.455,
+"desc": "BOURG CEYZERIAT A/A"
+},
+{
+"key": "LFHT",
+"name": "HT AA",
+"mhz": 123.5,
+"desc": "AMBERT LE POYET A/A"
+},
+{
+"key": "LFHU",
+"name": "HU TWR",
+"mhz": 120.605,
+"desc": "L'ALPE D'HUEZ TWR"
+},
+{
+"key": "LFHW",
+"name": "HW AA",
+"mhz": 123.5,
+"desc": "BELLEVILLE VILLIE MORGON A/A"
+},
+{
+"key": "LFHX",
+"name": "HX AA",
+"mhz": 123.355,
+"desc": "LAPALISSE PERIGNY A/A"
+},
+{
+"key": "LFHY",
+"name": "HY APP",
+"mhz": 123.405,
+"desc": "MOULINS MONTBEUGNY APP"
+},
+{
+"key": "LFIB",
+"name": "IB AA",
+"mhz": 123.5,
+"desc": "BELVES SAINT PARDOUX A/A"
+},
+{
+"key": "LFID",
+"name": "ID AA",
+"mhz": 119.765,
+"desc": "CONDOM VALENCE SUR BAISE A/A"
+},
+{
+"key": "LFIG",
+"name": "IG AA",
+"mhz": 123.5,
+"desc": "CASSAGNES BEGONHES A/A"
+},
+{
+"key": "LFIH",
+"name": "IH AA",
+"mhz": 119.53,
+"desc": "CHALAIS A/A"
+},
+{
+"key": "LFIK",
+"name": "IK AA",
+"mhz": 123.5,
+"desc": "RIBERAC-TOURETTE A/A"
+},
+{
+"key": "LFIL",
+"name": "IL AA",
+"mhz": 119.51,
+"desc": "RION DES LANDES A/A"
+},
+{
+"key": "LFIM",
+"name": "IM AA",
+"mhz": 120.43,
+"desc": "SAINT GAUDENS MONTREJEAU A/A"
+},
+{
+"key": "LFIP",
+"name": "IP AA",
+"mhz": 118.755,
+"desc": "PEYRESOURDE BALESTAS A/A"
+},
+{
+"key": "LFIR",
+"name": "IR AA",
+"mhz": 119.58,
+"desc": "REVEL MONTGEY A/A"
+},
+{
+"key": "LFIS",
+"name": "IS AA",
+"mhz": 123.5,
+"desc": "SAINT INGLEVERT LES DEUX CAPS A/A"
+},
+{
+"key": "LFIT",
+"name": "IT AA",
+"mhz": 118.855,
+"desc": "TOULOUSE BOURG SAINT BERNARD A/A"
+},
+{
+"key": "LFIV",
+"name": "IV AA",
+"mhz": 123.5,
+"desc": "VENDAYS MONTALIVET A/A"
+},
+{
+"key": "LFIX",
+"name": "IX AA",
+"mhz": 119.885,
+"desc": "ITXASSOU A/A"
+},
+{
+"key": "LFIY",
+"name": "IY AA",
+"mhz": 120.24,
+"desc": "SAINT JEAN D'ANGELY ESSOUVERT A/A"
+},
+{
+"key": "LFJA",
+"name": "JA AA",
+"mhz": 118.78,
+"desc": "CHAUMONT SEMOUTIERS A/A"
+},
+{
+"key": "LFJB",
+"name": "JB AA",
+"mhz": 123.5,
+"desc": "MAULEON A/A"
+},
+{
+"key": "LFJC",
+"name": "JC AA",
+"mhz": 123.5,
+"desc": "CLAMECY A/A"
+},
+{
+"key": "LFJD",
+"name": "JD AA",
+"mhz": 130.0,
+"desc": "CORLIER A/A"
+},
+{
+"key": "LFJE",
+"name": "JE AA",
+"mhz": 130.0,
+"desc": "LA MOTTE CHALANCON A/A"
+},
+{
+"key": "LFJF",
+"name": "JF AA",
+"mhz": 123.5,
+"desc": "AUBENASSON A/A"
+},
+{
+"key": "LFJH",
+"name": "JH AA",
+"mhz": 123.5,
+"desc": "CAZERES PALAMINY A/A"
+},
+{
+"key": "LFJI",
+"name": "JI AA",
+"mhz": 120.31,
+"desc": "MARENNES A/A"
+},
+{
+"key": "LFJS",
+"name": "JS AA",
+"mhz": 120.38,
+"desc": "SOISSONS COURMELLES A/A"
+},
+{
+"key": "LFJT",
+"name": "JT AA",
+"mhz": 119.785,
+"desc": "TOURS LE LOUROUX A/A"
+},
+{
+"key": "LFJU",
+"name": "JU AA",
+"mhz": 123.5,
+"desc": "LURCY LEVIS A/A"
+},
+{
+"key": "LFJV",
+"name": "JV APP",
+"mhz": 128.8,
+"desc": "LASCLAVERIES APP"
+},
+{
+"key": "LFJV",
+"name": "JV TWR",
+"mhz": 124.15,
+"desc": "LASCLAVERIES TWR"
+},
+{
+"key": "LFJV",
+"name": "JV AA",
+"mhz": 123.355,
+"desc": "LASCLAVERIES A/A"
+},
+{
+"key": "LFKA",
+"name": "KA AA",
+"mhz": 123.5,
+"desc": "ALBERTVILLE GENERAL PIERRE DELACHENAL A/A"
+},
+{
+"key": "LFKC",
+"name": "KC APP",
+"mhz": 123.825,
+"desc": "CALVI SAINTE CATHERINE APP"
+},
+{
+"key": "LFKC",
+"name": "KC AA",
+"mhz": 123.2,
+"desc": "CALVI SAINTE CATHERINE A/A"
+},
+{
+"key": "LFKD",
+"name": "KD AA",
+"mhz": 123.5,
+"desc": "SOLLIERES SARDIERES A/A"
+},
+{
+"key": "LFKE",
+"name": "KE AA",
+"mhz": 123.5,
+"desc": "SAINT JEAN EN ROYANS A/A"
+},
+{
+"key": "LFKF",
+"name": "KF INFO",
+"mhz": 119.825,
+"desc": "FIGARI SUD CORSE FIS"
+},
+{
+"key": "LFKF",
+"name": "KF APP",
+"mhz": 121.05,
+"desc": "FIGARI SUD CORSE APP"
+},
+{
+"key": "LFKG",
+"name": "KG APP",
+"mhz": 119.9,
+"desc": "GHISONACCIA ALZITONE APP"
+},
+{
+"key": "LFKG",
+"name": "KG TWR",
+"mhz": 118.35,
+"desc": "GHISONACCIA ALZITONE TWR"
+},
+{
+"key": "LFKG",
+"name": "KG AA",
+"mhz": 118.35,
+"desc": "GHISONACCIA ALZITONE A/A"
+},
+{
+"key": "LFKH",
+"name": "KH AA",
+"mhz": 123.5,
+"desc": "SAINT JEAN D'AVELANNE A/A"
+},
+{
+"key": "LFKL",
+"name": "KL AA",
+"mhz": 123.5,
+"desc": "LYON BRINDAS A/A"
+},
+{
+"key": "LFKM",
+"name": "KM APP",
+"mhz": 120.5,
+"desc": "SAINT GALMIER APP"
+},
+{
+"key": "LFKM",
+"name": "KM TWR",
+"mhz": 119.25,
+"desc": "SAINT GALMIER TWR"
+},
+{
+"key": "LFKM",
+"name": "KM AA",
+"mhz": 123.5,
+"desc": "SAINT GALMIER A/A"
+},
+{
+"key": "LFKO",
+"name": "KO AA",
+"mhz": 118.505,
+"desc": "PROPRIANO A/A"
+},
+{
+"key": "LFKP",
+"name": "KP AA",
+"mhz": 119.615,
+"desc": "LA TOUR DU PIN CESSIEU A/A"
+},
+{
+"key": "LFKR",
+"name": "KR AA",
+"mhz": 123.5,
+"desc": "SAINT REMY DE MAURIENNE A/A"
+},
+{
+"key": "LFKT",
+"name": "KT AA",
+"mhz": 123.5,
+"desc": "CORTE A/A"
+},
+{
+"key": "LFKX",
+"name": "KX AA",
+"mhz": 118.755,
+"desc": "MERIBEL ROBERT MERLOZ A/A"
+},
+{
+"key": "LFKY",
+"name": "KY INFO",
+"mhz": 123.7,
+"desc": "BELLEY-PEYRIEU FIS"
+},
+{
+"key": "LFKY",
+"name": "KY AA",
+"mhz": 123.5,
+"desc": "BELLEY-PEYRIEU A/A"
+},
+{
+"key": "LFLE",
+"name": "LE AA",
+"mhz": 118.405,
+"desc": "CHAMBERY CHALLES LES EAUX A/A"
+},
+{
+"key": "LFLI",
+"name": "LI INFO",
+"mhz": 126.35,
+"desc": "ANNEMASSE FIS"
+},
+{
+"key": "LFLI",
+"name": "LI ATIS",
+"mhz": 135.58,
+"desc": "ANNEMASSE ATIS"
+},
+{
+"key": "LFLI",
+"name": "LI APP",
+"mhz": 131.33,
+"desc": "ANNEMASSE APP"
+},
+{
+"key": "LFLI",
+"name": "LI AA",
+"mhz": 125.88,
+"desc": "ANNEMASSE A/A"
+},
+{
+"key": "LFLJ",
+"name": "LJ AFIS",
+"mhz": 120.08,
+"desc": "COURCHEVEL AFIS"
+},
+{
+"key": "LFLJ",
+"name": "LJ AA",
+"mhz": 120.08,
+"desc": "COURCHEVEL A/A"
+},
+{
+"key": "LFLM",
+"name": "LM AA",
+"mhz": 119.005,
+"desc": "MACON CHARNAY A/A"
+},
+{
+"key": "LFLN",
+"name": "LN AA",
+"mhz": 122.3,
+"desc": "SAINT YAN A/A"
+},
+{
+"key": "LFLO",
+"name": "LO APP",
+"mhz": 123.405,
+"desc": "ROANNE APP"
+},
+{
+"key": "LFLO",
+"name": "LO AA",
+"mhz": 120.905,
+"desc": "ROANNE A/A"
+},
+{
+"key": "LFLP",
+"name": "LP INFO",
+"mhz": 123.705,
+"desc": "ANNECY MEYTHET FIS"
+},
+{
+"key": "LFLP",
+"name": "LP APP",
+"mhz": 121.205,
+"desc": "ANNECY MEYTHET APP"
+},
+{
+"key": "LFLQ",
+"name": "LQ AA",
+"mhz": 119.885,
+"desc": "MONTELIMAR ANCONE A/A"
+},
+{
+"key": "LFLR",
+"name": "LR AA",
+"mhz": 119.51,
+"desc": "SAINT RAMBERT D'ALBON A/A"
+},
+{
+"key": "LFLS",
+"name": "LS APP",
+"mhz": 125.43,
+"desc": "GRENOBLE ALPES ISERE APP"
+},
+{
+"key": "LFLT",
+"name": "LT AA",
+"mhz": 123.5,
+"desc": "MONTLUCON DOMERAT A/A"
+},
+{
+"key": "LFLV",
+"name": "LV APP",
+"mhz": 122.225,
+"desc": "VICHY CHARMEIL APP"
+},
+{
+"key": "LFLX",
+"name": "LX APP",
+"mhz": 134.1,
+"desc": "CHATEAUROUX DEOLS APP"
+},
+{
+"key": "LFLY",
+"name": "LY INFO",
+"mhz": 135.2,
+"desc": "LYON BRON FIS"
+},
+{
+"key": "LFLY",
+"name": "LY APP",
+"mhz": 136.075,
+"desc": "LYON BRON APP"
+},
+{
+"key": "LFLY",
+"name": "LY AFIS",
+"mhz": 118.105,
+"desc": "LYON BRON AFIS"
+},
+{
+"key": "LFLY",
+"name": "LY AA",
+"mhz": 118.105,
+"desc": "LYON BRON A/A"
+},
+{
+"key": "LFLZ",
+"name": "LZ AA",
+"mhz": 123.5,
+"desc": "FEURS CHAMBEON A/A"
+},
+{
+"key": "LFMA",
+"name": "MA APP",
+"mhz": 124.355,
+"desc": "AIX LES MILLES APP"
+},
+{
+"key": "LFMD",
+"name": "MD APP",
+"mhz": 120.655,
+"desc": "CANNES MANDELIEU APP"
+},
+{
+"key": "LFME",
+"name": "ME AA",
+"mhz": 118.255,
+"desc": "NIMES COURBESSAC A/A"
+},
+{
+"key": "LFMF",
+"name": "MF AA",
+"mhz": 119.055,
+"desc": "FAYENCE A/A"
+},
+{
+"key": "LFMG",
+"name": "MG AA",
+"mhz": 134.155,
+"desc": "MONTAGNE NOIRE A/A"
+},
+{
+"key": "LFMH",
+"name": "MH APP",
+"mhz": 120.505,
+"desc": "SAINT ETIENNE LOIRE APP"
+},
+{
+"key": "LFMK",
+"name": "MK APP",
+"mhz": 123.85,
+"desc": "CARCASSONNE SALVAZA APP"
+},
+{
+"key": "LFMK",
+"name": "MK AA",
+"mhz": 134.505,
+"desc": "CARCASSONNE SALVAZA A/A"
+},
+{
+"key": "LFMP",
+"name": "MP APP",
+"mhz": 130.855,
+"desc": "PERPIGNAN RIVESALTES APP"
+},
+{
+"key": "LFMQ",
+"name": "MQ APP",
+"mhz": 124.35,
+"desc": "LE CASTELLET APP"
+},
+{
+"key": "LFMR",
+"name": "MR AA",
+"mhz": 123.5,
+"desc": "BARCELONNETTE SAINT PONS A/A"
+},
+{
+"key": "LFMS",
+"name": "MS AA",
+"mhz": 130.205,
+"desc": "ALES CEVENNES A/A"
+},
+{
+"key": "LFMU",
+"name": "MU APP",
+"mhz": 130.855,
+"desc": "BEZIERS VIAS APP"
+},
+{
+"key": "LFMV",
+"name": "MV APP",
+"mhz": 132.305,
+"desc": "AVIGNON CAUMONT APP"
+},
+{
+"key": "LFMW",
+"name": "MW AA",
+"mhz": 118.905,
+"desc": "CASTELNAUDARY VILLENEUVE A/A"
+},
+{
+"key": "LFMX",
+"name": "MX AA",
+"mhz": 122.305,
+"desc": "CHATEAU ARNOUX SAINT AUBAN A/A"
+},
+{
+"key": "LFMZ",
+"name": "MZ AFIS",
+"mhz": 121.205,
+"desc": "LEZIGNAN CORBIERES AFIS"
+},
+{
+"key": "LFMZ",
+"name": "MZ AA",
+"mhz": 121.205,
+"desc": "LEZIGNAN CORBIERES A/A"
+},
+{
+"key": "LFNA",
+"name": "NA ATIS",
+"mhz": 129.33,
+"desc": "GAP TALLARD ATIS"
+},
+{
+"key": "LFNA",
+"name": "NA AFIS",
+"mhz": 119.105,
+"desc": "GAP TALLARD AFIS"
+},
+{
+"key": "LFNA",
+"name": "NA AA",
+"mhz": 119.105,
+"desc": "GAP TALLARD A/A"
+},
+{
+"key": "LFNC",
+"name": "NC AA",
+"mhz": 123.5,
+"desc": "MONT DAUPHIN SAINT CREPIN A/A"
+},
+{
+"key": "LFNE",
+"name": "NE INFO",
+"mhz": 132.3,
+"desc": "SALON EYGUIERES FIS"
+},
+{
+"key": "LFNE",
+"name": "NE AA",
+"mhz": 119.58,
+"desc": "SALON EYGUIERES A/A"
+},
+{
+"key": "LFNF",
+"name": "NF AA",
+"mhz": 118.155,
+"desc": "VINON A/A"
+},
+{
+"key": "LFNG",
+"name": "NG AA",
+"mhz": 120.605,
+"desc": "MONTPELLIER CANDILLARGUES A/A"
+},
+{
+"key": "LFNH",
+"name": "NH AA",
+"mhz": 118.18,
+"desc": "CARPENTRAS A/A"
+},
+{
+"key": "LFNJ",
+"name": "NJ AA",
+"mhz": 123.5,
+"desc": "ASPRES SUR BUECH A/A"
+},
+{
+"key": "LFNL",
+"name": "NL AA",
+"mhz": 122.505,
+"desc": "SAINT MARTIN DE LONDRES A/A"
+},
+{
+"key": "LFNN",
+"name": "NN APP",
+"mhz": 130.855,
+"desc": "NARBONNE APP"
+},
+{
+"key": "LFNN",
+"name": "NN AA",
+"mhz": 119.505,
+"desc": "NARBONNE A/A"
+},
+{
+"key": "LFNO",
+"name": "NO AA",
+"mhz": 120.43,
+"desc": "FLORAC SAINTE ENIMIE A/A"
+},
+{
+"key": "LFNQ",
+"name": "NQ AA",
+"mhz": 119.91,
+"desc": "LA LLAGONNE LA QUILLANE A/A"
+},
+{
+"key": "LFNR",
+"name": "NR APP",
+"mhz": 124.35,
+"desc": "BERRE LA FARE APP"
+},
+{
+"key": "LFNR",
+"name": "NR TWR",
+"mhz": 133.1,
+"desc": "BERRE LA FARE TWR"
+},
+{
+"key": "LFNR",
+"name": "NR AA",
+"mhz": 118.33,
+"desc": "BERRE LA FARE A/A"
+},
+{
+"key": "LFNS",
+"name": "NS AA",
+"mhz": 120.055,
+"desc": "SISTERON VAUMEILH A/A"
+},
+{
+"key": "LFNT",
+"name": "NT APP",
+"mhz": 118.925,
+"desc": "AVIGNON PUJAUT APP"
+},
+{
+"key": "LFNT",
+"name": "NT AA",
+"mhz": 123.355,
+"desc": "AVIGNON PUJAUT A/A"
+},
+{
+"key": "LFNU",
+"name": "NU AA",
+"mhz": 119.54,
+"desc": "UZES A/A"
+},
+{
+"key": "LFNV",
+"name": "NV AA",
+"mhz": 120.06,
+"desc": "VALREAS VISAN A/A"
+},
+{
+"key": "LFNW",
+"name": "NW AA",
+"mhz": 120.005,
+"desc": "PUIVERT A/A"
+},
+{
+"key": "LFNX",
+"name": "NX AA",
+"mhz": 123.5,
+"desc": "BEDARIEUX LA TOUR SUR ORB A/A"
+},
+{
+"key": "LFNZ",
+"name": "NZ INFO",
+"mhz": 132.3,
+"desc": "LE MAZET DE ROMANIN FIS"
+},
+{
+"key": "LFNZ",
+"name": "NZ ATIS",
+"mhz": 125.355,
+"desc": "LE MAZET DE ROMANIN ATIS"
+},
+{
+"key": "LFNZ",
+"name": "NZ AA",
+"mhz": 118.455,
+"desc": "LE MAZET DE ROMANIN A/A"
+},
+{
+"key": "LFOC",
+"name": "OC AA",
+"mhz": 125.625,
+"desc": "CHATEAUDUN A/A"
+},
+{
+"key": "LFOD",
+"name": "OD AA",
+"mhz": 120.605,
+"desc": "SAUMUR SAINT FLORENT A/A"
+},
+{
+"key": "LFOF",
+"name": "OF AA",
+"mhz": 118.33,
+"desc": "ALENCON VALFRAMBERT A/A"
+},
+{
+"key": "LFOG",
+"name": "OG AA",
+"mhz": 123.5,
+"desc": "FLERS SAINT PAUL A/A"
+},
+{
+"key": "LFOH",
+"name": "OH APP",
+"mhz": 120.35,
+"desc": "LE HAVRE OCTEVILLE APP"
+},
+{
+"key": "LFOI",
+"name": "OI AA",
+"mhz": 120.06,
+"desc": "ABBEVILLE A/A"
+},
+{
+"key": "LFOK",
+"name": "OK APP",
+"mhz": 118.89,
+"desc": "CHALONS VATRY APP"
+},
+{
+"key": "LFOL",
+"name": "OL AA",
+"mhz": 126.855,
+"desc": "L'AIGLE SAINT MICHEL A/A"
+},
+{
+"key": "LFOM",
+"name": "OM AA",
+"mhz": 128.93,
+"desc": "LESSAY A/A"
+},
+{
+"key": "LFON",
+"name": "ON AA",
+"mhz": 118.205,
+"desc": "DREUX VERNOUILLET A/A"
+},
+{
+"key": "LFOO",
+"name": "OO AA",
+"mhz": 123.355,
+"desc": "LES SABLES D'OLONNE TALMONT A/A"
+},
+{
+"key": "LFOP",
+"name": "OP APP",
+"mhz": 134.825,
+"desc": "ROUEN VALLEE DE SEINE APP"
+},
+{
+"key": "LFOR",
+"name": "OR AA",
+"mhz": 119.205,
+"desc": "CHARTRES METROPOLE A/A"
+},
+{
+"key": "LFOS",
+"name": "OS AA",
+"mhz": 119.51,
+"desc": "SAINT VALERY VITTEFLEUR A/A"
+},
+{
+"key": "LFOT",
+"name": "OT APP",
+"mhz": 134.875,
+"desc": "TOURS VAL DE LOIRE APP"
+},
+{
+"key": "LFOU",
+"name": "OU APP",
+"mhz": 124.25,
+"desc": "CHOLET LE PONTREAU APP"
+},
+{
+"key": "LFOW",
+"name": "OW AA",
+"mhz": 123.5,
+"desc": "SAINT QUENTIN ROUPY A/A"
+},
+{
+"key": "LFOX",
+"name": "OX AA",
+"mhz": 119.05,
+"desc": "ETAMPES MONDESIR A/A"
+},
+{
+"key": "LFOY",
+"name": "OY AA",
+"mhz": 123.5,
+"desc": "LE HAVRE SAINT ROMAIN A/A"
+},
+{
+"key": "LFPA",
+"name": "PA AA",
+"mhz": 119.505,
+"desc": "PERSAN BEAUMONT A/A"
+},
+{
+"key": "LFPB",
+"name": "PB APP",
+"mhz": 121.155,
+"desc": "PARIS LE BOURGET APP"
+},
+{
+"key": "LFPD",
+"name": "PD AA",
+"mhz": 119.23,
+"desc": "BERNAY SAINT MARTIN A/A"
+},
+{
+"key": "LFPE",
+"name": "PE ATIS",
+"mhz": 126.725,
+"desc": "MEAUX ESBLY ATIS"
+},
+{
+"key": "LFPE",
+"name": "PE TWR",
+"mhz": 120.15,
+"desc": "MEAUX ESBLY TWR"
+},
+{
+"key": "LFPE",
+"name": "PE AA",
+"mhz": 120.15,
+"desc": "MEAUX ESBLY A/A"
+},
+{
+"key": "LFPF",
+"name": "PF AA",
+"mhz": 120.43,
+"desc": "BEYNES THIVERVAL A/A"
+},
+{
+"key": "LFPH",
+"name": "PH AA",
+"mhz": 123.93,
+"desc": "CHELLES LE PIN A/A"
+},
+{
+"key": "LFPK",
+"name": "PK AA",
+"mhz": 122.205,
+"desc": "COULOMMIERS VOISINS A/A"
+},
+{
+"key": "LFPL",
+"name": "PL ATIS",
+"mhz": 125.03,
+"desc": "LOGNES EMERAINVILLE ATIS"
+},
+{
+"key": "LFPL",
+"name": "PL TWR",
+"mhz": 118.605,
+"desc": "LOGNES EMERAINVILLE TWR"
+},
+{
+"key": "LFPL",
+"name": "PL GND",
+"mhz": 122.13,
+"desc": "LOGNES EMERAINVILLE GND"
+},
+{
+"key": "LFPL",
+"name": "PL AA",
+"mhz": 118.605,
+"desc": "LOGNES EMERAINVILLE A/A"
+},
+{
+"key": "LFPN",
+"name": "PN AA",
+"mhz": 120.755,
+"desc": "PARIS SACLAY VERSAILLES A/A"
+},
+{
+"key": "LFPP",
+"name": "PP AA",
+"mhz": 120.405,
+"desc": "LE PLESSIS BELLEVILLE A/A"
+},
+{
+"key": "LFPQ",
+"name": "PQ AA",
+"mhz": 120.23,
+"desc": "FONTENAY TRESIGNY A/A"
+},
+{
+"key": "LFPR",
+"name": "PR APP",
+"mhz": 118.925,
+"desc": "ORANGE PLAN DE DIEU APP"
+},
+{
+"key": "LFPR",
+"name": "PR AA",
+"mhz": 128.95,
+"desc": "ORANGE PLAN DE DIEU A/A"
+},
+{
+"key": "LFPT",
+"name": "PT APP",
+"mhz": 118.805,
+"desc": "PONTOISE CORMEILLES EN VEXIN APP"
+},
+{
+"key": "LFPT",
+"name": "PT AA",
+"mhz": 121.205,
+"desc": "PONTOISE CORMEILLES EN VEXIN A/A"
+},
+{
+"key": "LFPU",
+"name": "PU AA",
+"mhz": 120.055,
+"desc": "MORET EPISY A/A"
+},
+{
+"key": "LFPX",
+"name": "PX ATIS",
+"mhz": 125.275,
+"desc": "CHAVENAY VILLEPREUX ATIS"
+},
+{
+"key": "LFPX",
+"name": "PX TWR",
+"mhz": 129.525,
+"desc": "CHAVENAY VILLEPREUX TWR"
+},
+{
+"key": "LFPX",
+"name": "PX GND",
+"mhz": 121.9,
+"desc": "CHAVENAY VILLEPREUX GND"
+},
+{
+"key": "LFPX",
+"name": "PX AA",
+"mhz": 129.525,
+"desc": "CHAVENAY VILLEPREUX A/A"
+},
+{
+"key": "LFPZ",
+"name": "PZ ATIS",
+"mhz": 131.025,
+"desc": "SAINT CYR L'ECOLE ATIS"
+},
+{
+"key": "LFPZ",
+"name": "PZ TWR",
+"mhz": 118.0,
+"desc": "SAINT CYR L'ECOLE TWR"
+},
+{
+"key": "LFPZ",
+"name": "PZ GND",
+"mhz": 121.95,
+"desc": "SAINT CYR L'ECOLE GND"
+},
+{
+"key": "LFPZ",
+"name": "PZ AA",
+"mhz": 118.0,
+"desc": "SAINT CYR L'ECOLE A/A"
+},
+{
+"key": "LFQB",
+"name": "QB INFO",
+"mhz": 120.325,
+"desc": "TROYES BARBEREY FIS"
+},
+{
+"key": "LFQC",
+"name": "QC AA",
+"mhz": 123.5,
+"desc": "LUNEVILLE CROISMARE A/A"
+},
+{
+"key": "LFQD",
+"name": "QD AA",
+"mhz": 123.5,
+"desc": "ARRAS ROCLINCOURT A/A"
+},
+{
+"key": "LFQF",
+"name": "QF APP",
+"mhz": 123.405,
+"desc": "AUTUN BELLEVUE APP"
+},
+{
+"key": "LFQF",
+"name": "QF AA",
+"mhz": 123.5,
+"desc": "AUTUN BELLEVUE A/A"
+},
+{
+"key": "LFQG",
+"name": "QG APP",
+"mhz": 119.7,
+"desc": "NEVERS FOURCHAMBAULT APP"
+},
+{
+"key": "LFQH",
+"name": "QH AA",
+"mhz": 123.5,
+"desc": "CHATILLON SUR SEINE A/A"
+},
+{
+"key": "LFQJ",
+"name": "QJ AA",
+"mhz": 121.005,
+"desc": "MAUBEUGE ELESMES A/A"
+},
+{
+"key": "LFQK",
+"name": "QK AA",
+"mhz": 118.98,
+"desc": "CHALONS ECURY SUR COOLE A/A"
+},
+{
+"key": "LFQL",
+"name": "QL AA",
+"mhz": 123.355,
+"desc": "LENS BENIFONTAINE A/A"
+},
+{
+"key": "LFQN",
+"name": "QN AA",
+"mhz": 123.5,
+"desc": "SAINT OMER WIZERNES A/A"
+},
+{
+"key": "LFQO",
+"name": "QO AA",
+"mhz": 122.005,
+"desc": "LILLE MARCQ EN BAROEUL A/A"
+},
+{
+"key": "LFQT",
+"name": "QT APP",
+"mhz": 126.48,
+"desc": "MERVILLE CALONNE APP"
+},
+{
+"key": "LFQU",
+"name": "QU AA",
+"mhz": 123.5,
+"desc": "SARRE UNION A/A"
+},
+{
+"key": "LFQV",
+"name": "QV AA",
+"mhz": 126.855,
+"desc": "CHARLEVILLE MEZIERES A/A"
+},
+{
+"key": "LFQW",
+"name": "QW APP",
+"mhz": 129.925,
+"desc": "VESOUL FROTEY APP"
+},
+{
+"key": "LFQW",
+"name": "QW AA",
+"mhz": 118.155,
+"desc": "VESOUL FROTEY A/A"
+},
+{
+"key": "LFQX",
+"name": "QX AA",
+"mhz": 123.5,
+"desc": "JUVANCOURT A/A"
+},
+{
+"key": "LFQY",
+"name": "QY AA",
+"mhz": 123.5,
+"desc": "SAVERNE STEINBOURG A/A"
+},
+{
+"key": "LFQZ",
+"name": "QZ AA",
+"mhz": 123.5,
+"desc": "DIEUZE GUEBLANGE A/A"
+},
+{
+"key": "LFRB",
+"name": "RB APP",
+"mhz": 122.4,
+"desc": "BREST BRETAGNE APP"
+},
+{
+"key": "LFRD",
+"name": "RD APP",
+"mhz": 126.95,
+"desc": "DINARD PLEURTUIT SAINT MALO APP"
+},
+{
+"key": "LFRE",
+"name": "RE AFIS",
+"mhz": 121.405,
+"desc": "LA BAULE ESCOUBLAC AFIS"
+},
+{
+"key": "LFRE",
+"name": "RE AA",
+"mhz": 121.405,
+"desc": "LA BAULE ESCOUBLAC A/A"
+},
+{
+"key": "LFRF",
+"name": "RF AA",
+"mhz": 118.105,
+"desc": "GRANVILLE-MONT SAINT MICHEL A/A"
+},
+{
+"key": "LFRG",
+"name": "RG APP",
+"mhz": 120.35,
+"desc": "DEAUVILLE NORMANDIE APP"
+},
+{
+"key": "LFRH",
+"name": "RH AA",
+"mhz": 122.7,
+"desc": "LORIENT LANN BIHOUE A/A"
+},
+{
+"key": "LFRI",
+"name": "RI APP",
+"mhz": 124.43,
+"desc": "LA ROCHE SUR YON LES AJONCS APP"
+},
+{
+"key": "LFRK",
+"name": "RK APP",
+"mhz": 120.35,
+"desc": "CAEN CARPIQUET APP"
+},
+{
+"key": "LFRO",
+"name": "RO APP",
+"mhz": 125.86,
+"desc": "LANNION APP"
+},
+{
+"key": "LFRP",
+"name": "RP AA",
+"mhz": 118.255,
+"desc": "PLOERMEL LOYAT A/A"
+},
+{
+"key": "LFRQ",
+"name": "RQ APP",
+"mhz": 125.86,
+"desc": "QUIMPER PLUGUFFAN APP"
+},
+{
+"key": "LFRU",
+"name": "RU APP",
+"mhz": 122.4,
+"desc": "MORLAIX PLOUJEAN APP"
+},
+{
+"key": "LFRW",
+"name": "RW AA",
+"mhz": 119.785,
+"desc": "AVRANCHES LE VAL SAINT PERE A/A"
+},
+{
+"key": "LFRZ",
+"name": "RZ APP",
+"mhz": 124.43,
+"desc": "SAINT NAZAIRE MONTOIR APP"
+},
+{
+"key": "LFSA",
+"name": "SA AA",
+"mhz": 123.5,
+"desc": "BESANCON THISE A/A"
+},
+{
+"key": "LFSD",
+"name": "SD INFO",
+"mhz": 135.85,
+"desc": "DIJON-LONGVIC FIS"
+},
+{
+"key": "LFSD",
+"name": "SD APP",
+"mhz": 125.415,
+"desc": "DIJON-LONGVIC APP"
+},
+{
+"key": "LFSE",
+"name": "SE AA",
+"mhz": 123.5,
+"desc": "EPINAL DOGNEVILLE A/A"
+},
+{
+"key": "LFSG",
+"name": "SG APP",
+"mhz": 127.25,
+"desc": "EPINAL MIRECOURT APP"
+},
+{
+"key": "LFSH",
+"name": "SH AA",
+"mhz": 120.63,
+"desc": "HAGUENAU A/A"
+},
+{
+"key": "LFSJ",
+"name": "SJ AA",
+"mhz": 123.5,
+"desc": "SEDAN DOUZY A/A"
+},
+{
+"key": "LFSK",
+"name": "SK AA",
+"mhz": 123.5,
+"desc": "VITRY LE FRANCOIS VAUCLERC A/A"
+},
+{
+"key": "LFSL",
+"name": "SL APP",
+"mhz": 118.08,
+"desc": "BRIVE SOUILLAC APP"
+},
+{
+"key": "LFSM",
+"name": "SM APP",
+"mhz": 133.51,
+"desc": "MONTBELIARD COURCELLES APP"
+},
+{
+"key": "LFSN",
+"name": "SN APP",
+"mhz": 127.25,
+"desc": "NANCY ESSEY APP"
+},
+{
+"key": "LFSP",
+"name": "SP AA",
+"mhz": 135.705,
+"desc": "PONTARLIER A/A"
+},
+{
+"key": "LFSS",
+"name": "SS AA",
+"mhz": 119.915,
+"desc": "SAINT SULPICE DES LANDES A/A"
+},
+{
+"key": "LFST",
+"name": "ST INFO",
+"mhz": 120.41,
+"desc": "STRASBOURG ENTZHEIM FIS"
+},
+{
+"key": "LFSU",
+"name": "SU INFO",
+"mhz": 135.85,
+"desc": "LANGRES ROLAMPONT FIS"
+},
+{
+"key": "LFSU",
+"name": "SU AA",
+"mhz": 123.5,
+"desc": "LANGRES ROLAMPONT A/A"
+},
+{
+"key": "LFSV",
+"name": "SV AA",
+"mhz": 119.785,
+"desc": "PONT SAINT VINCENT A/A"
+},
+{
+"key": "LFSW",
+"name": "SW AA",
+"mhz": 120.185,
+"desc": "EPERNAY PLIVOT A/A"
+},
+{
+"key": "LFTA",
+"name": "TA AA",
+"mhz": 123.5,
+"desc": "LA-TRANCHE-SUR-MER A/A"
+},
+{
+"key": "LFTB",
+"name": "TB ATIS",
+"mhz": 125.35,
+"desc": "MARIGNANE BERRE ATIS"
+},
+{
+"key": "LFTB",
+"name": "TB INFO",
+"mhz": 132.95,
+"desc": "MARIGNANE BERRE FIS"
+},
+{
+"key": "LFTB",
+"name": "TB APP",
+"mhz": 124.35,
+"desc": "MARIGNANE BERRE APP"
+},
+{
+"key": "LFTB",
+"name": "TB TWR",
+"mhz": 133.1,
+"desc": "MARIGNANE BERRE TWR"
+},
+{
+"key": "LFTB",
+"name": "TB GND",
+"mhz": 121.9,
+"desc": "MARIGNANE BERRE GND"
+},
+{
+"key": "LFTF",
+"name": "TF TWR",
+"mhz": 122.7,
+"desc": "CUERS PIERREFEU TWR"
+},
+{
+"key": "LFTH",
+"name": "TH GND",
+"mhz": 121.8,
+"desc": "HYERES LE PALYVESTRE GND"
+},
+{
+"key": "LFTM",
+"name": "TM AA",
+"mhz": 123.5,
+"desc": "SERRES LA BATIE MONTSALEON A/A"
+},
+{
+"key": "LFTN",
+"name": "TN AA",
+"mhz": 123.5,
+"desc": "LA GRAND'COMBE A/A"
+},
+{
+"key": "LFTP",
+"name": "TP AA",
+"mhz": 123.5,
+"desc": "PUIMOISSON A/A"
+},
+{
+"key": "LFTQ",
+"name": "TQ AA",
+"mhz": 123.5,
+"desc": "CHATEAUBRIANT POUANCE A/A"
+},
+{
+"key": "LFTW",
+"name": "TW APP",
+"mhz": 131.055,
+"desc": "NIMES GARONS APP"
+},
+{
+"key": "LFXA",
+"name": "XA APP",
+"mhz": 120.23,
+"desc": "AMBERIEU APP"
+},
+{
+"key": "LFXA",
+"name": "XA TWR",
+"mhz": 122.1,
+"desc": "AMBERIEU TWR"
+},
+{
+"key": "LFXA",
+"name": "XA AA",
+"mhz": 129.755,
+"desc": "AMBERIEU A/A"
+},
+{
+"key": "LFXB",
+"name": "XB INFO",
+"mhz": 124.2,
+"desc": "SAINTES THENAC FIS"
+},
+{
+"key": "LFXB",
+"name": "XB APP",
+"mhz": 132.45,
+"desc": "SAINTES THENAC APP"
+},
+{
+"key": "LFXB",
+"name": "XB TWR",
+"mhz": 122.4,
+"desc": "SAINTES THENAC TWR"
+},
+{
+"key": "LFXU",
+"name": "XU AA",
+"mhz": 122.955,
+"desc": "LES MUREAUX A/A"
+},
+{
+"key": "LFYG",
+"name": "YG AA",
+"mhz": 122.93,
+"desc": "CAMBRAI NIERGNIES A/A"
+},
+{
+"key": "LFYR",
+"name": "YR AA",
+"mhz": 119.075,
+"desc": "ROMORANTIN PRUNIERS A/A"
+},
+{
+"key": "LFYS",
+"name": "YS AA",
+"mhz": 118.625,
+"desc": "SAINTE LEOCADIE A/A"
+},
+{
+"key": "LFYV",
+"name": "YV AA",
+"mhz": 123.5,
+"desc": "YVETOT-BAONS LE COMTE A/A"
+}
+]
+}

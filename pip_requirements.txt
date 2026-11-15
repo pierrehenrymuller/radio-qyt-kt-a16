@@ -1,0 +1,6 @@
+textual~=8.2
+pyserial~=3.5
+pytest~=9.2
+pytest-cov~=7.1
+ruff~=0.17
+pypdf~=7.0

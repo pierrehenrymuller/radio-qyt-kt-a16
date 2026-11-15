@@ -1,0 +1,27 @@
+name: security
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 5 * * 1" # weekly: dependency audit against fresh advisories
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Known vulnerabilities in the dependencies (Alpine)
+        run: sh .github/alpine.sh .github/audit.sh
+
+  secrets:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # the whole history
+      - name: Secrets in the git history (gitleaks image)
+        run: sh .github/secrets.sh

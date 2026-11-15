@@ -1,0 +1,25 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write # the coverage badge goes to the "badges" branch
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Lint and tests with coverage (Alpine, latest uv and Python)
+        env:
+          CI_LATEST_PYTHON: "1"
+        run: sh .github/alpine.sh .github/tests.sh
+      - name: Coverage badge
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: sh .github/coverage-badge.sh

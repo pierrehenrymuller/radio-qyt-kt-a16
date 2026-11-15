@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+# Vendor binaries and radio captures stay local (licence, personal radio data)
+vendor/
+captures/
+*.img
+build/
+*.egg-info/
+coverage.xml
+.coverage
+dist/
