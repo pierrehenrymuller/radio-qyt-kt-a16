@@ -174,6 +174,7 @@ kta16 --port /dev/ttyUSB0 maradio.dat
 | `l` | Libérer la radio | ferme le port : la radio redémarre et redevient utilisable |
 | `d` | Défaut | met dans la zone de l'onglet les valeurs « Default » du logiciel du fabricant |
 | `c` | Effacer | « Clear » du logiciel du fabricant (onglets Canaux et FM) |
+| `u` | Maj aéro | Onglet Canaux : nouvelles fréquences des données aéro pour les canaux nommés comme une ligne aéro |
 | `o` | Ouvrir | ouvre un fichier |
 | `s` | Enregistrer | enregistre dans un fichier |
 | `t` | Thème | alterne entre le thème sombre et le thème clair |
@@ -257,6 +258,24 @@ TX de chaque ligne (ATIS 200 MHz, balise vide, sinon TX = RX). Les canaux libres
 reculent ensuite du nombre de places qui manquent (les canaux vides entre
 eux sont conservés). Si le dernier canal dépassait le canal 199, rien n'est
 modifié et un message le dit.
+
+Un nom qui a plusieurs fréquences est numéroté dans la liste, pour qu'un nom
+soit une seule fréquence : `BD APP1`, `BD APP2`... (dans l'ordre du tableau du
+SIA ; un nom de 7 caractères perd ses derniers caractères au profit du
+chiffre, `PX ATI1`). Le numéro fait partie du nom écrit dans le canal.
+
+La touche `u` (onglet Canaux) met à jour les canaux déjà dans l'image : chaque
+canal dont le nom est un nom aéro (`PX TWR`, `BD APP2`) et dont le RX diffère
+des données aéro courantes reçoit la nouvelle fréquence. Le TX suit
+seulement s'il était égal au RX ; un TX désactivé (ATIS), vide (balise) ou
+différent est conservé. Une fenêtre liste les changements, qui apparaissent
+ensuite dans les modifications en attente ; rien n'est écrit dans la radio
+avant `w` ou `a`. Un canal enregistré avant la numérotation sous un nom simple
+(`BD APP`) est renommé (`BD APP2`) par la première mise à jour quand son RX
+est l'une des fréquences de ce nom ; sur tout autre RX rien n'indique quelle
+ligne c'était, il reste tel quel et se renomme à la main. Les données
+sont celles du dernier `make aero` : le lancer avant de démarrer le
+programme, et après chaque nouveau cycle AIRAC du SIA.
 
 Les données viennent du SIA (Licence
 Ouverte, fichier `kta16/aero.json`) : services radio des 441 aérodromes (pages

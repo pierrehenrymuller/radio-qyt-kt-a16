@@ -533,6 +533,7 @@ def bindings():
         Binding("a", "write_changes", t("b_write_changes")),
         Binding("d", "default", t("b_default")),
         Binding("c", "clear", t("b_clear")),
+        Binding("u", "aero_update", t("b_aero")),
         Binding("o", "open", t("b_open")),
         Binding("s", "save", t("b_save")),
         Binding("l", "release", t("b_release")),
@@ -1447,6 +1448,38 @@ class KTA16App(App):
         self.push_screen(
             ConfirmScreen(t("clear_confirm", zone=zone_name(region.name))), done
         )
+
+    def action_aero_update(self):
+        """Channels named like an aero entry (BD APP2) take its current frequency."""
+        if self.current_region().name != image.CHANNELS.name:
+            self.notify(t("aero_update_only"))
+            return
+        entries = aero.load()
+        if not entries:
+            self.notify(t("aero_update_nodata"), severity="error")
+            return
+        chans = {n: self.image.channel(n) for n in range(1, channels.CHANNEL_COUNT + 1)}
+        found = aero.refresh(chans, entries)
+        if not found:
+            self.notify(t("aero_update_none"))
+            return
+        lines = [
+            f"{n - 1:>3} {old.name:<7} -> {new.name:<7} "
+            f"{old.rx_hz / 1e6:.5f} -> {new.rx_hz / 1e6:.5f}"
+            for n, old, new in found
+        ]
+        if len(lines) > 12:
+            lines[12:] = ["..."]
+        msg = "\n".join([t("aero_update_confirm", n=len(found)), *lines])
+
+        def done(ok):
+            if ok:
+                for n, _, new in found:
+                    self.image.set_channel(n, new)
+                self.refresh_channels()
+                self.notify(t("aero_update_done", n=len(found)))
+
+        self.push_screen(ConfirmScreen(msg), done)
 
     # files ---------------------------------------------------------------
 

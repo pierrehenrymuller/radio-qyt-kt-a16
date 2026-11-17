@@ -4,7 +4,7 @@ import json
 
 import pytest
 
-from kta16 import aero
+from kta16 import aero, channels
 
 AD2 = """
 <div id="LFPN-AD-2.18"><table>
@@ -256,3 +256,172 @@ def test_atis_and_beacon_detection(name, mhz, atis, beacon):
     hit = {"key": "LFXX", "name": name, "mhz": mhz, "desc": "AVORD Approche"}
     assert aero.is_atis(hit) is atis
     assert aero.is_beacon(hit) is beacon
+
+
+def hit(name, mhz, key="LFXX"):
+    return {"key": key, "name": name, "mhz": mhz, "desc": "X"}
+
+
+def names(entries):
+    return [(e["name"], e["mhz"]) for e in entries]
+
+
+def test_unique_name_is_unchanged():
+    got = aero.number_duplicates([hit("PX TWR", 129.525), hit("PX GND", 121.9)])
+    assert names(got) == [("PX TWR", 129.525), ("PX GND", 121.9)]
+
+
+def test_duplicates_are_numbered_in_file_order_not_by_frequency():
+    got = aero.number_duplicates(
+        [hit("BD APP", 129.88), hit("PX GND", 121.9), hit("BD APP", 121.205),
+         hit("BD APP", 126.73)]
+    )  # fmt: skip
+    assert names(got) == [
+        ("BD APP1", 129.88), ("PX GND", 121.9), ("BD APP2", 121.205),
+        ("BD APP3", 126.73),
+    ]  # fmt: skip
+
+
+def test_same_name_same_frequency_shares_its_number():
+    got = aero.number_duplicates(
+        [hit("BC APP", 121.5, "LFAA"), hit("BC APP", 243.0, "LFBB"),
+         hit("BC APP", 121.5, "LFCC")]
+    )  # fmt: skip
+    assert [e["name"] for e in got] == ["BC APP1", "BC APP2", "BC APP1"]
+
+
+def test_same_name_same_frequency_only_is_not_a_duplicate():
+    got = aero.number_duplicates([hit("BC APP", 121.5, "A"), hit("BC APP", 121.5, "B")])
+    assert [e["name"] for e in got] == ["BC APP", "BC APP"]
+
+
+def test_number_takes_the_place_of_the_last_characters_at_7():
+    got = aero.number_duplicates([hit("PX ATIS", 125.275), hit("PX ATIS", 125.3)])
+    assert [e["name"] for e in got] == ["PX ATI1", "PX ATI2"]
+    assert [e["base"] for e in got] == ["PX ATIS", "PX ATIS"]
+
+
+def test_two_digit_numbers_stay_within_7_characters():
+    got = aero.number_duplicates([hit("BC APP", 118 + i / 10) for i in range(11)])
+    out = [e["name"] for e in got]
+    assert out[8:] == ["BC APP9", "BC AP10", "BC AP11"]
+    assert len(set(out)) == 11 and all(len(n) <= 7 for n in out)
+
+
+def test_trailing_space_is_dropped_before_the_number():
+    got = aero.number_duplicates([hit("AB C", 118.0), hit("AB C", 119.0)])
+    assert [e["name"] for e in got] == ["AB C1", "AB C2"]
+    got = aero.number_duplicates([hit("ABCDEF ", 118.0), hit("ABCDEF ", 119.0)])
+    assert [e["name"] for e in got] == ["ABCDEF1", "ABCDEF2"]
+
+
+def test_number_duplicates_keeps_input_and_handles_empty():
+    entries = [hit("BD APP", 1.0), hit("BD APP", 2.0)]
+    aero.number_duplicates(entries)
+    assert [e["name"] for e in entries] == ["BD APP", "BD APP"]
+    assert "base" not in entries[0]
+    assert aero.number_duplicates([]) == []
+
+
+def test_real_aero_json_has_one_frequency_per_name():
+    entries = aero.load()
+    if not entries:
+        pytest.skip("aero.json missing")
+    seen = {}
+    for e in entries:
+        assert aero.NAME_RE.fullmatch(e["name"]), e
+        assert seen.setdefault(e["name"], e["mhz"]) == e["mhz"], e["name"]
+
+
+@pytest.mark.parametrize(
+    ("name", "base", "atis", "beacon"),
+    [
+        ("PX ATI1", "PX ATIS", True, False),
+        ("PX TWR1", "PX TWR", False, False),
+        ("VOR AB1", "VOR ABC", False, True),
+    ],
+)
+def test_detection_reads_the_name_before_numbering(name, base, atis, beacon):
+    h = {**hit(name, 125.275), "base": base}
+    assert aero.is_atis(h) is atis
+    assert aero.is_beacon(h) is beacon
+
+
+def ch(name, rx, tx="same", **kw):
+    tx_hz = rx if tx == "same" else tx
+    return channels.Channel(
+        rx, tx_hz, "OFF", "OFF", "LOW", False, "OFF", False, True, None, "OFF",
+        "QT", False, name, **kw,
+    )  # fmt: skip
+
+
+NEW = [hit("PX TWR", 129.525), hit("PX GND", 121.9), hit("VOR BMC", 113.75)]
+
+
+def test_refresh_moves_rx_and_tx_that_followed_it():
+    old = ch("PX TWR", 120_000_000)
+    got = aero.refresh({3: old}, NEW)
+    assert got == [(3, old, ch("PX TWR", 129_525_000))]
+
+
+def test_refresh_leaves_a_matching_frequency_alone():
+    assert aero.refresh({1: ch("PX GND", 121_900_000)}, NEW) == []
+
+
+def test_refresh_keeps_a_tx_that_differs_from_rx():
+    got = aero.refresh({1: ch("PX TWR", 120_000_000, tx=121_000_000)}, NEW)
+    assert got[0][2] == ch("PX TWR", 129_525_000, tx=121_000_000)
+
+
+def test_refresh_keeps_a_disabled_tx():
+    off = channels.TX_OFF_HZ
+    got = aero.refresh({1: ch("PX TWR", 120_000_000, tx=off)}, NEW)
+    assert got[0][2] == ch("PX TWR", 129_525_000, tx=off)
+
+
+def test_refresh_keeps_an_empty_tx_in_the_beacon_band():
+    got = aero.refresh({1: ch("VOR BMC", 113_000_000, tx=None)}, NEW)
+    assert got[0][2] == ch("VOR BMC", 113_750_000, tx=None)
+
+
+@pytest.mark.parametrize("name", ["", "UNKNOWN", "px twr", "X" * 500, "%'; DROP"])
+def test_refresh_ignores_names_it_does_not_know(name):
+    assert aero.refresh({1: ch(name, 120_000_000)}, NEW) == []
+
+
+def test_refresh_skips_empty_slots_and_works_without_data():
+    assert aero.refresh({1: None, 2: ch("PX TWR", 120_000_000)}, []) == []
+    assert aero.refresh({}, NEW) == []
+    assert [
+        n for n, _, _ in aero.refresh({1: None, 2: ch("PX TWR", 1_000_000)}, NEW)
+    ] == [2]
+
+
+def test_refresh_returns_channels_in_number_order():
+    got = aero.refresh({5: ch("PX GND", 1_000_000), 2: ch("PX TWR", 1_000_000)}, NEW)
+    assert [n for n, _, _ in got] == [2, 5]
+
+
+BASE_HITS = aero.number_duplicates(
+    [hit("BD APP", 119.275), hit("BD APP", 126.73), hit("PX ATIS", 125.275),
+     hit("PX ATIS", 125.3), hit("PX TWR", 129.525)]
+)  # fmt: skip
+
+
+def test_refresh_numbers_an_old_plain_name_from_its_frequency():
+    old = ch("BD APP", 126_730_000)
+    assert aero.refresh({4: old}, BASE_HITS) == [(4, old, ch("BD APP2", 126_730_000))]
+
+
+def test_refresh_numbering_keeps_tx_and_cuts_like_the_list():
+    old = ch("PX ATIS", 125_300_000, tx=channels.TX_OFF_HZ)
+    got = aero.refresh({1: old}, BASE_HITS)
+    assert got == [(1, old, ch("PX ATI2", 125_300_000, tx=channels.TX_OFF_HZ))]
+
+
+def test_refresh_does_not_guess_a_plain_name_on_an_unknown_frequency():
+    assert aero.refresh({1: ch("BD APP", 100_000_000)}, BASE_HITS) == []
+
+
+def test_refresh_numbered_names_are_not_renamed_again():
+    assert aero.refresh({1: ch("BD APP2", 126_730_000)}, BASE_HITS) == []

@@ -20,6 +20,7 @@ _TEXTS = {
     "b_write_changes": ("Écrire modifs", "Write changes"),
     "b_default": ("Défaut", "Default"),
     "b_clear": ("Effacer", "Clear"),
+    "b_aero": ("Maj aéro", "Aero update"),
     "b_open": ("Ouvrir", "Open"),
     "b_save": ("Enregistrer", "Save"),
     "b_release": ("Libérer la radio", "Release radio"),
@@ -297,6 +298,26 @@ _TEXTS = {
         "zone {zone} cleared in the image",
     ),
     "clear_confirm": ("Effacer la zone {zone} ?", "Clear the zone {zone}?"),
+    "aero_update_only": (
+        "« Maj aéro » n'existe que pour les canaux",
+        "« Aero update » only exists for channels",
+    ),
+    "aero_update_nodata": (
+        "données aéro absentes : lancer make aero",
+        "aero data missing: run make aero",
+    ),
+    "aero_update_none": (
+        "aucun canal à mettre à jour : les fréquences sont celles des données aéro",
+        "no channel to update: the frequencies match the aero data",
+    ),
+    "aero_update_confirm": (
+        "Canaux à mettre à jour depuis les données aéro : {n}. Rien n'est écrit dans la radio.",
+        "Channels to update from the aero data: {n}. Nothing is written to the radio.",
+    ),
+    "aero_update_done": (
+        "{n} canaux mis à jour dans l'image",
+        "{n} channels updated in the image",
+    ),
     "quit_confirm": (
         "Modifications ni écrites dans la radio ni enregistrées : quitter quand même ?",
         "Changes neither written to the radio nor saved: quit anyway?",
