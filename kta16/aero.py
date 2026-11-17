@@ -6,6 +6,7 @@ stored in aero.json). `python -m kta16.aero` rebuilds aero.json from the
 current AIRAC cycle.
 """
 
+import dataclasses
 import datetime as dt
 import html as htmllib
 import json
@@ -18,6 +19,7 @@ from io import BytesIO
 from pathlib import Path
 
 DATA = Path(__file__).with_name("aero.json")
+NAME_LEN = 7  # same rule as channels.NAME_LEN
 NAME_RE = re.compile(r"[0-9A-Z +_-]{0,7}")  # same rule as channels.NAME_RE
 AIRAC_REF = dt.date(2026, 10, 29)  # a known AIRAC date; cycles are 28 days
 MONTHS = [
@@ -206,16 +208,75 @@ _ATIS_RE = re.compile(r"\bATIS\b")
 _BEACON_RE = re.compile(r"^(VOR|ILS|LOC|DME)\b")
 
 
+def _label(hit):
+    """Name of an entry before `number_duplicates` cut it (PX ATIS, not PX ATI1)."""
+    return hit.get("base", hit["name"])
+
+
 def is_atis(hit):
     """ATIS service. Only the service label counts, never the aerodrome name."""
-    return bool(_ATIS_RE.search(hit["name"]))
+    return bool(_ATIS_RE.search(_label(hit)))
 
 
 def is_beacon(hit):
     """VOR, ILS or any frequency of the beacon band (AVORD APP is not a beacon)."""
-    return bool(_BEACON_RE.match(hit["name"])) or (
+    return bool(_BEACON_RE.match(_label(hit))) or (
         BEACON_BAND[0] <= hit["mhz"] <= BEACON_BAND[1]
     )
+
+
+def number_duplicates(entries):
+    """Copies of `entries` where a name with several frequencies is numbered.
+
+    BD APP becomes BD APP1, BD APP2... in file order (not by frequency: a
+    frequency the SIA changes in place keeps its number). The number takes the
+    place of the last characters when the name is already NAME_LEN long. `base`
+    keeps the name before numbering. Two entries with the same name and the
+    same frequency (two aerodrome codes) share one number.
+    """
+    seen = {}  # name -> its distinct frequencies, in file order
+    for e in entries:
+        freqs = seen.setdefault(e["name"], [])
+        if e["mhz"] not in freqs:
+            freqs.append(e["mhz"])
+    out = []
+    for e in entries:
+        name, freqs = e["name"], seen[e["name"]]
+        if len(freqs) > 1:
+            digits = str(freqs.index(e["mhz"]) + 1)
+            name = name[: NAME_LEN - len(digits)].rstrip() + digits
+        out.append({**e, "name": name, "base": e["name"]})
+    return out
+
+
+def refresh(chans, entries):
+    """[(number, old, new)] for the channels whose name is an aero name now on another frequency.
+
+    `chans` maps a channel number to a Channel (or None). RX takes the new
+    frequency; TX follows it only when it was equal to the old RX, so a
+    disabled TX (ATIS), an empty one (beacon) or a split stay as they are.
+    A channel still under a plain name that `number_duplicates` numbered
+    (BD APP) is renamed (BD APP2) when its RX is one of the frequencies of
+    that name; on any other RX there is no way to tell which one it was.
+    """
+    mhz, plain = {}, {}  # name -> MHz ; plain name -> {RX Hz: numbered name}
+    for e in entries:
+        mhz.setdefault(e["name"], e["mhz"])
+        if e.get("base", e["name"]) != e["name"]:
+            plain.setdefault(e["base"], {})[round(e["mhz"] * 1e6)] = e["name"]
+    out = []
+    for n, ch in sorted(chans.items()):
+        if ch is None or not ch.name:
+            continue
+        if ch.name in mhz:
+            rx = round(mhz[ch.name] * 1e6)
+            if rx != ch.rx_hz:
+                tx = rx if ch.tx_hz == ch.rx_hz else ch.tx_hz
+                out.append((n, ch, dataclasses.replace(ch, rx_hz=rx, tx_hz=tx)))
+        elif ch.rx_hz in plain.get(ch.name, {}):
+            new_name = plain[ch.name][ch.rx_hz]
+            out.append((n, ch, dataclasses.replace(ch, name=new_name)))
+    return out
 
 
 def search(entries, text):
@@ -229,9 +290,11 @@ def search(entries, text):
 
 @cache
 def load():
-    """Entries of aero.json (empty list when `python -m kta16.aero` was never run)."""
+    """Entries of aero.json, duplicate names numbered (empty list when `make aero` was never run)."""
     try:
-        return json.loads(DATA.read_text(encoding="utf-8"))["entries"]
+        return number_duplicates(
+            json.loads(DATA.read_text(encoding="utf-8"))["entries"]
+        )
     except (OSError, ValueError, KeyError):
         return []
 

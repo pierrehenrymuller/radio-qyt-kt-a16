@@ -5,7 +5,7 @@ import termios
 
 from textual.widgets import Button, Input, Select, SelectionList, Switch
 
-from kta16 import image, ports, protocol
+from kta16 import changes, image, ports, protocol
 from kta16.channels import Channel
 from kta16.emulator import FakeSerial, RadioEmulator
 from kta16.tui import ChannelScreen, ConfirmScreen, KTA16App, PortScreen, RestartScreen
@@ -1691,5 +1691,64 @@ def test_a_write_ends_the_session_and_the_next_action_waits_for_the_restart(
             await pilot.press("r")
             await pilot.pause()
             assert isinstance(app.screen, RestartScreen)  # it restarted: wait again
+
+    asyncio.run(scenario())
+
+
+AERO_NEW = [{"key": "LFPX", "name": "LFPX", "mhz": 129.525, "desc": "X"}]
+
+
+def test_aero_update_key_asks_then_puts_new_frequencies_in_pending(monkeypatch):
+    monkeypatch.setattr("kta16.aero.load", lambda: AERO_NEW)
+
+    async def scenario():
+        app, emu = make_app()
+        app.image = image.Image(emu.image)
+        async with app.run_test(size=(160, 50)) as pilot:
+            app.query_one("#tabs").active = "tab-channels"
+            await pilot.pause()
+            await pilot.press("u")
+            await pilot.pause()
+            assert isinstance(app.screen, ConfirmScreen)
+            assert "LFPX" in str(app.screen.message)
+            await pilot.click("#no")  # cancelled: nothing changes
+            await pilot.pause()
+            assert app.image.channel(1).rx_hz == 145_500_000
+            await pilot.press("u")
+            await pilot.click("#yes")
+            await pilot.pause()
+            ch = app.image.channel(1)
+            assert (ch.rx_hz, ch.tx_hz) == (129_525_000, 129_525_000)
+            radio = image.Image(emu.image)  # the radio itself is untouched
+            assert radio.channel(1).rx_hz == 145_500_000
+            found = changes.diff(app.image, radio, {"channels"})
+            assert {c.field for c in found} == {"rx_hz", "tx_hz"}
+
+    asyncio.run(scenario())
+
+
+def test_aero_update_key_says_when_there_is_nothing_to_do(monkeypatch):
+    async def scenario():
+        app, emu = make_app()
+        app.image = image.Image(emu.image)
+        async with app.run_test(size=(160, 50)) as pilot:
+            app.query_one("#tabs").active = "tab-channels"
+            await pilot.pause()
+            monkeypatch.setattr("kta16.aero.load", list)  # no aero.json
+            await pilot.press("u")
+            await pilot.pause()
+            assert not isinstance(app.screen, ConfirmScreen)
+            monkeypatch.setattr(  # LFPX already on 145.5
+                "kta16.aero.load", lambda: [{**AERO_NEW[0], "mhz": 145.5}]
+            )
+            await pilot.press("u")
+            await pilot.pause()
+            assert not isinstance(app.screen, ConfirmScreen)
+            app.query_one("#tabs").active = "tab-fm"  # other tab: no dialog
+            monkeypatch.setattr("kta16.aero.load", lambda: AERO_NEW)
+            await pilot.pause()
+            await pilot.press("u")
+            await pilot.pause()
+            assert not isinstance(app.screen, ConfirmScreen)
 
     asyncio.run(scenario())

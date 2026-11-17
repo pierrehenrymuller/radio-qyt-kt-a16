@@ -167,6 +167,7 @@ kta16 --port /dev/ttyUSB0 myradio.dat
 | `l` | Release radio | close the port: the radio restarts and can be used again |
 | `d` | Default | put the "Default" values of the vendor software in the zone of the current tab |
 | `c` | Clear | "Clear" of the vendor software (Channels and FM tabs) |
+| `u` | Aero update | Channels tab: new frequencies of the aero data for the channels named like an aero line |
 | `o` | Open | open a file |
 | `s` | Save | save to a file |
 | `t` | Theme | switch between the dark and the light theme |
@@ -242,6 +243,23 @@ settings of the form (power, tones, switches) and the TX rule of each line
 at the current place are used first; every channel after them then moves on
 by the number of places still missing (empty channels in between are kept). If the last
 channel would go past channel 199, nothing changes and a message says so.
+
+A name with several frequencies is numbered in the list, so each name is one
+frequency: `BD APP1`, `BD APP2`... (in the order of the SIA table; a name of
+7 characters loses its last ones to the number, `PX ATI1`). The number is
+the name written to the channel.
+
+The `u` key (Channels tab) updates the channels already in the image: each
+channel whose name is an aero name (`PX TWR`, `BD APP2`) and whose RX differs
+from the current aero data gets the new frequency. TX follows only if it was
+equal to RX; a disabled TX (ATIS), an empty one (beacon) or a different one is
+kept. A dialog lists the changes, which then show in the pending changes;
+nothing is written to the radio before `w` or `a`. A channel saved before the
+numbering under a plain name (`BD APP`) is renamed (`BD APP2`) by the first
+update when its RX is one of the frequencies of that name; on any other RX
+nothing says which line it was, so it is left as it is and has to be renamed
+by hand. The data is that of the last `make aero`: run it before starting
+the program, and after the SIA publishes a new AIRAC cycle.
 
 The data comes from the SIA (Licence Ouverte,
 file `kta16/aero.json`): radio services of the 441 aerodromes (eAIP pages
