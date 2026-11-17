@@ -1,5 +1,15 @@
 # Release notes
 
+## 1.1.0
+
+- Aero names with several frequencies are numbered in the search list
+  (`BD APP1`, `BD APP2`...), so a name is one frequency.
+- `u` on the Channels tab: channels named like an aero line take its current
+  frequency (TX follows only if it was equal to RX); a dialog lists the
+  changes, shown in the pending changes. Run `make aero` before starting.
+  The first update also renames a channel kept under a plain name (`BD APP`)
+  to its numbered name (`BD APP2`) when its RX is one of that name's frequencies.
+
 ## 1.0.0
 
 First public version.
@@ -69,13 +79,6 @@ First public version.
   The free channels at the current place are used first, then every channel
   after them moves on by the missing number of places; nothing changes if the
   last channel would go past 199.
-- Aero names with several frequencies are numbered in the search list
-  (`BD APP1`, `BD APP2`...), so a name is one frequency.
-- `u` on the Channels tab: channels named like an aero line take its current
-  frequency (TX follows only if it was equal to RX); a dialog lists the
-  changes, shown in the pending changes. Run `make aero` before starting.
-  The first update also renames a channel kept under a plain name (`BD APP`)
-  to its numbered name (`BD APP2`) when its RX is one of that name's frequencies.
 - Channel list: Space picks a channel up, the arrows move it, Space or Enter
   drops it, Esc puts it back. Shift+arrows or a click then Shift+click select
   a block of channels to move together.

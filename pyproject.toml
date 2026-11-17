@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kta16"
-version = "1.0.0"
+version = "1.1.0"
 description = "Terminal programming tool for the QYT KT-A16 radio (Linux, no Windows needed)"
 readme = "README.md"
 license = "GPL-3.0-or-later"
